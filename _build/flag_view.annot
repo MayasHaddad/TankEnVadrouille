@@ -1,0 +1,737 @@
+"flag_view.ml" 5 31 35 "flag_view.ml" 5 31 39
+type(
+  IO.Sprite.t
+)
+ident(
+  def flag "flag_view.ml" 7 91 91 --
+)
+"flag_view.ml" 5 31 42 "flag_view.ml" 5 31 53
+type(
+  ?align:IO.align -> string -> IO.Sprite.t
+)
+ident(
+  ext_ref IO.Sprite.load
+)
+"flag_view.ml" 5 31 61 "flag_view.ml" 5 31 67
+type(
+  IO.align
+)
+"flag_view.ml" 5 31 68 "flag_view.ml" 5 31 87
+type(
+  string
+)
+"flag_view.ml" 5 31 42 "flag_view.ml" 5 31 87
+type(
+  IO.Sprite.t
+)
+"flag_view.ml" 7 91 95 "flag_view.ml" 7 91 104
+type(
+  'a -> int * int -> unit
+)
+ident(
+  def draw_flag "flag_view.ml" 11 183 183 --
+)
+"flag_view.ml" 7 91 105 "flag_view.ml" 7 91 106
+type(
+  'a
+)
+ident(
+  def f "flag_view.ml" 7 91 107 "flag_view.ml" 9 167 181
+)
+"flag_view.ml" 7 91 107 "flag_view.ml" 7 91 115
+type(
+  int * int
+)
+ident(
+  def position "flag_view.ml" 8 120 121 "flag_view.ml" 9 167 181
+)
+"flag_view.ml" 8 120 125 "flag_view.ml" 8 120 126
+type(
+  int
+)
+"flag_view.ml" 8 120 128 "flag_view.ml" 8 120 131
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"flag_view.ml" 8 120 131 "flag_view.ml" 8 120 141
+type(
+  int * int
+)
+ident(
+  int_ref position "flag_view.ml" 7 91 107 "flag_view.ml" 7 91 115
+)
+"flag_view.ml" 8 120 128 "flag_view.ml" 8 120 141
+type(
+  int
+)
+"flag_view.ml" 8 120 146 "flag_view.ml" 8 120 147
+type(
+  int
+)
+"flag_view.ml" 8 120 150 "flag_view.ml" 8 120 153
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"flag_view.ml" 8 120 153 "flag_view.ml" 8 120 163
+type(
+  int * int
+)
+ident(
+  int_ref position "flag_view.ml" 7 91 107 "flag_view.ml" 7 91 115
+)
+"flag_view.ml" 8 120 150 "flag_view.ml" 8 120 163
+type(
+  int
+)
+"flag_view.ml" 9 167 168 "flag_view.ml" 9 167 172
+type(
+  IO.Sprite.t -> int -> int -> unit
+)
+ident(
+  ext_ref IO.Sprite.draw
+)
+"flag_view.ml" 9 167 173 "flag_view.ml" 9 167 177
+type(
+  IO.Sprite.t
+)
+ident(
+  int_ref flag "flag_view.ml" 5 31 35 "flag_view.ml" 5 31 39
+)
+"flag_view.ml" 9 167 178 "flag_view.ml" 9 167 179
+type(
+  int
+)
+ident(
+  int_ref x "flag_view.ml" 8 120 125 "flag_view.ml" 8 120 126
+)
+"flag_view.ml" 9 167 180 "flag_view.ml" 9 167 181
+type(
+  int
+)
+ident(
+  int_ref y "flag_view.ml" 8 120 146 "flag_view.ml" 8 120 147
+)
+"flag_view.ml" 9 167 168 "flag_view.ml" 9 167 181
+type(
+  unit
+)
+"flag_view.ml" 8 120 121 "flag_view.ml" 9 167 181
+type(
+  unit
+)
+"flag_view.ml" 11 183 187 "flag_view.ml" 11 183 197
+type(
+  int -> int -> int -> int -> float -> unit
+)
+ident(
+  def draw_flag2 "flag_view.ml" 17 583 617 --
+)
+"flag_view.ml" 11 183 198 "flag_view.ml" 11 183 207
+type(
+  int
+)
+ident(
+  def deb_map_i "flag_view.ml" 11 183 208 "flag_view.ml" 17 583 617
+)
+"flag_view.ml" 11 183 208 "flag_view.ml" 11 183 217
+type(
+  int
+)
+ident(
+  def deb_map_j "flag_view.ml" 11 183 218 "flag_view.ml" 17 583 617
+)
+"flag_view.ml" 11 183 218 "flag_view.ml" 11 183 219
+type(
+  int
+)
+ident(
+  def i "flag_view.ml" 11 183 220 "flag_view.ml" 17 583 617
+)
+"flag_view.ml" 11 183 220 "flag_view.ml" 11 183 221
+type(
+  int
+)
+ident(
+  def j "flag_view.ml" 11 183 222 "flag_view.ml" 17 583 617
+)
+"flag_view.ml" 11 183 222 "flag_view.ml" 11 183 226
+type(
+  float
+)
+ident(
+  def zoom "flag_view.ml" 12 231 232 "flag_view.ml" 17 583 617
+)
+"flag_view.ml" 12 231 236 "flag_view.ml" 12 231 244
+type(
+  int -> int -> int -> int -> float -> int * int
+)
+"flag_view.ml" 12 231 245 "flag_view.ml" 12 231 249
+type(
+  int
+)
+ident(
+  def debi "flag_view.ml" 12 231 250 "flag_view.ml" 14 360 476
+)
+"flag_view.ml" 12 231 250 "flag_view.ml" 12 231 254
+type(
+  int
+)
+ident(
+  def debj "flag_view.ml" 12 231 255 "flag_view.ml" 14 360 476
+)
+"flag_view.ml" 12 231 255 "flag_view.ml" 12 231 256
+type(
+  int
+)
+ident(
+  def i "flag_view.ml" 12 231 257 "flag_view.ml" 14 360 476
+)
+"flag_view.ml" 12 231 257 "flag_view.ml" 12 231 258
+type(
+  int
+)
+ident(
+  def j "flag_view.ml" 12 231 259 "flag_view.ml" 14 360 476
+)
+"flag_view.ml" 12 231 259 "flag_view.ml" 12 231 263
+type(
+  float
+)
+ident(
+  def zoom "flag_view.ml" 13 266 267 "flag_view.ml" 14 360 476
+)
+"flag_view.ml" 13 266 270 "flag_view.ml" 13 266 271
+type(
+  int
+)
+ident(
+  int_ref i "flag_view.ml" 12 231 255 "flag_view.ml" 12 231 256
+)
+"flag_view.ml" 13 266 272 "flag_view.ml" 13 266 275
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.mod
+)
+"flag_view.ml" 13 266 276 "flag_view.ml" 13 266 277
+type(
+  int
+)
+"flag_view.ml" 13 266 270 "flag_view.ml" 13 266 277
+type(
+  int
+)
+"flag_view.ml" 13 266 278 "flag_view.ml" 13 266 279
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"flag_view.ml" 13 266 280 "flag_view.ml" 13 266 281
+type(
+  int
+)
+"flag_view.ml" 13 266 270 "flag_view.ml" 13 266 281
+type(
+  bool
+)
+"flag_view.ml" 13 266 290 "flag_view.ml" 13 266 294
+type(
+  int
+)
+ident(
+  int_ref debj "flag_view.ml" 12 231 250 "flag_view.ml" 12 231 254
+)
+"flag_view.ml" 13 266 294 "flag_view.ml" 13 266 295
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"flag_view.ml" 13 266 295 "flag_view.ml" 13 266 296
+type(
+  int
+)
+ident(
+  int_ref j "flag_view.ml" 12 231 257 "flag_view.ml" 12 231 258
+)
+"flag_view.ml" 13 266 289 "flag_view.ml" 13 266 297
+type(
+  int
+)
+"flag_view.ml" 13 266 297 "flag_view.ml" 13 266 298
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.*
+)
+"flag_view.ml" 13 266 298 "flag_view.ml" 13 266 310
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"flag_view.ml" 13 266 311 "flag_view.ml" 13 266 314
+type(
+  float
+)
+"flag_view.ml" 13 266 314 "flag_view.ml" 13 266 316
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"flag_view.ml" 13 266 316 "flag_view.ml" 13 266 320
+type(
+  float
+)
+ident(
+  int_ref zoom "flag_view.ml" 12 231 259 "flag_view.ml" 12 231 263
+)
+"flag_view.ml" 13 266 310 "flag_view.ml" 13 266 321
+type(
+  float
+)
+"flag_view.ml" 13 266 298 "flag_view.ml" 13 266 321
+type(
+  int
+)
+"flag_view.ml" 13 266 288 "flag_view.ml" 13 266 322
+type(
+  int
+)
+"flag_view.ml" 13 266 325 "flag_view.ml" 13 266 329
+type(
+  int
+)
+ident(
+  int_ref debi "flag_view.ml" 12 231 245 "flag_view.ml" 12 231 249
+)
+"flag_view.ml" 13 266 329 "flag_view.ml" 13 266 330
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"flag_view.ml" 13 266 330 "flag_view.ml" 13 266 331
+type(
+  int
+)
+ident(
+  int_ref i "flag_view.ml" 12 231 255 "flag_view.ml" 12 231 256
+)
+"flag_view.ml" 13 266 324 "flag_view.ml" 13 266 332
+type(
+  int
+)
+"flag_view.ml" 13 266 332 "flag_view.ml" 13 266 333
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.*
+)
+"flag_view.ml" 13 266 333 "flag_view.ml" 13 266 345
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"flag_view.ml" 13 266 346 "flag_view.ml" 13 266 349
+type(
+  float
+)
+"flag_view.ml" 13 266 349 "flag_view.ml" 13 266 351
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"flag_view.ml" 13 266 351 "flag_view.ml" 13 266 355
+type(
+  float
+)
+ident(
+  int_ref zoom "flag_view.ml" 12 231 259 "flag_view.ml" 12 231 263
+)
+"flag_view.ml" 13 266 345 "flag_view.ml" 13 266 356
+type(
+  float
+)
+"flag_view.ml" 13 266 333 "flag_view.ml" 13 266 356
+type(
+  int
+)
+"flag_view.ml" 13 266 323 "flag_view.ml" 13 266 357
+type(
+  int
+)
+"flag_view.ml" 13 266 287 "flag_view.ml" 13 266 358
+type(
+  int * int
+)
+"flag_view.ml" 14 360 384 "flag_view.ml" 14 360 388
+type(
+  int
+)
+ident(
+  int_ref debj "flag_view.ml" 12 231 250 "flag_view.ml" 12 231 254
+)
+"flag_view.ml" 14 360 388 "flag_view.ml" 14 360 389
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"flag_view.ml" 14 360 389 "flag_view.ml" 14 360 390
+type(
+  int
+)
+ident(
+  int_ref j "flag_view.ml" 12 231 257 "flag_view.ml" 12 231 258
+)
+"flag_view.ml" 14 360 383 "flag_view.ml" 14 360 391
+type(
+  int
+)
+"flag_view.ml" 14 360 391 "flag_view.ml" 14 360 392
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.*
+)
+"flag_view.ml" 14 360 392 "flag_view.ml" 14 360 404
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"flag_view.ml" 14 360 405 "flag_view.ml" 14 360 408
+type(
+  float
+)
+"flag_view.ml" 14 360 408 "flag_view.ml" 14 360 410
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"flag_view.ml" 14 360 410 "flag_view.ml" 14 360 414
+type(
+  float
+)
+ident(
+  int_ref zoom "flag_view.ml" 12 231 259 "flag_view.ml" 12 231 263
+)
+"flag_view.ml" 14 360 404 "flag_view.ml" 14 360 415
+type(
+  float
+)
+"flag_view.ml" 14 360 392 "flag_view.ml" 14 360 415
+type(
+  int
+)
+"flag_view.ml" 14 360 382 "flag_view.ml" 14 360 416
+type(
+  int
+)
+"flag_view.ml" 14 360 416 "flag_view.ml" 14 360 417
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"flag_view.ml" 14 360 417 "flag_view.ml" 14 360 429
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"flag_view.ml" 14 360 430 "flag_view.ml" 14 360 433
+type(
+  float
+)
+"flag_view.ml" 14 360 433 "flag_view.ml" 14 360 435
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"flag_view.ml" 14 360 435 "flag_view.ml" 14 360 439
+type(
+  float
+)
+ident(
+  int_ref zoom "flag_view.ml" 12 231 259 "flag_view.ml" 12 231 263
+)
+"flag_view.ml" 14 360 429 "flag_view.ml" 14 360 440
+type(
+  float
+)
+"flag_view.ml" 14 360 417 "flag_view.ml" 14 360 440
+type(
+  int
+)
+"flag_view.ml" 14 360 382 "flag_view.ml" 14 360 440
+type(
+  int
+)
+"flag_view.ml" 14 360 443 "flag_view.ml" 14 360 447
+type(
+  int
+)
+ident(
+  int_ref debi "flag_view.ml" 12 231 245 "flag_view.ml" 12 231 249
+)
+"flag_view.ml" 14 360 447 "flag_view.ml" 14 360 448
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"flag_view.ml" 14 360 448 "flag_view.ml" 14 360 449
+type(
+  int
+)
+ident(
+  int_ref i "flag_view.ml" 12 231 255 "flag_view.ml" 12 231 256
+)
+"flag_view.ml" 14 360 442 "flag_view.ml" 14 360 450
+type(
+  int
+)
+"flag_view.ml" 14 360 450 "flag_view.ml" 14 360 451
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.*
+)
+"flag_view.ml" 14 360 451 "flag_view.ml" 14 360 463
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"flag_view.ml" 14 360 464 "flag_view.ml" 14 360 467
+type(
+  float
+)
+"flag_view.ml" 14 360 467 "flag_view.ml" 14 360 469
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"flag_view.ml" 14 360 469 "flag_view.ml" 14 360 473
+type(
+  float
+)
+ident(
+  int_ref zoom "flag_view.ml" 12 231 259 "flag_view.ml" 12 231 263
+)
+"flag_view.ml" 14 360 463 "flag_view.ml" 14 360 474
+type(
+  float
+)
+"flag_view.ml" 14 360 451 "flag_view.ml" 14 360 474
+type(
+  int
+)
+"flag_view.ml" 14 360 441 "flag_view.ml" 14 360 475
+type(
+  int
+)
+"flag_view.ml" 14 360 381 "flag_view.ml" 14 360 476
+type(
+  int * int
+)
+"flag_view.ml" 13 266 267 "flag_view.ml" 14 360 476
+type(
+  int * int
+)
+"flag_view.ml" 15 479 485 "flag_view.ml" 15 479 493
+type(
+  int * int
+)
+"flag_view.ml" 15 479 495 "flag_view.ml" 15 479 503
+type(
+  int -> int -> int -> int -> float -> int * int
+)
+ident(
+  int_ref flag_pos "flag_view.ml" 12 231 236 "flag_view.ml" 12 231 244
+)
+"flag_view.ml" 15 479 504 "flag_view.ml" 15 479 513
+type(
+  int
+)
+ident(
+  int_ref deb_map_i "flag_view.ml" 11 183 198 "flag_view.ml" 11 183 207
+)
+"flag_view.ml" 15 479 514 "flag_view.ml" 15 479 523
+type(
+  int
+)
+ident(
+  int_ref deb_map_j "flag_view.ml" 11 183 208 "flag_view.ml" 11 183 217
+)
+"flag_view.ml" 15 479 524 "flag_view.ml" 15 479 525
+type(
+  int
+)
+ident(
+  int_ref i "flag_view.ml" 11 183 218 "flag_view.ml" 11 183 219
+)
+"flag_view.ml" 15 479 526 "flag_view.ml" 15 479 527
+type(
+  int
+)
+ident(
+  int_ref j "flag_view.ml" 11 183 220 "flag_view.ml" 11 183 221
+)
+"flag_view.ml" 15 479 528 "flag_view.ml" 15 479 532
+type(
+  float
+)
+ident(
+  int_ref zoom "flag_view.ml" 11 183 222 "flag_view.ml" 11 183 226
+)
+"flag_view.ml" 15 479 495 "flag_view.ml" 15 479 532
+type(
+  int * int
+)
+"flag_view.ml" 16 536 541 "flag_view.ml" 16 536 542
+type(
+  int
+)
+"flag_view.ml" 16 536 544 "flag_view.ml" 16 536 547
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"flag_view.ml" 16 536 547 "flag_view.ml" 16 536 557
+type(
+  int * int
+)
+ident(
+  int_ref position "flag_view.ml" 15 479 485 "flag_view.ml" 15 479 493
+)
+"flag_view.ml" 16 536 544 "flag_view.ml" 16 536 557
+type(
+  int
+)
+"flag_view.ml" 16 536 562 "flag_view.ml" 16 536 563
+type(
+  int
+)
+"flag_view.ml" 16 536 566 "flag_view.ml" 16 536 569
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"flag_view.ml" 16 536 569 "flag_view.ml" 16 536 579
+type(
+  int * int
+)
+ident(
+  int_ref position "flag_view.ml" 15 479 485 "flag_view.ml" 15 479 493
+)
+"flag_view.ml" 16 536 566 "flag_view.ml" 16 536 579
+type(
+  int
+)
+"flag_view.ml" 17 583 584 "flag_view.ml" 17 583 588
+type(
+  IO.Sprite.t -> int -> int -> unit
+)
+ident(
+  ext_ref IO.Sprite.draw
+)
+"flag_view.ml" 17 583 590 "flag_view.ml" 17 583 598
+type(
+  ?aa:bool -> IO.Sprite.t -> float -> float -> IO.Sprite.t
+)
+ident(
+  ext_ref IO.Sprite.rotozoom
+)
+"flag_view.ml" 17 583 599 "flag_view.ml" 17 583 603
+type(
+  IO.Sprite.t
+)
+ident(
+  int_ref flag "flag_view.ml" 5 31 35 "flag_view.ml" 5 31 39
+)
+"flag_view.ml" 17 583 604 "flag_view.ml" 17 583 606
+type(
+  float
+)
+"flag_view.ml" 17 583 607 "flag_view.ml" 17 583 611
+type(
+  float
+)
+ident(
+  int_ref zoom "flag_view.ml" 11 183 222 "flag_view.ml" 11 183 226
+)
+"flag_view.ml" 17 583 589 "flag_view.ml" 17 583 612
+type(
+  IO.Sprite.t
+)
+"flag_view.ml" 17 583 614 "flag_view.ml" 17 583 615
+type(
+  int
+)
+ident(
+  int_ref x "flag_view.ml" 16 536 541 "flag_view.ml" 16 536 542
+)
+"flag_view.ml" 17 583 616 "flag_view.ml" 17 583 617
+type(
+  int
+)
+ident(
+  int_ref y "flag_view.ml" 16 536 562 "flag_view.ml" 16 536 563
+)
+"flag_view.ml" 17 583 584 "flag_view.ml" 17 583 617
+type(
+  unit
+)
+"flag_view.ml" 16 536 537 "flag_view.ml" 17 583 617
+type(
+  unit
+)
+"flag_view.ml" 15 479 481 "flag_view.ml" 17 583 617
+type(
+  unit
+)
+"flag_view.ml" 12 231 232 "flag_view.ml" 17 583 617
+type(
+  unit
+)

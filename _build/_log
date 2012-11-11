@@ -1,0 +1,91 @@
+### Starting build.
+# Target: main.ml.depends, tags: { dtypes, extension:ml, file:main.ml, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules main.ml > main.ml.depends # cached
++ ocamlfind ocamlc -where > /home/adam/GoTank/projet2011/_build/ocamlc.where
+ocamlfind: [WARNING] The DLL dllsdlloaderstub.so occurs in multiple directories: /usr/lib/ocaml/stublibs
+ocamlfind: [WARNING] The DLL dllsdlloaderstub.so occurs in multiple directories: /usr/local/lib/ocaml/3.11.2/stublibs
+ocamlfind: [WARNING] The DLL dllsdlttfstub.so occurs in multiple directories: /usr/lib/ocaml/stublibs
+ocamlfind: [WARNING] The DLL dllsdlttfstub.so occurs in multiple directories: /usr/local/lib/ocaml/3.11.2/stublibs
+ocamlfind: [WARNING] The DLL dllsdlstub.so occurs in multiple directories: /usr/lib/ocaml/stublibs
+ocamlfind: [WARNING] The DLL dllsdlstub.so occurs in multiple directories: /usr/local/lib/ocaml/3.11.2/stublibs
+ocamlfind: [WARNING] The DLL dllsdlmixerstub.so occurs in multiple directories: /usr/lib/ocaml/stublibs
+ocamlfind: [WARNING] The DLL dllsdlmixerstub.so occurs in multiple directories: /usr/local/lib/ocaml/3.11.2/stublibs
+# Target: engine.mli.depends, tags: { dtypes, extension:mli, file:engine.mli, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules engine.mli > engine.mli.depends # cached
+# Target: engine.cmi, tags: { byte, compile, dtypes, extension:mli, file:engine.mli, interf, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlc -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o engine.cmi engine.mli # cached
+# Target: field.mli.depends, tags: { dtypes, extension:mli, file:field.mli, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules field.mli > field.mli.depends # cached
+# Target: field.cmi, tags: { byte, compile, dtypes, extension:mli, file:field.mli, interf, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlc -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o field.cmi field.mli # cached
+# Target: field_view.mli.depends, tags: { dtypes, extension:mli, file:field_view.mli, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules field_view.mli > field_view.mli.depends # cached
+# Target: field_view.cmi, tags: { byte, compile, dtypes, extension:mli, file:field_view.mli, interf, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlc -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o field_view.cmi field_view.mli # cached
+# Target: iO.mli.depends, tags: { dtypes, extension:mli, file:iO.mli, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules iO.mli > iO.mli.depends # cached
+# Target: iO.cmi, tags: { byte, compile, dtypes, extension:mli, file:iO.mli, interf, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlc -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o iO.cmi iO.mli # cached
+# Target: tank.mli.depends, tags: { dtypes, extension:mli, file:tank.mli, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules tank.mli > tank.mli.depends # cached
+# Target: tank.cmi, tags: { byte, compile, dtypes, extension:mli, file:tank.mli, interf, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlc -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o tank.cmi tank.mli # cached
+# Target: tank_view.mli.depends, tags: { dtypes, extension:mli, file:tank_view.mli, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules tank_view.mli > tank_view.mli.depends # cached
+# Target: tank_view.cmi, tags: { byte, compile, dtypes, extension:mli, file:tank_view.mli, interf, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlc -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o tank_view.cmi tank_view.mli # cached
+# Target: main.cmo, tags: { byte, compile, dtypes, extension:ml, file:main.ml, implem, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlc -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o main.cmo main.ml # cached
+# Target: engine.ml.depends, tags: { dtypes, extension:ml, file:engine.ml, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules engine.ml > engine.ml.depends # cached
+# Target: field.ml.depends, tags: { dtypes, extension:ml, file:field.ml, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules field.ml > field.ml.depends # cached
+# Target: field.cmx, tags: { compile, dtypes, extension:ml, file:field.ml, implem, native, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlopt -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o field.cmx field.ml # cached
+# Target: field_view.ml.depends, tags: { dtypes, extension:ml, file:field_view.ml, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules field_view.ml > field_view.ml.depends # cached
+# Target: iO.ml.depends, tags: { dtypes, extension:ml, file:iO.ml, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules iO.ml > iO.ml.depends # cached
+# Target: iO.cmx, tags: { compile, dtypes, extension:ml, file:iO.ml, implem, native, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlopt -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o iO.cmx iO.ml # cached
+# Target: field_view.cmx, tags: { compile, dtypes, extension:ml, file:field_view.ml, implem, native, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlopt -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o field_view.cmx field_view.ml # cached
+# Target: flag.ml.depends, tags: { dtypes, extension:ml, file:flag.ml, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules flag.ml > flag.ml.depends # cached
+# Target: flag.mli.depends, tags: { dtypes, extension:mli, file:flag.mli, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules flag.mli > flag.mli.depends # cached
+# Target: flag.cmi, tags: { byte, compile, dtypes, extension:mli, file:flag.mli, interf, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlc -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o flag.cmi flag.mli # cached
+# Target: flag.cmx, tags: { compile, dtypes, extension:ml, file:flag.ml, implem, native, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlopt -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o flag.cmx flag.ml # cached
+# Target: flag_view.ml.depends, tags: { dtypes, extension:ml, file:flag_view.ml, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules flag_view.ml > flag_view.ml.depends # cached
+# Target: flag_view.mli.depends, tags: { dtypes, extension:mli, file:flag_view.mli, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules flag_view.mli > flag_view.mli.depends # cached
+# Target: flag_view.cmi, tags: { byte, compile, dtypes, extension:mli, file:flag_view.mli, interf, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlc -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o flag_view.cmi flag_view.mli # cached
+# Target: flag_view.cmx, tags: { compile, dtypes, extension:ml, file:flag_view.ml, implem, native, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlopt -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o flag_view.cmx flag_view.ml # cached
+# Target: spath_engine.ml.depends, tags: { dtypes, extension:ml, file:spath_engine.ml, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules spath_engine.ml > spath_engine.ml.depends # cached
+# Target: spath_engine.mli.depends, tags: { dtypes, extension:mli, file:spath_engine.mli, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules spath_engine.mli > spath_engine.mli.depends # cached
+# Target: spath_engine.cmi, tags: { byte, compile, dtypes, extension:mli, file:spath_engine.mli, interf, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlc -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o spath_engine.cmi spath_engine.mli # cached
+# Target: spath_engine.cmx, tags: { compile, dtypes, extension:ml, file:spath_engine.ml, implem, native, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlopt -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o spath_engine.cmx spath_engine.ml # cached
+# Target: tank.ml.depends, tags: { dtypes, extension:ml, file:tank.ml, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules tank.ml > tank.ml.depends # cached
+# Target: tank.cmx, tags: { compile, dtypes, extension:ml, file:tank.ml, implem, native, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlopt -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o tank.cmx tank.ml # cached
+# Target: tank_view.ml.depends, tags: { dtypes, extension:ml, file:tank_view.ml, ocaml, ocamldep, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamldep -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -modules tank_view.ml > tank_view.ml.depends # cached
+# Target: tank_view.cmx, tags: { compile, dtypes, extension:ml, file:tank_view.ml, implem, native, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlopt -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o tank_view.cmx tank_view.ml # cached
+# Target: engine.cmx, tags: { compile, dtypes, extension:ml, file:engine.ml, implem, native, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlopt -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o engine.cmx engine.ml # cached
+# Target: main.cmx, tags: { compile, dtypes, extension:ml, file:main.ml, implem, native, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, quiet, traverse }
+ocamlfind ocamlopt -c -dtypes -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics -o main.cmx main.ml # cached
+# Target: main.native, tags: { dont_link_with, dtypes, extension:native, file:main.native, link, native, ocaml, pkg_graphics, pkg_sdl, pkg_sdl.sdlgfx, pkg_sdl.sdlimage, pkg_sdl.sdlttf, pkg_unix, program, quiet, traverse }
+ocamlfind ocamlopt -linkpkg -package unix -package sdl.sdlttf -package sdl.sdlimage -package sdl.sdlgfx -package sdl -package graphics field.cmx iO.cmx field_view.cmx flag.cmx flag_view.cmx spath_engine.cmx tank.cmx tank_view.cmx engine.cmx main.cmx -o main.native # cached
+# Compilation successful.

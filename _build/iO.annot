@@ -1,0 +1,5976 @@
+"iO.ml" 35 2275 2279 "iO.ml" 35 2275 2285
+type(
+  (unit -> Sdlvideo.surface) ref
+)
+ident(
+  def screen "iO.ml" 37 2318 2318 --
+)
+"iO.ml" 35 2275 2288 "iO.ml" 35 2275 2291
+type(
+  (unit -> Sdlvideo.surface) -> (unit -> Sdlvideo.surface) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"iO.ml" 35 2275 2297 "iO.ml" 35 2275 2299
+type(
+  unit
+)
+"iO.ml" 35 2275 2303 "iO.ml" 35 2275 2315
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 35 2275 2292 "iO.ml" 35 2275 2316
+type(
+  unit -> Sdlvideo.surface
+)
+"iO.ml" 35 2275 2288 "iO.ml" 35 2275 2316
+type(
+  (unit -> Sdlvideo.surface) ref
+)
+"iO.ml" 37 2318 2322 "iO.ml" 37 2318 2327
+type(
+  int ref
+)
+ident(
+  def width "iO.ml" 38 2336 2336 --
+)
+"iO.ml" 37 2318 2330 "iO.ml" 37 2318 2333
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"iO.ml" 37 2318 2334 "iO.ml" 37 2318 2335
+type(
+  int
+)
+"iO.ml" 37 2318 2330 "iO.ml" 37 2318 2335
+type(
+  int ref
+)
+"iO.ml" 38 2336 2340 "iO.ml" 38 2336 2346
+type(
+  int ref
+)
+ident(
+  def height "iO.ml" 40 2356 2356 --
+)
+"iO.ml" 38 2336 2349 "iO.ml" 38 2336 2352
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"iO.ml" 38 2336 2353 "iO.ml" 38 2336 2354
+type(
+  int
+)
+"iO.ml" 38 2336 2349 "iO.ml" 38 2336 2354
+type(
+  int ref
+)
+"iO.ml" 40 2356 2360 "iO.ml" 40 2356 2369
+type(
+  int ref
+)
+ident(
+  def last_tick "iO.ml" 42 2379 2379 --
+)
+"iO.ml" 40 2356 2372 "iO.ml" 40 2356 2375
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"iO.ml" 40 2356 2376 "iO.ml" 40 2356 2377
+type(
+  int
+)
+"iO.ml" 40 2356 2372 "iO.ml" 40 2356 2377
+type(
+  int ref
+)
+"iO.ml" 42 2379 2383 "iO.ml" 42 2379 2385
+type(
+  unit
+)
+"iO.ml" 43 2388 2390 "iO.ml" 43 2388 2401
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Sdlttf.init
+)
+"iO.ml" 43 2388 2402 "iO.ml" 43 2388 2404
+type(
+  unit
+)
+"iO.ml" 43 2388 2390 "iO.ml" 43 2388 2404
+type(
+  unit
+)
+"iO.ml" 45 2406 2410 "iO.ml" 45 2406 2414
+type(
+  int -> int -> unit
+)
+ident(
+  def init "iO.ml" 59 2744 2744 --
+)
+"iO.ml" 45 2406 2415 "iO.ml" 45 2406 2416
+type(
+  int
+)
+ident(
+  def w "iO.ml" 45 2406 2417 "iO.ml" 57 2706 2742
+)
+"iO.ml" 45 2406 2417 "iO.ml" 45 2406 2418
+type(
+  int
+)
+ident(
+  def h "iO.ml" 46 2421 2423 "iO.ml" 57 2706 2742
+)
+"iO.ml" 46 2421 2423 "iO.ml" 46 2421 2431
+type(
+  ?auto_clean:bool ->
+  _[< `AUDIO
+    | `CDROM
+    | `EVENTTHREAD
+    | `EVERYTHING
+    | `JOYSTICK
+    | `NOPARACHUTE
+    | `TIMER
+    | `VIDEO
+    > `TIMER `VIDEO ]
+  list -> unit
+)
+ident(
+  ext_ref Sdl.init
+)
+"iO.ml" 46 2421 2433 "iO.ml" 46 2421 2439
+type(
+  _[< `AUDIO
+    | `CDROM
+    | `EVENTTHREAD
+    | `EVERYTHING
+    | `JOYSTICK
+    | `NOPARACHUTE
+    | `TIMER
+    | `VIDEO
+    > `TIMER `VIDEO ]
+  as 'a
+)
+"iO.ml" 46 2421 2441 "iO.ml" 46 2421 2447
+type(
+  'a
+)
+"iO.ml" 46 2421 2432 "iO.ml" 46 2421 2448
+type(
+  'a list
+)
+"iO.ml" 46 2421 2423 "iO.ml" 46 2421 2448
+type(
+  unit
+)
+"iO.ml" 47 2450 2452 "iO.ml" 47 2450 2465
+type(
+  Sdlevent.event_mask -> unit
+)
+ident(
+  ext_ref Sdlevent.enable_events
+)
+"iO.ml" 48 2466 2471 "iO.ml" 48 2466 2480
+type(
+  Sdlevent.event_kind list -> Sdlevent.event_mask
+)
+ident(
+  ext_ref Sdlevent.make_mask
+)
+"iO.ml" 49 2483 2490 "iO.ml" 49 2483 2503
+type(
+  Sdlevent.event_kind
+)
+"iO.ml" 50 2505 2512 "iO.ml" 50 2505 2523
+type(
+  Sdlevent.event_kind
+)
+"iO.ml" 51 2525 2532 "iO.ml" 51 2525 2553
+type(
+  Sdlevent.event_kind
+)
+"iO.ml" 48 2466 2481 "iO.ml" 52 2555 2561
+type(
+  Sdlevent.event_kind list
+)
+"iO.ml" 48 2466 2470 "iO.ml" 52 2555 2562
+type(
+  Sdlevent.event_mask
+)
+"iO.ml" 47 2450 2452 "iO.ml" 52 2555 2562
+type(
+  unit
+)
+"iO.ml" 53 2564 2566 "iO.ml" 53 2564 2571
+type(
+  int ref
+)
+ident(
+  int_ref width "iO.ml" 37 2318 2322 "iO.ml" 37 2318 2327
+)
+"iO.ml" 53 2564 2572 "iO.ml" 53 2564 2574
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 53 2564 2575 "iO.ml" 53 2564 2576
+type(
+  int
+)
+ident(
+  int_ref w "iO.ml" 45 2406 2415 "iO.ml" 45 2406 2416
+)
+"iO.ml" 53 2564 2566 "iO.ml" 53 2564 2576
+type(
+  unit
+)
+"iO.ml" 54 2578 2580 "iO.ml" 54 2578 2586
+type(
+  int ref
+)
+ident(
+  int_ref height "iO.ml" 38 2336 2340 "iO.ml" 38 2336 2346
+)
+"iO.ml" 54 2578 2587 "iO.ml" 54 2578 2589
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 54 2578 2590 "iO.ml" 54 2578 2591
+type(
+  int
+)
+ident(
+  int_ref h "iO.ml" 45 2406 2417 "iO.ml" 45 2406 2418
+)
+"iO.ml" 54 2578 2580 "iO.ml" 54 2578 2591
+type(
+  unit
+)
+"iO.ml" 55 2593 2599 "iO.ml" 55 2593 2609
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 55 2593 2612 "iO.ml" 55 2593 2626
+type(
+  w:int -> h:int -> ?bpp:int -> Sdlvideo.video_flag list -> Sdlvideo.surface
+)
+ident(
+  ext_ref Sdlvideo.set_video_mode
+)
+"iO.ml" 55 2593 2628 "iO.ml" 55 2593 2629
+type(
+  int
+)
+ident(
+  int_ref w "iO.ml" 45 2406 2415 "iO.ml" 45 2406 2416
+)
+"iO.ml" 55 2593 2631 "iO.ml" 55 2593 2632
+type(
+  int
+)
+ident(
+  int_ref h "iO.ml" 45 2406 2417 "iO.ml" 45 2406 2418
+)
+"iO.ml" 55 2593 2639 "iO.ml" 55 2593 2641
+type(
+  int
+)
+"iO.ml" 55 2593 2643 "iO.ml" 55 2593 2653
+type(
+  Sdlvideo.video_flag
+)
+"iO.ml" 55 2593 2655 "iO.ml" 55 2593 2665
+type(
+  Sdlvideo.video_flag
+)
+"iO.ml" 55 2593 2642 "iO.ml" 55 2593 2666
+type(
+  Sdlvideo.video_flag list
+)
+"iO.ml" 55 2593 2612 "iO.ml" 55 2593 2666
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 56 2670 2672 "iO.ml" 56 2670 2678
+type(
+  (unit -> Sdlvideo.surface) ref
+)
+ident(
+  int_ref screen "iO.ml" 35 2275 2279 "iO.ml" 35 2275 2285
+)
+"iO.ml" 56 2670 2679 "iO.ml" 56 2670 2681
+type(
+  (unit -> Sdlvideo.surface) ref -> (unit -> Sdlvideo.surface) -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 56 2670 2687 "iO.ml" 56 2670 2689
+type(
+  unit
+)
+"iO.ml" 56 2670 2693 "iO.ml" 56 2670 2703
+type(
+  Sdlvideo.surface
+)
+ident(
+  int_ref the_screen "iO.ml" 55 2593 2599 "iO.ml" 55 2593 2609
+)
+"iO.ml" 56 2670 2682 "iO.ml" 56 2670 2704
+type(
+  unit -> Sdlvideo.surface
+)
+"iO.ml" 56 2670 2672 "iO.ml" 56 2670 2704
+type(
+  unit
+)
+"iO.ml" 57 2706 2708 "iO.ml" 57 2706 2717
+type(
+  int ref
+)
+ident(
+  int_ref last_tick "iO.ml" 40 2356 2360 "iO.ml" 40 2356 2369
+)
+"iO.ml" 57 2706 2718 "iO.ml" 57 2706 2720
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 57 2706 2721 "iO.ml" 57 2706 2739
+type(
+  unit -> int
+)
+ident(
+  ext_ref Sdltimer.get_ticks
+)
+"iO.ml" 57 2706 2740 "iO.ml" 57 2706 2742
+type(
+  unit
+)
+"iO.ml" 57 2706 2721 "iO.ml" 57 2706 2742
+type(
+  int
+)
+"iO.ml" 57 2706 2708 "iO.ml" 57 2706 2742
+type(
+  unit
+)
+"iO.ml" 56 2670 2672 "iO.ml" 57 2706 2742
+type(
+  unit
+)
+"iO.ml" 55 2593 2595 "iO.ml" 57 2706 2742
+type(
+  unit
+)
+"iO.ml" 54 2578 2580 "iO.ml" 57 2706 2742
+type(
+  unit
+)
+"iO.ml" 53 2564 2566 "iO.ml" 57 2706 2742
+type(
+  unit
+)
+"iO.ml" 47 2450 2452 "iO.ml" 57 2706 2742
+type(
+  unit
+)
+"iO.ml" 46 2421 2423 "iO.ml" 57 2706 2742
+type(
+  unit
+)
+"iO.ml" 59 2744 2748 "iO.ml" 59 2744 2759
+type(
+  int -> unit
+)
+ident(
+  def frame_delay "iO.ml" 65 2913 2913 --
+)
+"iO.ml" 59 2744 2760 "iO.ml" 59 2744 2761
+type(
+  int
+)
+ident(
+  def d "iO.ml" 60 2764 2766 "iO.ml" 63 2875 2911
+)
+"iO.ml" 60 2764 2770 "iO.ml" 60 2764 2773
+type(
+  int
+)
+"iO.ml" 60 2764 2776 "iO.ml" 60 2764 2794
+type(
+  unit -> int
+)
+ident(
+  ext_ref Sdltimer.get_ticks
+)
+"iO.ml" 60 2764 2795 "iO.ml" 60 2764 2797
+type(
+  unit
+)
+"iO.ml" 60 2764 2776 "iO.ml" 60 2764 2797
+type(
+  int
+)
+"iO.ml" 61 2801 2806 "iO.ml" 61 2801 2807
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 61 2801 2807 "iO.ml" 61 2801 2816
+type(
+  int ref
+)
+ident(
+  int_ref last_tick "iO.ml" 40 2356 2360 "iO.ml" 40 2356 2369
+)
+"iO.ml" 61 2801 2806 "iO.ml" 61 2801 2816
+type(
+  int
+)
+"iO.ml" 61 2801 2817 "iO.ml" 61 2801 2818
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"iO.ml" 61 2801 2819 "iO.ml" 61 2801 2820
+type(
+  int
+)
+ident(
+  int_ref d "iO.ml" 59 2744 2760 "iO.ml" 59 2744 2761
+)
+"iO.ml" 61 2801 2806 "iO.ml" 61 2801 2820
+type(
+  int
+)
+"iO.ml" 61 2801 2821 "iO.ml" 61 2801 2822
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"iO.ml" 61 2801 2823 "iO.ml" 61 2801 2826
+type(
+  int
+)
+ident(
+  int_ref now "iO.ml" 60 2764 2770 "iO.ml" 60 2764 2773
+)
+"iO.ml" 61 2801 2806 "iO.ml" 61 2801 2826
+type(
+  bool
+)
+"iO.ml" 62 2832 2836 "iO.ml" 62 2832 2850
+type(
+  int -> unit
+)
+ident(
+  ext_ref Sdltimer.delay
+)
+"iO.ml" 62 2832 2852 "iO.ml" 62 2832 2853
+type(
+  int
+)
+ident(
+  int_ref d "iO.ml" 59 2744 2760 "iO.ml" 59 2744 2761
+)
+"iO.ml" 62 2832 2854 "iO.ml" 62 2832 2855
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"iO.ml" 62 2832 2856 "iO.ml" 62 2832 2859
+type(
+  int
+)
+ident(
+  int_ref now "iO.ml" 60 2764 2770 "iO.ml" 60 2764 2773
+)
+"iO.ml" 62 2832 2852 "iO.ml" 62 2832 2859
+type(
+  int
+)
+"iO.ml" 62 2832 2860 "iO.ml" 62 2832 2861
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"iO.ml" 62 2832 2862 "iO.ml" 62 2832 2863
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 62 2832 2863 "iO.ml" 62 2832 2872
+type(
+  int ref
+)
+ident(
+  int_ref last_tick "iO.ml" 40 2356 2360 "iO.ml" 40 2356 2369
+)
+"iO.ml" 62 2832 2862 "iO.ml" 62 2832 2872
+type(
+  int
+)
+"iO.ml" 62 2832 2851 "iO.ml" 62 2832 2873
+type(
+  int
+)
+"iO.ml" 62 2832 2836 "iO.ml" 62 2832 2873
+type(
+  unit
+)
+"iO.ml" 61 2801 2803 "iO.ml" 62 2832 2873
+type(
+  unit
+)
+"iO.ml" 63 2875 2877 "iO.ml" 63 2875 2886
+type(
+  int ref
+)
+ident(
+  int_ref last_tick "iO.ml" 40 2356 2360 "iO.ml" 40 2356 2369
+)
+"iO.ml" 63 2875 2887 "iO.ml" 63 2875 2889
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 63 2875 2890 "iO.ml" 63 2875 2908
+type(
+  unit -> int
+)
+ident(
+  ext_ref Sdltimer.get_ticks
+)
+"iO.ml" 63 2875 2909 "iO.ml" 63 2875 2911
+type(
+  unit
+)
+"iO.ml" 63 2875 2890 "iO.ml" 63 2875 2911
+type(
+  int
+)
+"iO.ml" 63 2875 2877 "iO.ml" 63 2875 2911
+type(
+  unit
+)
+"iO.ml" 61 2801 2803 "iO.ml" 63 2875 2911
+type(
+  unit
+)
+"iO.ml" 60 2764 2766 "iO.ml" 63 2875 2911
+type(
+  unit
+)
+"iO.ml" 65 2913 2917 "iO.ml" 65 2913 2923
+type(
+  unit -> Sdlvideo.surface
+)
+ident(
+  def screen "iO.ml" 67 2941 2941 --
+)
+"iO.ml" 65 2913 2924 "iO.ml" 65 2913 2926
+type(
+  unit
+)
+"iO.ml" 65 2913 2929 "iO.ml" 65 2913 2930
+type(
+  (unit -> Sdlvideo.surface) ref -> unit -> Sdlvideo.surface
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 65 2913 2930 "iO.ml" 65 2913 2936
+type(
+  (unit -> Sdlvideo.surface) ref
+)
+ident(
+  int_ref screen "iO.ml" 35 2275 2279 "iO.ml" 35 2275 2285
+)
+"iO.ml" 65 2913 2929 "iO.ml" 65 2913 2936
+type(
+  unit -> Sdlvideo.surface
+)
+"iO.ml" 65 2913 2937 "iO.ml" 65 2913 2939
+type(
+  unit
+)
+"iO.ml" 65 2913 2929 "iO.ml" 65 2913 2939
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 67 2941 2945 "iO.ml" 67 2941 2951
+type(
+  unit -> unit
+)
+ident(
+  def update "iO.ml" 70 2977 2977 --
+)
+"iO.ml" 67 2941 2952 "iO.ml" 67 2941 2954
+type(
+  unit
+)
+"iO.ml" 68 2957 2959 "iO.ml" 68 2957 2963
+type(
+  Sdlvideo.surface -> unit
+)
+ident(
+  ext_ref Sdlvideo.flip
+)
+"iO.ml" 68 2957 2965 "iO.ml" 68 2957 2971
+type(
+  unit -> Sdlvideo.surface
+)
+ident(
+  int_ref screen "iO.ml" 65 2913 2917 "iO.ml" 65 2913 2923
+)
+"iO.ml" 68 2957 2972 "iO.ml" 68 2957 2974
+type(
+  unit
+)
+"iO.ml" 68 2957 2964 "iO.ml" 68 2957 2975
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 68 2957 2959 "iO.ml" 68 2957 2975
+type(
+  unit
+)
+"iO.ml" 70 2977 2981 "iO.ml" 70 2977 2985
+type(
+  unit -> unit
+)
+ident(
+  def quit "iO.ml" 72 2998 2998 --
+)
+"iO.ml" 70 2977 2988 "iO.ml" 70 2977 2996
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Sdl.quit
+)
+"iO.ml" 84 3157 3161 "iO.ml" 84 3157 3166
+type(
+  int -> int -> align -> int * int
+)
+ident(
+  def hotxy "iO.ml" 98 3510 3510 --
+)
+"iO.ml" 84 3157 3167 "iO.ml" 84 3157 3168
+type(
+  int
+)
+ident(
+  def w "iO.ml" 84 3157 3169 "iO.ml" 96 3462 3508
+)
+"iO.ml" 84 3157 3169 "iO.ml" 84 3157 3170
+type(
+  int
+)
+ident(
+  def h "iO.ml" 84 3157 3173 "iO.ml" 96 3462 3508
+)
+"iO.ml" 85 3182 3186 "iO.ml" 85 3182 3192
+type(
+  align
+)
+"iO.ml" 85 3182 3196 "iO.ml" 85 3182 3197
+type(
+  int
+)
+ident(
+  int_ref w "iO.ml" 84 3157 3167 "iO.ml" 84 3157 3168
+)
+"iO.ml" 85 3182 3198 "iO.ml" 85 3182 3199
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives./
+)
+"iO.ml" 85 3182 3200 "iO.ml" 85 3182 3201
+type(
+  int
+)
+"iO.ml" 85 3182 3196 "iO.ml" 85 3182 3201
+type(
+  int
+)
+"iO.ml" 85 3182 3203 "iO.ml" 85 3182 3204
+type(
+  int
+)
+ident(
+  int_ref h "iO.ml" 84 3157 3169 "iO.ml" 84 3157 3170
+)
+"iO.ml" 85 3182 3205 "iO.ml" 85 3182 3206
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives./
+)
+"iO.ml" 85 3182 3207 "iO.ml" 85 3182 3208
+type(
+  int
+)
+"iO.ml" 85 3182 3203 "iO.ml" 85 3182 3208
+type(
+  int
+)
+"iO.ml" 85 3182 3196 "iO.ml" 85 3182 3208
+type(
+  int * int
+)
+"iO.ml" 86 3209 3213 "iO.ml" 86 3209 3217
+type(
+  align
+)
+"iO.ml" 86 3209 3221 "iO.ml" 86 3209 3222
+type(
+  int
+)
+"iO.ml" 86 3209 3224 "iO.ml" 86 3209 3225
+type(
+  int
+)
+ident(
+  int_ref h "iO.ml" 84 3157 3169 "iO.ml" 84 3157 3170
+)
+"iO.ml" 86 3209 3226 "iO.ml" 86 3209 3227
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives./
+)
+"iO.ml" 86 3209 3228 "iO.ml" 86 3209 3229
+type(
+  int
+)
+"iO.ml" 86 3209 3224 "iO.ml" 86 3209 3229
+type(
+  int
+)
+"iO.ml" 86 3209 3221 "iO.ml" 86 3209 3229
+type(
+  int * int
+)
+"iO.ml" 87 3230 3234 "iO.ml" 87 3230 3239
+type(
+  align
+)
+"iO.ml" 87 3230 3243 "iO.ml" 87 3230 3244
+type(
+  int
+)
+ident(
+  int_ref w "iO.ml" 84 3157 3167 "iO.ml" 84 3157 3168
+)
+"iO.ml" 87 3230 3246 "iO.ml" 87 3230 3247
+type(
+  int
+)
+ident(
+  int_ref h "iO.ml" 84 3157 3169 "iO.ml" 84 3157 3170
+)
+"iO.ml" 87 3230 3248 "iO.ml" 87 3230 3249
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives./
+)
+"iO.ml" 87 3230 3250 "iO.ml" 87 3230 3251
+type(
+  int
+)
+"iO.ml" 87 3230 3246 "iO.ml" 87 3230 3251
+type(
+  int
+)
+"iO.ml" 87 3230 3243 "iO.ml" 87 3230 3251
+type(
+  int * int
+)
+"iO.ml" 88 3252 3256 "iO.ml" 88 3252 3259
+type(
+  align
+)
+"iO.ml" 88 3252 3263 "iO.ml" 88 3252 3264
+type(
+  int
+)
+ident(
+  int_ref w "iO.ml" 84 3157 3167 "iO.ml" 84 3157 3168
+)
+"iO.ml" 88 3252 3265 "iO.ml" 88 3252 3266
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives./
+)
+"iO.ml" 88 3252 3267 "iO.ml" 88 3252 3268
+type(
+  int
+)
+"iO.ml" 88 3252 3263 "iO.ml" 88 3252 3268
+type(
+  int
+)
+"iO.ml" 88 3252 3270 "iO.ml" 88 3252 3271
+type(
+  int
+)
+"iO.ml" 88 3252 3263 "iO.ml" 88 3252 3271
+type(
+  int * int
+)
+"iO.ml" 89 3272 3276 "iO.ml" 89 3272 3282
+type(
+  align
+)
+"iO.ml" 89 3272 3286 "iO.ml" 89 3272 3287
+type(
+  int
+)
+ident(
+  int_ref w "iO.ml" 84 3157 3167 "iO.ml" 84 3157 3168
+)
+"iO.ml" 89 3272 3288 "iO.ml" 89 3272 3289
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives./
+)
+"iO.ml" 89 3272 3290 "iO.ml" 89 3272 3291
+type(
+  int
+)
+"iO.ml" 89 3272 3286 "iO.ml" 89 3272 3291
+type(
+  int
+)
+"iO.ml" 89 3272 3293 "iO.ml" 89 3272 3294
+type(
+  int
+)
+ident(
+  int_ref h "iO.ml" 84 3157 3169 "iO.ml" 84 3157 3170
+)
+"iO.ml" 89 3272 3286 "iO.ml" 89 3272 3294
+type(
+  int * int
+)
+"iO.ml" 90 3295 3299 "iO.ml" 90 3295 3306
+type(
+  align
+)
+"iO.ml" 90 3295 3310 "iO.ml" 90 3295 3311
+type(
+  int
+)
+"iO.ml" 90 3295 3313 "iO.ml" 90 3295 3314
+type(
+  int
+)
+"iO.ml" 90 3295 3310 "iO.ml" 90 3295 3314
+type(
+  int * int
+)
+"iO.ml" 91 3315 3319 "iO.ml" 91 3315 3327
+type(
+  align
+)
+"iO.ml" 91 3315 3331 "iO.ml" 91 3315 3332
+type(
+  int
+)
+ident(
+  int_ref w "iO.ml" 84 3157 3167 "iO.ml" 84 3157 3168
+)
+"iO.ml" 91 3315 3334 "iO.ml" 91 3315 3335
+type(
+  int
+)
+"iO.ml" 91 3315 3331 "iO.ml" 91 3315 3335
+type(
+  int * int
+)
+"iO.ml" 92 3336 3340 "iO.ml" 92 3336 3350
+type(
+  align
+)
+"iO.ml" 92 3336 3354 "iO.ml" 92 3336 3355
+type(
+  int
+)
+"iO.ml" 92 3336 3357 "iO.ml" 92 3336 3358
+type(
+  int
+)
+ident(
+  int_ref h "iO.ml" 84 3157 3169 "iO.ml" 84 3157 3170
+)
+"iO.ml" 92 3336 3354 "iO.ml" 92 3336 3358
+type(
+  int * int
+)
+"iO.ml" 93 3359 3363 "iO.ml" 93 3359 3374
+type(
+  align
+)
+"iO.ml" 93 3359 3378 "iO.ml" 93 3359 3379
+type(
+  int
+)
+ident(
+  int_ref w "iO.ml" 84 3157 3167 "iO.ml" 84 3157 3168
+)
+"iO.ml" 93 3359 3381 "iO.ml" 93 3359 3382
+type(
+  int
+)
+ident(
+  int_ref h "iO.ml" 84 3157 3169 "iO.ml" 84 3157 3170
+)
+"iO.ml" 93 3359 3378 "iO.ml" 93 3359 3382
+type(
+  int * int
+)
+"iO.ml" 94 3383 3395 "iO.ml" 94 3383 3397
+type(
+  float
+)
+ident(
+  def xf "iO.ml" 95 3414 3420 "iO.ml" 96 3462 3508
+)
+"iO.ml" 94 3383 3399 "iO.ml" 94 3383 3401
+type(
+  int
+)
+ident(
+  def xp "iO.ml" 95 3414 3420 "iO.ml" 96 3462 3508
+)
+"iO.ml" 94 3383 3403 "iO.ml" 94 3383 3405
+type(
+  float
+)
+ident(
+  def yf "iO.ml" 95 3414 3420 "iO.ml" 96 3462 3508
+)
+"iO.ml" 94 3383 3407 "iO.ml" 94 3383 3409
+type(
+  int
+)
+ident(
+  def yp "iO.ml" 95 3414 3420 "iO.ml" 96 3462 3508
+)
+"iO.ml" 94 3383 3387 "iO.ml" 94 3383 3410
+type(
+  align
+)
+"iO.ml" 95 3414 3420 "iO.ml" 95 3414 3432
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"iO.ml" 95 3414 3434 "iO.ml" 95 3414 3446
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"iO.ml" 95 3414 3447 "iO.ml" 95 3414 3448
+type(
+  int
+)
+ident(
+  int_ref w "iO.ml" 84 3157 3167 "iO.ml" 84 3157 3168
+)
+"iO.ml" 95 3414 3434 "iO.ml" 95 3414 3448
+type(
+  float
+)
+"iO.ml" 95 3414 3449 "iO.ml" 95 3414 3451
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"iO.ml" 95 3414 3452 "iO.ml" 95 3414 3454
+type(
+  float
+)
+ident(
+  int_ref xf "iO.ml" 94 3383 3395 "iO.ml" 94 3383 3397
+)
+"iO.ml" 95 3414 3433 "iO.ml" 95 3414 3455
+type(
+  float
+)
+"iO.ml" 95 3414 3420 "iO.ml" 95 3414 3455
+type(
+  int
+)
+"iO.ml" 95 3414 3456 "iO.ml" 95 3414 3457
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"iO.ml" 95 3414 3458 "iO.ml" 95 3414 3460
+type(
+  int
+)
+ident(
+  int_ref xp "iO.ml" 94 3383 3399 "iO.ml" 94 3383 3401
+)
+"iO.ml" 95 3414 3420 "iO.ml" 95 3414 3460
+type(
+  int
+)
+"iO.ml" 96 3462 3468 "iO.ml" 96 3462 3480
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"iO.ml" 96 3462 3482 "iO.ml" 96 3462 3494
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"iO.ml" 96 3462 3495 "iO.ml" 96 3462 3496
+type(
+  int
+)
+ident(
+  int_ref h "iO.ml" 84 3157 3169 "iO.ml" 84 3157 3170
+)
+"iO.ml" 96 3462 3482 "iO.ml" 96 3462 3496
+type(
+  float
+)
+"iO.ml" 96 3462 3497 "iO.ml" 96 3462 3499
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"iO.ml" 96 3462 3500 "iO.ml" 96 3462 3502
+type(
+  float
+)
+ident(
+  int_ref yf "iO.ml" 94 3383 3403 "iO.ml" 94 3383 3405
+)
+"iO.ml" 96 3462 3481 "iO.ml" 96 3462 3503
+type(
+  float
+)
+"iO.ml" 96 3462 3468 "iO.ml" 96 3462 3503
+type(
+  int
+)
+"iO.ml" 96 3462 3504 "iO.ml" 96 3462 3505
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"iO.ml" 96 3462 3506 "iO.ml" 96 3462 3508
+type(
+  int
+)
+ident(
+  int_ref yp "iO.ml" 94 3383 3407 "iO.ml" 94 3383 3409
+)
+"iO.ml" 96 3462 3468 "iO.ml" 96 3462 3508
+type(
+  int
+)
+"iO.ml" 95 3414 3420 "iO.ml" 96 3462 3508
+type(
+  int * int
+)
+"iO.ml" 84 3157 3173 "iO.ml" 96 3462 3508
+type(
+  align -> int * int
+)
+"iO.ml" 101 3555 3561 "iO.ml" 101 3555 3565
+type(
+  string -> int -> Sdlttf.font
+)
+ident(
+  def load "iO.ml" 103 3599 3601 "iO.ml" 116 3979 3982
+)
+"iO.ml" 101 3555 3566 "iO.ml" 101 3555 3570
+type(
+  string
+)
+ident(
+  def file "iO.ml" 101 3555 3571 "iO.ml" 101 3555 3597
+)
+"iO.ml" 101 3555 3571 "iO.ml" 101 3555 3575
+type(
+  int
+)
+ident(
+  def size "iO.ml" 101 3555 3578 "iO.ml" 101 3555 3597
+)
+"iO.ml" 101 3555 3578 "iO.ml" 101 3555 3587
+type(
+  string -> ?index:int -> int -> Sdlttf.font
+)
+ident(
+  ext_ref Sdlttf.open_font
+)
+"iO.ml" 101 3555 3588 "iO.ml" 101 3555 3592
+type(
+  string
+)
+ident(
+  int_ref file "iO.ml" 101 3555 3566 "iO.ml" 101 3555 3570
+)
+"iO.ml" 101 3555 3593 "iO.ml" 101 3555 3597
+type(
+  int
+)
+ident(
+  int_ref size "iO.ml" 101 3555 3571 "iO.ml" 101 3555 3575
+)
+"iO.ml" 101 3555 3578 "iO.ml" 101 3555 3597
+type(
+  Sdlttf.font
+)
+"iO.ml" 103 3599 3605 "iO.ml" 103 3599 3610
+type(
+  Sdlttf.font ->
+  ?align:align -> ?color:Sdlvideo.color -> int -> int -> string -> unit
+)
+ident(
+  def write "iO.ml" 115 3968 3978 "iO.ml" 116 3979 3982
+)
+"iO.ml" 103 3599 3611 "iO.ml" 103 3599 3615
+type(
+  Sdlttf.font
+)
+ident(
+  def font "iO.ml" 103 3599 3616 "iO.ml" 115 3968 3978
+)
+"iO.ml" 103 3599 3618 "iO.ml" 103 3599 3623
+type(
+  align
+)
+"iO.ml" 103 3599 3626 "iO.ml" 103 3599 3633
+type(
+  align
+)
+type(
+  align
+)
+type(
+  align
+)
+ident(
+  int_ref *sth* "iO.ml" 103 3599 3626 "iO.ml" 103 3599 3633
+)
+type(
+  align option
+)
+type(
+  align option
+)
+type(
+  align
+)
+ident(
+  def *sth* "iO.ml" 103 3599 3626 "iO.ml" 103 3599 3633
+)
+type(
+  align option
+)
+ident(
+  int_ref *opt* "iO.ml" 103 3599 3626 "iO.ml" 103 3599 3633
+)
+type(
+  align option
+)
+ident(
+  def *opt* "iO.ml" 103 3599 3616 "iO.ml" 115 3968 3978
+)
+"iO.ml" 103 3599 3637 "iO.ml" 103 3599 3642
+type(
+  Sdlvideo.color
+)
+"iO.ml" 103 3599 3645 "iO.ml" 103 3599 3650
+type(
+  Sdlvideo.color
+)
+type(
+  Sdlvideo.color
+)
+ident(
+  ext_ref Sdlvideo.white
+)
+type(
+  Sdlvideo.color
+)
+ident(
+  int_ref *sth* "iO.ml" 103 3599 3645 "iO.ml" 103 3599 3650
+)
+type(
+  Sdlvideo.color option
+)
+type(
+  Sdlvideo.color option
+)
+type(
+  Sdlvideo.color
+)
+ident(
+  def *sth* "iO.ml" 103 3599 3645 "iO.ml" 103 3599 3650
+)
+type(
+  Sdlvideo.color option
+)
+ident(
+  int_ref *opt* "iO.ml" 103 3599 3645 "iO.ml" 103 3599 3650
+)
+type(
+  Sdlvideo.color option
+)
+ident(
+  def *opt* "iO.ml" 103 3599 3635 "iO.ml" 115 3968 3978
+)
+"iO.ml" 103 3599 3652 "iO.ml" 103 3599 3653
+type(
+  int
+)
+ident(
+  def x "iO.ml" 103 3599 3654 "iO.ml" 115 3968 3978
+)
+"iO.ml" 103 3599 3654 "iO.ml" 103 3599 3655
+type(
+  int
+)
+ident(
+  def y "iO.ml" 103 3599 3656 "iO.ml" 115 3968 3978
+)
+"iO.ml" 103 3599 3656 "iO.ml" 103 3599 3659
+type(
+  string
+)
+ident(
+  def txt "iO.ml" 104 3662 3666 "iO.ml" 115 3968 3978
+)
+"iO.ml" 104 3662 3671 "iO.ml" 104 3662 3672
+type(
+  int
+)
+"iO.ml" 104 3662 3674 "iO.ml" 104 3662 3675
+type(
+  int
+)
+"iO.ml" 104 3662 3670 "iO.ml" 104 3662 3676
+type(
+  int * int
+)
+"iO.ml" 104 3662 3679 "iO.ml" 104 3662 3695
+type(
+  Sdlttf.font -> string -> int * int
+)
+ident(
+  ext_ref Sdlttf.size_text
+)
+"iO.ml" 104 3662 3696 "iO.ml" 104 3662 3700
+type(
+  Sdlttf.font
+)
+ident(
+  int_ref font "iO.ml" 103 3599 3611 "iO.ml" 103 3599 3615
+)
+"iO.ml" 104 3662 3701 "iO.ml" 104 3662 3704
+type(
+  string
+)
+ident(
+  int_ref txt "iO.ml" 103 3599 3656 "iO.ml" 103 3599 3659
+)
+"iO.ml" 104 3662 3679 "iO.ml" 104 3662 3704
+type(
+  int * int
+)
+"iO.ml" 105 3708 3716 "iO.ml" 105 3708 3719
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 105 3708 3722 "iO.ml" 105 3708 3746
+type(
+  Sdlttf.font -> string -> fg:Sdlvideo.color -> Sdlvideo.surface
+)
+ident(
+  ext_ref Sdlttf.render_text_solid
+)
+"iO.ml" 105 3708 3747 "iO.ml" 105 3708 3751
+type(
+  Sdlttf.font
+)
+ident(
+  int_ref font "iO.ml" 103 3599 3611 "iO.ml" 103 3599 3615
+)
+"iO.ml" 105 3708 3752 "iO.ml" 105 3708 3755
+type(
+  string
+)
+ident(
+  int_ref txt "iO.ml" 103 3599 3656 "iO.ml" 103 3599 3659
+)
+"iO.ml" 105 3708 3761 "iO.ml" 105 3708 3766
+type(
+  Sdlvideo.color
+)
+ident(
+  int_ref color "iO.ml" 103 3599 3637 "iO.ml" 103 3599 3642
+)
+"iO.ml" 105 3708 3722 "iO.ml" 105 3708 3766
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 106 3770 3778 "iO.ml" 106 3770 3782
+type(
+  int
+)
+"iO.ml" 106 3770 3784 "iO.ml" 106 3770 3788
+type(
+  int
+)
+"iO.ml" 106 3770 3778 "iO.ml" 106 3770 3788
+type(
+  int * int
+)
+"iO.ml" 106 3770 3791 "iO.ml" 106 3770 3796
+type(
+  int -> int -> align -> int * int
+)
+ident(
+  int_ref hotxy "iO.ml" 84 3157 3161 "iO.ml" 84 3157 3166
+)
+"iO.ml" 106 3770 3797 "iO.ml" 106 3770 3798
+type(
+  int
+)
+ident(
+  int_ref w "iO.ml" 104 3662 3671 "iO.ml" 104 3662 3672
+)
+"iO.ml" 106 3770 3799 "iO.ml" 106 3770 3800
+type(
+  int
+)
+ident(
+  int_ref h "iO.ml" 104 3662 3674 "iO.ml" 104 3662 3675
+)
+"iO.ml" 106 3770 3801 "iO.ml" 106 3770 3806
+type(
+  align
+)
+ident(
+  int_ref align "iO.ml" 103 3599 3618 "iO.ml" 103 3599 3623
+)
+"iO.ml" 106 3770 3791 "iO.ml" 106 3770 3806
+type(
+  int * int
+)
+"iO.ml" 107 3810 3814 "iO.ml" 107 3810 3826
+type(
+  src:Sdlvideo.surface ->
+  ?src_rect:Sdlvideo.rect ->
+  dst:Sdlvideo.surface -> ?dst_rect:Sdlvideo.rect -> unit -> unit
+)
+ident(
+  ext_ref Sdlvideo.blit_surface
+)
+"iO.ml" 108 3827 3839 "iO.ml" 108 3827 3842
+type(
+  Sdlvideo.surface
+)
+ident(
+  int_ref txt "iO.ml" 105 3708 3716 "iO.ml" 105 3708 3719
+)
+"iO.ml" 109 3843 3856 "iO.ml" 109 3843 3862
+type(
+  unit -> Sdlvideo.surface
+)
+ident(
+  int_ref screen "iO.ml" 65 2913 2917 "iO.ml" 65 2913 2923
+)
+"iO.ml" 109 3843 3863 "iO.ml" 109 3843 3865
+type(
+  unit
+)
+"iO.ml" 109 3843 3855 "iO.ml" 109 3843 3866
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 111 3886 3900 "iO.ml" 111 3886 3901
+type(
+  int
+)
+ident(
+  int_ref x "iO.ml" 103 3599 3652 "iO.ml" 103 3599 3653
+)
+"iO.ml" 111 3886 3902 "iO.ml" 111 3886 3903
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"iO.ml" 111 3886 3904 "iO.ml" 111 3886 3908
+type(
+  int
+)
+ident(
+  int_ref hotx "iO.ml" 106 3770 3778 "iO.ml" 106 3770 3782
+)
+"iO.ml" 111 3886 3900 "iO.ml" 111 3886 3908
+type(
+  int
+)
+"iO.ml" 112 3910 3924 "iO.ml" 112 3910 3925
+type(
+  int
+)
+ident(
+  int_ref y "iO.ml" 103 3599 3654 "iO.ml" 103 3599 3655
+)
+"iO.ml" 112 3910 3926 "iO.ml" 112 3910 3927
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"iO.ml" 112 3910 3928 "iO.ml" 112 3910 3932
+type(
+  int
+)
+ident(
+  int_ref hoty "iO.ml" 106 3770 3784 "iO.ml" 106 3770 3788
+)
+"iO.ml" 112 3910 3924 "iO.ml" 112 3910 3932
+type(
+  int
+)
+"iO.ml" 113 3934 3948 "iO.ml" 113 3934 3949
+type(
+  int
+)
+"iO.ml" 114 3951 3965 "iO.ml" 114 3951 3966
+type(
+  int
+)
+"iO.ml" 110 3867 3884 "iO.ml" 115 3968 3975
+type(
+  Sdlvideo.rect
+)
+"iO.ml" 115 3968 3976 "iO.ml" 115 3968 3978
+type(
+  unit
+)
+"iO.ml" 107 3810 3814 "iO.ml" 115 3968 3978
+type(
+  unit
+)
+"iO.ml" 106 3770 3774 "iO.ml" 115 3968 3978
+type(
+  unit
+)
+"iO.ml" 105 3708 3712 "iO.ml" 115 3968 3978
+type(
+  unit
+)
+"iO.ml" 104 3662 3666 "iO.ml" 115 3968 3978
+type(
+  unit
+)
+"iO.ml" 125 4077 4083 "iO.ml" 125 4077 4093
+type(
+  ?align:align -> Sdlvideo.surface -> t
+)
+ident(
+  def of_surface "iO.ml" 134 4281 4283 "iO.ml" 213 6501 6504
+)
+"iO.ml" 125 4077 4096 "iO.ml" 125 4077 4101
+type(
+  align
+)
+"iO.ml" 125 4077 4104 "iO.ml" 125 4077 4111
+type(
+  align
+)
+type(
+  align
+)
+type(
+  align
+)
+ident(
+  int_ref *sth* "iO.ml" 125 4077 4104 "iO.ml" 125 4077 4111
+)
+type(
+  align option
+)
+type(
+  align option
+)
+type(
+  align
+)
+ident(
+  def *sth* "iO.ml" 125 4077 4104 "iO.ml" 125 4077 4111
+)
+type(
+  align option
+)
+ident(
+  int_ref *opt* "iO.ml" 125 4077 4104 "iO.ml" 125 4077 4111
+)
+type(
+  align option
+)
+ident(
+  def *opt* "iO.ml" 125 4077 4094 "iO.ml" 132 4274 4279
+)
+"iO.ml" 125 4077 4113 "iO.ml" 125 4077 4120
+type(
+  Sdlvideo.surface
+)
+ident(
+  def surface "iO.ml" 126 4123 4127 "iO.ml" 132 4274 4279
+)
+"iO.ml" 126 4123 4131 "iO.ml" 126 4123 4132
+type(
+  int
+)
+"iO.ml" 126 4123 4134 "iO.ml" 126 4123 4135
+type(
+  int
+)
+"iO.ml" 126 4123 4137 "iO.ml" 126 4123 4138
+type(
+  int
+)
+"iO.ml" 126 4123 4131 "iO.ml" 126 4123 4138
+type(
+  int * int * int
+)
+"iO.ml" 126 4123 4141 "iO.ml" 126 4123 4153
+type(
+  Sdlvideo.surface -> int * int * int
+)
+ident(
+  ext_ref Sdlvideo.surface_dims
+)
+"iO.ml" 126 4123 4154 "iO.ml" 126 4123 4161
+type(
+  Sdlvideo.surface
+)
+ident(
+  int_ref surface "iO.ml" 125 4077 4113 "iO.ml" 125 4077 4120
+)
+"iO.ml" 126 4123 4141 "iO.ml" 126 4123 4161
+type(
+  int * int * int
+)
+"iO.ml" 127 4165 4173 "iO.ml" 127 4165 4177
+type(
+  int
+)
+"iO.ml" 127 4165 4179 "iO.ml" 127 4165 4183
+type(
+  int
+)
+"iO.ml" 127 4165 4173 "iO.ml" 127 4165 4183
+type(
+  int * int
+)
+"iO.ml" 127 4165 4186 "iO.ml" 127 4165 4191
+type(
+  int -> int -> align -> int * int
+)
+ident(
+  int_ref hotxy "iO.ml" 84 3157 3161 "iO.ml" 84 3157 3166
+)
+"iO.ml" 127 4165 4192 "iO.ml" 127 4165 4193
+type(
+  int
+)
+ident(
+  int_ref w "iO.ml" 126 4123 4131 "iO.ml" 126 4123 4132
+)
+"iO.ml" 127 4165 4194 "iO.ml" 127 4165 4195
+type(
+  int
+)
+ident(
+  int_ref h "iO.ml" 126 4123 4134 "iO.ml" 126 4123 4135
+)
+"iO.ml" 127 4165 4196 "iO.ml" 127 4165 4201
+type(
+  align
+)
+ident(
+  int_ref align "iO.ml" 125 4077 4096 "iO.ml" 125 4077 4101
+)
+"iO.ml" 127 4165 4186 "iO.ml" 127 4165 4201
+type(
+  int * int
+)
+"iO.ml" 129 4211 4224 "iO.ml" 129 4211 4228
+type(
+  int
+)
+ident(
+  int_ref hotx "iO.ml" 127 4165 4173 "iO.ml" 127 4165 4177
+)
+"iO.ml" 130 4230 4243 "iO.ml" 130 4230 4247
+type(
+  int
+)
+ident(
+  int_ref hoty "iO.ml" 127 4165 4179 "iO.ml" 127 4165 4183
+)
+"iO.ml" 131 4249 4265 "iO.ml" 131 4249 4272
+type(
+  Sdlvideo.surface
+)
+ident(
+  int_ref surface "iO.ml" 125 4077 4113 "iO.ml" 125 4077 4120
+)
+"iO.ml" 128 4205 4209 "iO.ml" 132 4274 4279
+type(
+  t
+)
+"iO.ml" 127 4165 4169 "iO.ml" 132 4274 4279
+type(
+  t
+)
+"iO.ml" 126 4123 4127 "iO.ml" 132 4274 4279
+type(
+  t
+)
+"iO.ml" 134 4281 4287 "iO.ml" 134 4281 4291
+type(
+  ?align:align -> string -> t
+)
+ident(
+  def load "iO.ml" 137 4357 4359 "iO.ml" 213 6501 6504
+)
+"iO.ml" 134 4281 4293 "iO.ml" 134 4281 4298
+type(
+  align option
+)
+ident(
+  def align "iO.ml" 134 4281 4299 "iO.ml" 135 4306 4355
+)
+"iO.ml" 134 4281 4299 "iO.ml" 134 4281 4303
+type(
+  string
+)
+ident(
+  def file "iO.ml" 135 4306 4310 "iO.ml" 135 4306 4355
+)
+"iO.ml" 135 4306 4310 "iO.ml" 135 4306 4320
+type(
+  ?align:align -> Sdlvideo.surface -> t
+)
+ident(
+  int_ref of_surface "iO.ml" 125 4077 4083 "iO.ml" 125 4077 4093
+)
+"iO.ml" 135 4306 4322 "iO.ml" 135 4306 4327
+type(
+  align option
+)
+ident(
+  int_ref align "iO.ml" 134 4281 4293 "iO.ml" 134 4281 4298
+)
+"iO.ml" 135 4306 4329 "iO.ml" 135 4306 4349
+type(
+  string -> Sdlvideo.surface
+)
+ident(
+  ext_ref Sdlloader.load_image
+)
+"iO.ml" 135 4306 4350 "iO.ml" 135 4306 4354
+type(
+  string
+)
+ident(
+  int_ref file "iO.ml" 134 4281 4299 "iO.ml" 134 4281 4303
+)
+"iO.ml" 135 4306 4328 "iO.ml" 135 4306 4355
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 135 4306 4310 "iO.ml" 135 4306 4355
+type(
+  t
+)
+"iO.ml" 137 4357 4363 "iO.ml" 137 4357 4367
+type(
+  t -> int -> int -> unit
+)
+ident(
+  def draw "iO.ml" 147 4575 4577 "iO.ml" 213 6501 6504
+)
+"iO.ml" 137 4357 4368 "iO.ml" 137 4357 4374
+type(
+  t
+)
+ident(
+  def sprite "iO.ml" 137 4357 4375 "iO.ml" 146 4564 4574
+)
+"iO.ml" 137 4357 4375 "iO.ml" 137 4357 4376
+type(
+  int
+)
+ident(
+  def x "iO.ml" 137 4357 4377 "iO.ml" 146 4564 4574
+)
+"iO.ml" 137 4357 4377 "iO.ml" 137 4357 4378
+type(
+  int
+)
+ident(
+  def y "iO.ml" 138 4381 4385 "iO.ml" 146 4564 4574
+)
+"iO.ml" 138 4381 4385 "iO.ml" 138 4381 4397
+type(
+  src:Sdlvideo.surface ->
+  ?src_rect:Sdlvideo.rect ->
+  dst:Sdlvideo.surface -> ?dst_rect:Sdlvideo.rect -> unit -> unit
+)
+ident(
+  ext_ref Sdlvideo.blit_surface
+)
+"iO.ml" 139 4398 4410 "iO.ml" 139 4398 4416
+type(
+  t
+)
+ident(
+  int_ref sprite "iO.ml" 137 4357 4368 "iO.ml" 137 4357 4374
+)
+"iO.ml" 139 4398 4410 "iO.ml" 139 4398 4424
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 140 4425 4438 "iO.ml" 140 4425 4444
+type(
+  unit -> Sdlvideo.surface
+)
+ident(
+  int_ref screen "iO.ml" 65 2913 2917 "iO.ml" 65 2913 2923
+)
+"iO.ml" 140 4425 4445 "iO.ml" 140 4425 4447
+type(
+  unit
+)
+"iO.ml" 140 4425 4437 "iO.ml" 140 4425 4448
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 142 4468 4482 "iO.ml" 142 4468 4483
+type(
+  int
+)
+ident(
+  int_ref x "iO.ml" 137 4357 4375 "iO.ml" 137 4357 4376
+)
+"iO.ml" 142 4468 4484 "iO.ml" 142 4468 4485
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"iO.ml" 142 4468 4486 "iO.ml" 142 4468 4492
+type(
+  t
+)
+ident(
+  int_ref sprite "iO.ml" 137 4357 4368 "iO.ml" 137 4357 4374
+)
+"iO.ml" 142 4468 4486 "iO.ml" 142 4468 4497
+type(
+  int
+)
+"iO.ml" 142 4468 4482 "iO.ml" 142 4468 4497
+type(
+  int
+)
+"iO.ml" 143 4499 4513 "iO.ml" 143 4499 4514
+type(
+  int
+)
+ident(
+  int_ref y "iO.ml" 137 4357 4377 "iO.ml" 137 4357 4378
+)
+"iO.ml" 143 4499 4515 "iO.ml" 143 4499 4516
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"iO.ml" 143 4499 4517 "iO.ml" 143 4499 4523
+type(
+  t
+)
+ident(
+  int_ref sprite "iO.ml" 137 4357 4368 "iO.ml" 137 4357 4374
+)
+"iO.ml" 143 4499 4517 "iO.ml" 143 4499 4528
+type(
+  int
+)
+"iO.ml" 143 4499 4513 "iO.ml" 143 4499 4528
+type(
+  int
+)
+"iO.ml" 144 4530 4544 "iO.ml" 144 4530 4545
+type(
+  int
+)
+"iO.ml" 145 4547 4561 "iO.ml" 145 4547 4562
+type(
+  int
+)
+"iO.ml" 141 4449 4466 "iO.ml" 146 4564 4571
+type(
+  Sdlvideo.rect
+)
+"iO.ml" 146 4564 4572 "iO.ml" 146 4564 4574
+type(
+  unit
+)
+"iO.ml" 138 4381 4385 "iO.ml" 146 4564 4574
+type(
+  unit
+)
+"iO.ml" 147 4575 4581 "iO.ml" 147 4575 4583
+type(
+  float
+)
+ident(
+  def pi "iO.ml" 148 4638 4640 "iO.ml" 213 6501 6504
+)
+"iO.ml" 147 4575 4586 "iO.ml" 147 4575 4637
+type(
+  float
+)
+"iO.ml" 148 4638 4644 "iO.ml" 148 4638 4654
+type(
+  float
+)
+ident(
+  def deg_to_rad "iO.ml" 150 4669 4671 "iO.ml" 213 6501 6504
+)
+"iO.ml" 148 4638 4657 "iO.ml" 148 4638 4659
+type(
+  float
+)
+ident(
+  int_ref pi "iO.ml" 147 4575 4581 "iO.ml" 147 4575 4583
+)
+"iO.ml" 148 4638 4660 "iO.ml" 148 4638 4662
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives./.
+)
+"iO.ml" 148 4638 4663 "iO.ml" 148 4638 4667
+type(
+  float
+)
+"iO.ml" 148 4638 4657 "iO.ml" 148 4638 4667
+type(
+  float
+)
+"iO.ml" 150 4669 4675 "iO.ml" 150 4669 4686
+type(
+  int * int -> int * int -> int * int
+)
+ident(
+  def relative_to "iO.ml" 153 4725 4727 "iO.ml" 213 6501 6504
+)
+"iO.ml" 150 4669 4688 "iO.ml" 150 4669 4690
+type(
+  int
+)
+ident(
+  def cx "iO.ml" 150 4669 4695 "iO.ml" 151 4703 4723
+)
+"iO.ml" 150 4669 4691 "iO.ml" 150 4669 4693
+type(
+  int
+)
+ident(
+  def cy "iO.ml" 150 4669 4695 "iO.ml" 151 4703 4723
+)
+"iO.ml" 150 4669 4687 "iO.ml" 150 4669 4694
+type(
+  int * int
+)
+"iO.ml" 150 4669 4696 "iO.ml" 150 4669 4697
+type(
+  int
+)
+ident(
+  def x "iO.ml" 151 4703 4707 "iO.ml" 151 4703 4723
+)
+"iO.ml" 150 4669 4698 "iO.ml" 150 4669 4699
+type(
+  int
+)
+ident(
+  def y "iO.ml" 151 4703 4707 "iO.ml" 151 4703 4723
+)
+"iO.ml" 150 4669 4695 "iO.ml" 150 4669 4700
+type(
+  int * int
+)
+"iO.ml" 151 4703 4708 "iO.ml" 151 4703 4709
+type(
+  int
+)
+ident(
+  int_ref x "iO.ml" 150 4669 4696 "iO.ml" 150 4669 4697
+)
+"iO.ml" 151 4703 4710 "iO.ml" 151 4703 4711
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"iO.ml" 151 4703 4712 "iO.ml" 151 4703 4714
+type(
+  int
+)
+ident(
+  int_ref cx "iO.ml" 150 4669 4688 "iO.ml" 150 4669 4690
+)
+"iO.ml" 151 4703 4708 "iO.ml" 151 4703 4714
+type(
+  int
+)
+"iO.ml" 151 4703 4716 "iO.ml" 151 4703 4717
+type(
+  int
+)
+ident(
+  int_ref y "iO.ml" 150 4669 4698 "iO.ml" 150 4669 4699
+)
+"iO.ml" 151 4703 4718 "iO.ml" 151 4703 4719
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"iO.ml" 151 4703 4720 "iO.ml" 151 4703 4722
+type(
+  int
+)
+ident(
+  int_ref cy "iO.ml" 150 4669 4691 "iO.ml" 150 4669 4693
+)
+"iO.ml" 151 4703 4716 "iO.ml" 151 4703 4722
+type(
+  int
+)
+"iO.ml" 151 4703 4707 "iO.ml" 151 4703 4723
+type(
+  int * int
+)
+"iO.ml" 153 4725 4731 "iO.ml" 153 4725 4737
+type(
+  float -> float * float -> float * float
+)
+ident(
+  def rotate "iO.ml" 159 4862 4864 "iO.ml" 213 6501 6504
+)
+"iO.ml" 153 4725 4738 "iO.ml" 153 4725 4741
+type(
+  float
+)
+ident(
+  def deg "iO.ml" 153 4725 4742 "iO.ml" 156 4823 4859
+)
+"iO.ml" 153 4725 4743 "iO.ml" 153 4725 4744
+type(
+  float
+)
+ident(
+  def x "iO.ml" 154 4750 4754 "iO.ml" 156 4823 4859
+)
+"iO.ml" 153 4725 4745 "iO.ml" 153 4725 4746
+type(
+  float
+)
+ident(
+  def y "iO.ml" 154 4750 4754 "iO.ml" 156 4823 4859
+)
+"iO.ml" 153 4725 4742 "iO.ml" 153 4725 4747
+type(
+  float * float
+)
+"iO.ml" 154 4750 4758 "iO.ml" 154 4750 4761
+type(
+  float
+)
+"iO.ml" 154 4750 4764 "iO.ml" 154 4750 4767
+type(
+  float
+)
+ident(
+  int_ref deg "iO.ml" 153 4725 4738 "iO.ml" 153 4725 4741
+)
+"iO.ml" 154 4750 4768 "iO.ml" 154 4750 4770
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"iO.ml" 154 4750 4771 "iO.ml" 154 4750 4781
+type(
+  float
+)
+ident(
+  int_ref deg_to_rad "iO.ml" 148 4638 4644 "iO.ml" 148 4638 4654
+)
+"iO.ml" 154 4750 4764 "iO.ml" 154 4750 4781
+type(
+  float
+)
+"iO.ml" 155 4785 4789 "iO.ml" 155 4785 4790
+type(
+  float
+)
+ident(
+  int_ref x "iO.ml" 153 4725 4743 "iO.ml" 153 4725 4744
+)
+"iO.ml" 155 4785 4791 "iO.ml" 155 4785 4793
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"iO.ml" 155 4785 4795 "iO.ml" 155 4785 4798
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.cos
+)
+"iO.ml" 155 4785 4799 "iO.ml" 155 4785 4802
+type(
+  float
+)
+ident(
+  int_ref rad "iO.ml" 154 4750 4758 "iO.ml" 154 4750 4761
+)
+"iO.ml" 155 4785 4794 "iO.ml" 155 4785 4803
+type(
+  float
+)
+"iO.ml" 155 4785 4789 "iO.ml" 155 4785 4803
+type(
+  float
+)
+"iO.ml" 155 4785 4804 "iO.ml" 155 4785 4806
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.-.
+)
+"iO.ml" 155 4785 4807 "iO.ml" 155 4785 4808
+type(
+  float
+)
+ident(
+  int_ref y "iO.ml" 153 4725 4745 "iO.ml" 153 4725 4746
+)
+"iO.ml" 155 4785 4809 "iO.ml" 155 4785 4811
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"iO.ml" 155 4785 4813 "iO.ml" 155 4785 4816
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.sin
+)
+"iO.ml" 155 4785 4817 "iO.ml" 155 4785 4820
+type(
+  float
+)
+ident(
+  int_ref rad "iO.ml" 154 4750 4758 "iO.ml" 154 4750 4761
+)
+"iO.ml" 155 4785 4812 "iO.ml" 155 4785 4821
+type(
+  float
+)
+"iO.ml" 155 4785 4807 "iO.ml" 155 4785 4821
+type(
+  float
+)
+"iO.ml" 155 4785 4789 "iO.ml" 155 4785 4821
+type(
+  float
+)
+"iO.ml" 156 4823 4827 "iO.ml" 156 4823 4828
+type(
+  float
+)
+ident(
+  int_ref x "iO.ml" 153 4725 4743 "iO.ml" 153 4725 4744
+)
+"iO.ml" 156 4823 4829 "iO.ml" 156 4823 4831
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"iO.ml" 156 4823 4833 "iO.ml" 156 4823 4836
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.sin
+)
+"iO.ml" 156 4823 4837 "iO.ml" 156 4823 4840
+type(
+  float
+)
+ident(
+  int_ref rad "iO.ml" 154 4750 4758 "iO.ml" 154 4750 4761
+)
+"iO.ml" 156 4823 4832 "iO.ml" 156 4823 4841
+type(
+  float
+)
+"iO.ml" 156 4823 4827 "iO.ml" 156 4823 4841
+type(
+  float
+)
+"iO.ml" 156 4823 4842 "iO.ml" 156 4823 4844
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.+.
+)
+"iO.ml" 156 4823 4845 "iO.ml" 156 4823 4846
+type(
+  float
+)
+ident(
+  int_ref y "iO.ml" 153 4725 4745 "iO.ml" 153 4725 4746
+)
+"iO.ml" 156 4823 4847 "iO.ml" 156 4823 4849
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"iO.ml" 156 4823 4851 "iO.ml" 156 4823 4854
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.cos
+)
+"iO.ml" 156 4823 4855 "iO.ml" 156 4823 4858
+type(
+  float
+)
+ident(
+  int_ref rad "iO.ml" 154 4750 4758 "iO.ml" 154 4750 4761
+)
+"iO.ml" 156 4823 4850 "iO.ml" 156 4823 4859
+type(
+  float
+)
+"iO.ml" 156 4823 4845 "iO.ml" 156 4823 4859
+type(
+  float
+)
+"iO.ml" 156 4823 4827 "iO.ml" 156 4823 4859
+type(
+  float
+)
+"iO.ml" 155 4785 4789 "iO.ml" 156 4823 4859
+type(
+  float * float
+)
+"iO.ml" 154 4750 4754 "iO.ml" 156 4823 4859
+type(
+  float * float
+)
+"iO.ml" 159 4862 4868 "iO.ml" 159 4862 4871
+type(
+  int * int -> float * float
+)
+ident(
+  def foi "iO.ml" 160 4911 4913 "iO.ml" 213 6501 6504
+)
+"iO.ml" 159 4862 4873 "iO.ml" 159 4862 4874
+type(
+  int
+)
+ident(
+  def x "iO.ml" 159 4862 4880 "iO.ml" 159 4862 4910
+)
+"iO.ml" 159 4862 4875 "iO.ml" 159 4862 4876
+type(
+  int
+)
+ident(
+  def y "iO.ml" 159 4862 4880 "iO.ml" 159 4862 4910
+)
+"iO.ml" 159 4862 4872 "iO.ml" 159 4862 4877
+type(
+  int * int
+)
+"iO.ml" 159 4862 4880 "iO.ml" 159 4862 4892
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"iO.ml" 159 4862 4893 "iO.ml" 159 4862 4894
+type(
+  int
+)
+ident(
+  int_ref x "iO.ml" 159 4862 4873 "iO.ml" 159 4862 4874
+)
+"iO.ml" 159 4862 4880 "iO.ml" 159 4862 4894
+type(
+  float
+)
+"iO.ml" 159 4862 4896 "iO.ml" 159 4862 4908
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"iO.ml" 159 4862 4909 "iO.ml" 159 4862 4910
+type(
+  int
+)
+ident(
+  int_ref y "iO.ml" 159 4862 4875 "iO.ml" 159 4862 4876
+)
+"iO.ml" 159 4862 4896 "iO.ml" 159 4862 4910
+type(
+  float
+)
+"iO.ml" 159 4862 4880 "iO.ml" 159 4862 4910
+type(
+  float * float
+)
+"iO.ml" 160 4911 4917 "iO.ml" 160 4911 4920
+type(
+  'a * 'b -> 'b * 'a
+)
+ident(
+  def inv "iO.ml" 164 5074 5076 "iO.ml" 213 6501 6504
+)
+"iO.ml" 160 4911 4922 "iO.ml" 160 4911 4923
+type(
+  'a
+)
+ident(
+  def x "iO.ml" 160 4911 4929 "iO.ml" 160 4911 4934
+)
+"iO.ml" 160 4911 4924 "iO.ml" 160 4911 4925
+type(
+  'b
+)
+ident(
+  def y "iO.ml" 160 4911 4929 "iO.ml" 160 4911 4934
+)
+"iO.ml" 160 4911 4921 "iO.ml" 160 4911 4926
+type(
+  'a * 'b
+)
+"iO.ml" 160 4911 4930 "iO.ml" 160 4911 4931
+type(
+  'b
+)
+ident(
+  int_ref y "iO.ml" 160 4911 4924 "iO.ml" 160 4911 4925
+)
+"iO.ml" 160 4911 4932 "iO.ml" 160 4911 4933
+type(
+  'a
+)
+ident(
+  int_ref x "iO.ml" 160 4911 4922 "iO.ml" 160 4911 4923
+)
+"iO.ml" 160 4911 4929 "iO.ml" 160 4911 4934
+type(
+  'b * 'a
+)
+"iO.ml" 164 5074 5080 "iO.ml" 164 5074 5093
+type(
+  float -> Sdlvideo.surface -> int * int -> float * float
+)
+ident(
+  def new_hot_point "iO.ml" 180 5634 5636 "iO.ml" 213 6501 6504
+)
+"iO.ml" 164 5074 5094 "iO.ml" 164 5074 5097
+type(
+  float
+)
+ident(
+  def deg "iO.ml" 164 5074 5098 "iO.ml" 177 5596 5617
+)
+"iO.ml" 164 5074 5098 "iO.ml" 164 5074 5105
+type(
+  Sdlvideo.surface
+)
+ident(
+  def surface "iO.ml" 164 5074 5106 "iO.ml" 177 5596 5617
+)
+"iO.ml" 164 5074 5106 "iO.ml" 164 5074 5119
+type(
+  int * int
+)
+ident(
+  def old_hot_point "iO.ml" 165 5122 5126 "iO.ml" 177 5596 5617
+)
+"iO.ml" 165 5122 5130 "iO.ml" 165 5122 5131
+type(
+  int
+)
+"iO.ml" 165 5122 5133 "iO.ml" 165 5122 5134
+type(
+  int
+)
+"iO.ml" 165 5122 5136 "iO.ml" 165 5122 5137
+type(
+  int
+)
+"iO.ml" 165 5122 5130 "iO.ml" 165 5122 5137
+type(
+  int * int * int
+)
+"iO.ml" 165 5122 5140 "iO.ml" 165 5122 5152
+type(
+  Sdlvideo.surface -> int * int * int
+)
+ident(
+  ext_ref Sdlvideo.surface_dims
+)
+"iO.ml" 165 5122 5153 "iO.ml" 165 5122 5160
+type(
+  Sdlvideo.surface
+)
+ident(
+  int_ref surface "iO.ml" 164 5074 5098 "iO.ml" 164 5074 5105
+)
+"iO.ml" 165 5122 5140 "iO.ml" 165 5122 5160
+type(
+  int * int * int
+)
+"iO.ml" 166 5164 5172 "iO.ml" 166 5164 5177
+type(
+  int
+)
+"iO.ml" 166 5164 5181 "iO.ml" 166 5164 5193
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"iO.ml" 166 5164 5195 "iO.ml" 166 5164 5198
+type(
+  float
+)
+ident(
+  int_ref deg "iO.ml" 164 5074 5094 "iO.ml" 164 5074 5097
+)
+"iO.ml" 166 5164 5199 "iO.ml" 166 5164 5201
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives./.
+)
+"iO.ml" 166 5164 5202 "iO.ml" 166 5164 5205
+type(
+  float
+)
+"iO.ml" 166 5164 5194 "iO.ml" 166 5164 5206
+type(
+  float
+)
+"iO.ml" 166 5164 5181 "iO.ml" 166 5164 5206
+type(
+  int
+)
+"iO.ml" 167 5210 5218 "iO.ml" 167 5210 5220
+type(
+  align
+)
+"iO.ml" 167 5210 5221 "iO.ml" 167 5210 5223
+type(
+  align
+)
+"iO.ml" 167 5210 5218 "iO.ml" 167 5210 5223
+type(
+  align * align
+)
+"iO.ml" 167 5210 5232 "iO.ml" 167 5210 5237
+type(
+  int
+)
+ident(
+  int_ref quart "iO.ml" 166 5164 5172 "iO.ml" 166 5164 5177
+)
+"iO.ml" 168 5243 5251 "iO.ml" 168 5243 5252
+type(
+  int
+)
+"iO.ml" 168 5243 5256 "iO.ml" 168 5243 5263
+type(
+  align
+)
+"iO.ml" 168 5243 5265 "iO.ml" 168 5243 5273
+type(
+  align
+)
+"iO.ml" 168 5243 5256 "iO.ml" 168 5243 5273
+type(
+  align * align
+)
+"iO.ml" 169 5274 5282 "iO.ml" 169 5274 5283
+type(
+  int
+)
+"iO.ml" 169 5274 5287 "iO.ml" 169 5274 5295
+type(
+  align
+)
+"iO.ml" 169 5274 5297 "iO.ml" 169 5274 5308
+type(
+  align
+)
+"iO.ml" 169 5274 5287 "iO.ml" 169 5274 5308
+type(
+  align * align
+)
+"iO.ml" 170 5309 5317 "iO.ml" 170 5309 5318
+type(
+  int
+)
+"iO.ml" 170 5309 5322 "iO.ml" 170 5309 5333
+type(
+  align
+)
+"iO.ml" 170 5309 5335 "iO.ml" 170 5309 5345
+type(
+  align
+)
+"iO.ml" 170 5309 5322 "iO.ml" 170 5309 5345
+type(
+  align * align
+)
+"iO.ml" 171 5346 5354 "iO.ml" 171 5346 5355
+type(
+  int
+)
+"iO.ml" 171 5346 5359 "iO.ml" 171 5346 5369
+type(
+  align
+)
+"iO.ml" 171 5346 5371 "iO.ml" 171 5346 5378
+type(
+  align
+)
+"iO.ml" 171 5346 5359 "iO.ml" 171 5346 5378
+type(
+  align * align
+)
+"iO.ml" 172 5379 5387 "iO.ml" 172 5379 5388
+type(
+  int
+)
+"iO.ml" 172 5379 5392 "iO.ml" 172 5379 5404
+type(
+  align * align
+)
+"iO.ml" 167 5210 5226 "iO.ml" 172 5379 5404
+type(
+  align * align
+)
+"iO.ml" 173 5408 5416 "iO.ml" 173 5408 5419
+type(
+  float
+)
+"iO.ml" 173 5408 5421 "iO.ml" 173 5408 5424
+type(
+  float
+)
+"iO.ml" 173 5408 5416 "iO.ml" 173 5408 5424
+type(
+  float * float
+)
+"iO.ml" 174 5427 5433 "iO.ml" 174 5427 5439
+type(
+  float -> float * float -> float * float
+)
+ident(
+  int_ref rotate "iO.ml" 153 4725 4731 "iO.ml" 153 4725 4737
+)
+"iO.ml" 174 5427 5440 "iO.ml" 174 5427 5443
+type(
+  float
+)
+ident(
+  int_ref deg "iO.ml" 164 5074 5094 "iO.ml" 164 5074 5097
+)
+"iO.ml" 174 5427 5445 "iO.ml" 174 5427 5448
+type(
+  float * float -> float * float
+)
+ident(
+  int_ref inv "iO.ml" 160 4911 4917 "iO.ml" 160 4911 4920
+)
+"iO.ml" 174 5427 5450 "iO.ml" 174 5427 5453
+type(
+  int * int -> float * float
+)
+ident(
+  int_ref foi "iO.ml" 159 4862 4868 "iO.ml" 159 4862 4871
+)
+"iO.ml" 174 5427 5455 "iO.ml" 174 5427 5466
+type(
+  int * int -> int * int -> int * int
+)
+ident(
+  int_ref relative_to "iO.ml" 150 4669 4675 "iO.ml" 150 4669 4686
+)
+"iO.ml" 174 5427 5467 "iO.ml" 174 5427 5480
+type(
+  int * int
+)
+ident(
+  int_ref old_hot_point "iO.ml" 164 5074 5106 "iO.ml" 164 5074 5119
+)
+"iO.ml" 174 5427 5482 "iO.ml" 174 5427 5487
+type(
+  int -> int -> align -> int * int
+)
+ident(
+  int_ref hotxy "iO.ml" 84 3157 3161 "iO.ml" 84 3157 3166
+)
+"iO.ml" 174 5427 5488 "iO.ml" 174 5427 5489
+type(
+  int
+)
+ident(
+  int_ref w "iO.ml" 165 5122 5130 "iO.ml" 165 5122 5131
+)
+"iO.ml" 174 5427 5490 "iO.ml" 174 5427 5491
+type(
+  int
+)
+ident(
+  int_ref h "iO.ml" 165 5122 5133 "iO.ml" 165 5122 5134
+)
+"iO.ml" 174 5427 5492 "iO.ml" 174 5427 5494
+type(
+  align
+)
+ident(
+  int_ref px "iO.ml" 167 5210 5218 "iO.ml" 167 5210 5220
+)
+"iO.ml" 174 5427 5481 "iO.ml" 174 5427 5495
+type(
+  int * int
+)
+"iO.ml" 174 5427 5454 "iO.ml" 174 5427 5496
+type(
+  int * int
+)
+"iO.ml" 174 5427 5449 "iO.ml" 174 5427 5497
+type(
+  float * float
+)
+"iO.ml" 174 5427 5444 "iO.ml" 174 5427 5498
+type(
+  float * float
+)
+"iO.ml" 174 5427 5433 "iO.ml" 174 5427 5498
+type(
+  float * float
+)
+"iO.ml" 175 5502 5510 "iO.ml" 175 5502 5513
+type(
+  float
+)
+"iO.ml" 175 5502 5515 "iO.ml" 175 5502 5518
+type(
+  float
+)
+"iO.ml" 175 5502 5510 "iO.ml" 175 5502 5518
+type(
+  float * float
+)
+"iO.ml" 176 5521 5527 "iO.ml" 176 5521 5533
+type(
+  float -> float * float -> float * float
+)
+ident(
+  int_ref rotate "iO.ml" 153 4725 4731 "iO.ml" 153 4725 4737
+)
+"iO.ml" 176 5521 5534 "iO.ml" 176 5521 5537
+type(
+  float
+)
+ident(
+  int_ref deg "iO.ml" 164 5074 5094 "iO.ml" 164 5074 5097
+)
+"iO.ml" 176 5521 5539 "iO.ml" 176 5521 5542
+type(
+  float * float -> float * float
+)
+ident(
+  int_ref inv "iO.ml" 160 4911 4917 "iO.ml" 160 4911 4920
+)
+"iO.ml" 176 5521 5544 "iO.ml" 176 5521 5547
+type(
+  int * int -> float * float
+)
+ident(
+  int_ref foi "iO.ml" 159 4862 4868 "iO.ml" 159 4862 4871
+)
+"iO.ml" 176 5521 5549 "iO.ml" 176 5521 5560
+type(
+  int * int -> int * int -> int * int
+)
+ident(
+  int_ref relative_to "iO.ml" 150 4669 4675 "iO.ml" 150 4669 4686
+)
+"iO.ml" 176 5521 5561 "iO.ml" 176 5521 5574
+type(
+  int * int
+)
+ident(
+  int_ref old_hot_point "iO.ml" 164 5074 5106 "iO.ml" 164 5074 5119
+)
+"iO.ml" 176 5521 5576 "iO.ml" 176 5521 5581
+type(
+  int -> int -> align -> int * int
+)
+ident(
+  int_ref hotxy "iO.ml" 84 3157 3161 "iO.ml" 84 3157 3166
+)
+"iO.ml" 176 5521 5582 "iO.ml" 176 5521 5583
+type(
+  int
+)
+ident(
+  int_ref w "iO.ml" 165 5122 5130 "iO.ml" 165 5122 5131
+)
+"iO.ml" 176 5521 5584 "iO.ml" 176 5521 5585
+type(
+  int
+)
+ident(
+  int_ref h "iO.ml" 165 5122 5133 "iO.ml" 165 5122 5134
+)
+"iO.ml" 176 5521 5586 "iO.ml" 176 5521 5588
+type(
+  align
+)
+ident(
+  int_ref py "iO.ml" 167 5210 5221 "iO.ml" 167 5210 5223
+)
+"iO.ml" 176 5521 5575 "iO.ml" 176 5521 5589
+type(
+  int * int
+)
+"iO.ml" 176 5521 5548 "iO.ml" 176 5521 5590
+type(
+  int * int
+)
+"iO.ml" 176 5521 5543 "iO.ml" 176 5521 5591
+type(
+  float * float
+)
+"iO.ml" 176 5521 5538 "iO.ml" 176 5521 5592
+type(
+  float * float
+)
+"iO.ml" 176 5521 5527 "iO.ml" 176 5521 5592
+type(
+  float * float
+)
+"iO.ml" 177 5596 5600 "iO.ml" 177 5596 5603
+type(
+  float * float -> float * float
+)
+ident(
+  int_ref inv "iO.ml" 160 4911 4917 "iO.ml" 160 4911 4920
+)
+"iO.ml" 177 5596 5605 "iO.ml" 177 5596 5607
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.~-.
+)
+"iO.ml" 177 5596 5607 "iO.ml" 177 5596 5610
+type(
+  float
+)
+ident(
+  int_ref pyx "iO.ml" 175 5502 5510 "iO.ml" 175 5502 5513
+)
+"iO.ml" 177 5596 5605 "iO.ml" 177 5596 5610
+type(
+  float
+)
+"iO.ml" 177 5596 5611 "iO.ml" 177 5596 5613
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.~-.
+)
+"iO.ml" 177 5596 5613 "iO.ml" 177 5596 5616
+type(
+  float
+)
+ident(
+  int_ref pxy "iO.ml" 173 5408 5421 "iO.ml" 173 5408 5424
+)
+"iO.ml" 177 5596 5611 "iO.ml" 177 5596 5616
+type(
+  float
+)
+"iO.ml" 177 5596 5604 "iO.ml" 177 5596 5617
+type(
+  float * float
+)
+"iO.ml" 177 5596 5600 "iO.ml" 177 5596 5617
+type(
+  float * float
+)
+"iO.ml" 175 5502 5506 "iO.ml" 177 5596 5617
+type(
+  float * float
+)
+"iO.ml" 173 5408 5412 "iO.ml" 177 5596 5617
+type(
+  float * float
+)
+"iO.ml" 167 5210 5214 "iO.ml" 177 5596 5617
+type(
+  float * float
+)
+"iO.ml" 166 5164 5168 "iO.ml" 177 5596 5617
+type(
+  float * float
+)
+"iO.ml" 165 5122 5126 "iO.ml" 177 5596 5617
+type(
+  float * float
+)
+"iO.ml" 180 5634 5640 "iO.ml" 180 5634 5645
+type(
+  float -> int
+)
+ident(
+  def round "iO.ml" 182 5683 5685 "iO.ml" 213 6501 6504
+)
+"iO.ml" 180 5634 5646 "iO.ml" 180 5634 5647
+type(
+  float
+)
+ident(
+  def x "iO.ml" 180 5634 5650 "iO.ml" 180 5634 5681
+)
+"iO.ml" 180 5634 5650 "iO.ml" 180 5634 5662
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"iO.ml" 180 5634 5664 "iO.ml" 180 5634 5669
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.floor
+)
+"iO.ml" 180 5634 5671 "iO.ml" 180 5634 5672
+type(
+  float
+)
+ident(
+  int_ref x "iO.ml" 180 5634 5646 "iO.ml" 180 5634 5647
+)
+"iO.ml" 180 5634 5673 "iO.ml" 180 5634 5675
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.+.
+)
+"iO.ml" 180 5634 5676 "iO.ml" 180 5634 5679
+type(
+  float
+)
+"iO.ml" 180 5634 5670 "iO.ml" 180 5634 5680
+type(
+  float
+)
+"iO.ml" 180 5634 5663 "iO.ml" 180 5634 5681
+type(
+  float
+)
+"iO.ml" 180 5634 5650 "iO.ml" 180 5634 5681
+type(
+  int
+)
+"iO.ml" 182 5683 5689 "iO.ml" 182 5683 5697
+type(
+  float -> float
+)
+ident(
+  def deg_norm "iO.ml" 187 5830 5832 "iO.ml" 213 6501 6504
+)
+"iO.ml" 182 5683 5698 "iO.ml" 182 5683 5701
+type(
+  float
+)
+ident(
+  def deg "iO.ml" 183 5704 5708 "iO.ml" 185 5817 5828
+)
+"iO.ml" 183 5704 5712 "iO.ml" 183 5704 5719
+type(
+  float
+)
+"iO.ml" 183 5704 5723 "iO.ml" 183 5704 5732
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.mod_float
+)
+"iO.ml" 183 5704 5733 "iO.ml" 183 5704 5736
+type(
+  float
+)
+ident(
+  int_ref deg "iO.ml" 182 5683 5698 "iO.ml" 182 5683 5701
+)
+"iO.ml" 183 5704 5737 "iO.ml" 183 5704 5741
+type(
+  float
+)
+"iO.ml" 183 5704 5722 "iO.ml" 183 5704 5742
+type(
+  float
+)
+"iO.ml" 184 5746 5754 "iO.ml" 184 5746 5761
+type(
+  float
+)
+"iO.ml" 184 5746 5767 "iO.ml" 184 5746 5774
+type(
+  float
+)
+ident(
+  int_ref deg_mod "iO.ml" 183 5704 5712 "iO.ml" 183 5704 5719
+)
+"iO.ml" 184 5746 5775 "iO.ml" 184 5746 5776
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"iO.ml" 184 5746 5777 "iO.ml" 184 5746 5779
+type(
+  float
+)
+"iO.ml" 184 5746 5767 "iO.ml" 184 5746 5779
+type(
+  bool
+)
+"iO.ml" 184 5746 5785 "iO.ml" 184 5746 5789
+type(
+  float
+)
+"iO.ml" 184 5746 5790 "iO.ml" 184 5746 5792
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.+.
+)
+"iO.ml" 184 5746 5793 "iO.ml" 184 5746 5800
+type(
+  float
+)
+ident(
+  int_ref deg_mod "iO.ml" 183 5704 5712 "iO.ml" 183 5704 5719
+)
+"iO.ml" 184 5746 5785 "iO.ml" 184 5746 5800
+type(
+  float
+)
+"iO.ml" 184 5746 5806 "iO.ml" 184 5746 5813
+type(
+  float
+)
+ident(
+  int_ref deg_mod "iO.ml" 183 5704 5712 "iO.ml" 183 5704 5719
+)
+"iO.ml" 184 5746 5764 "iO.ml" 184 5746 5813
+type(
+  float
+)
+"iO.ml" 185 5817 5821 "iO.ml" 185 5817 5828
+type(
+  float
+)
+ident(
+  int_ref deg_mod "iO.ml" 184 5746 5754 "iO.ml" 184 5746 5761
+)
+"iO.ml" 184 5746 5750 "iO.ml" 185 5817 5828
+type(
+  float
+)
+"iO.ml" 183 5704 5708 "iO.ml" 185 5817 5828
+type(
+  float
+)
+"iO.ml" 187 5830 5836 "iO.ml" 187 5830 5844
+type(
+  ?aa:bool -> t -> float -> float -> t
+)
+ident(
+  def rotozoom "iO.ml" 195 6145 6147 "iO.ml" 213 6501 6504
+)
+"iO.ml" 187 5830 5847 "iO.ml" 187 5830 5849
+type(
+  bool
+)
+"iO.ml" 187 5830 5850 "iO.ml" 187 5830 5855
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "iO.ml" 187 5830 5850 "iO.ml" 187 5830 5855
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "iO.ml" 187 5830 5850 "iO.ml" 187 5830 5855
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "iO.ml" 187 5830 5850 "iO.ml" 187 5830 5855
+)
+type(
+  bool option
+)
+ident(
+  def *opt* "iO.ml" 187 5830 5845 "iO.ml" 193 6077 6143
+)
+"iO.ml" 187 5830 5857 "iO.ml" 187 5830 5863
+type(
+  t
+)
+ident(
+  def sprite "iO.ml" 187 5830 5864 "iO.ml" 193 6077 6143
+)
+"iO.ml" 187 5830 5864 "iO.ml" 187 5830 5867
+type(
+  float
+)
+ident(
+  def deg "iO.ml" 187 5830 5868 "iO.ml" 193 6077 6143
+)
+"iO.ml" 187 5830 5868 "iO.ml" 187 5830 5872
+type(
+  float
+)
+ident(
+  def zoom "iO.ml" 188 5875 5879 "iO.ml" 193 6077 6143
+)
+"iO.ml" 188 5875 5883 "iO.ml" 188 5875 5886
+type(
+  float
+)
+"iO.ml" 188 5875 5889 "iO.ml" 188 5875 5897
+type(
+  float -> float
+)
+ident(
+  int_ref deg_norm "iO.ml" 182 5683 5689 "iO.ml" 182 5683 5697
+)
+"iO.ml" 188 5875 5898 "iO.ml" 188 5875 5901
+type(
+  float
+)
+ident(
+  int_ref deg "iO.ml" 187 5830 5864 "iO.ml" 187 5830 5867
+)
+"iO.ml" 188 5875 5889 "iO.ml" 188 5875 5901
+type(
+  float
+)
+"iO.ml" 189 5905 5913 "iO.ml" 189 5905 5916
+type(
+  int * int
+)
+"iO.ml" 189 5905 5919 "iO.ml" 189 5905 5925
+type(
+  t
+)
+ident(
+  int_ref sprite "iO.ml" 187 5830 5857 "iO.ml" 187 5830 5863
+)
+"iO.ml" 189 5905 5919 "iO.ml" 189 5905 5930
+type(
+  int
+)
+"iO.ml" 189 5905 5932 "iO.ml" 189 5905 5938
+type(
+  t
+)
+ident(
+  int_ref sprite "iO.ml" 187 5830 5857 "iO.ml" 187 5830 5863
+)
+"iO.ml" 189 5905 5932 "iO.ml" 189 5905 5943
+type(
+  int
+)
+"iO.ml" 189 5905 5919 "iO.ml" 189 5905 5943
+type(
+  int * int
+)
+"iO.ml" 190 5947 5955 "iO.ml" 190 5947 5959
+type(
+  float
+)
+"iO.ml" 190 5947 5960 "iO.ml" 190 5947 5964
+type(
+  float
+)
+"iO.ml" 190 5947 5955 "iO.ml" 190 5947 5964
+type(
+  float * float
+)
+"iO.ml" 190 5947 5967 "iO.ml" 190 5947 5980
+type(
+  float -> Sdlvideo.surface -> int * int -> float * float
+)
+ident(
+  int_ref new_hot_point "iO.ml" 164 5074 5080 "iO.ml" 164 5074 5093
+)
+"iO.ml" 190 5947 5981 "iO.ml" 190 5947 5984
+type(
+  float
+)
+ident(
+  int_ref deg "iO.ml" 188 5875 5883 "iO.ml" 188 5875 5886
+)
+"iO.ml" 190 5947 5985 "iO.ml" 190 5947 5991
+type(
+  t
+)
+ident(
+  int_ref sprite "iO.ml" 187 5830 5857 "iO.ml" 187 5830 5863
+)
+"iO.ml" 190 5947 5985 "iO.ml" 190 5947 5999
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 190 5947 6000 "iO.ml" 190 5947 6003
+type(
+  int * int
+)
+ident(
+  int_ref hot "iO.ml" 189 5905 5913 "iO.ml" 189 5905 5916
+)
+"iO.ml" 190 5947 5967 "iO.ml" 190 5947 6003
+type(
+  float * float
+)
+"iO.ml" 191 6007 6020 "iO.ml" 191 6007 6025
+type(
+  float -> int
+)
+ident(
+  int_ref round "iO.ml" 180 5634 5640 "iO.ml" 180 5634 5645
+)
+"iO.ml" 191 6007 6027 "iO.ml" 191 6007 6031
+type(
+  float
+)
+ident(
+  int_ref hotx "iO.ml" 190 5947 5955 "iO.ml" 190 5947 5959
+)
+"iO.ml" 191 6007 6032 "iO.ml" 191 6007 6034
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"iO.ml" 191 6007 6035 "iO.ml" 191 6007 6039
+type(
+  float
+)
+ident(
+  int_ref zoom "iO.ml" 187 5830 5868 "iO.ml" 187 5830 5872
+)
+"iO.ml" 191 6007 6026 "iO.ml" 191 6007 6040
+type(
+  float
+)
+"iO.ml" 191 6007 6020 "iO.ml" 191 6007 6040
+type(
+  int
+)
+"iO.ml" 192 6042 6055 "iO.ml" 192 6042 6060
+type(
+  float -> int
+)
+ident(
+  int_ref round "iO.ml" 180 5634 5640 "iO.ml" 180 5634 5645
+)
+"iO.ml" 192 6042 6062 "iO.ml" 192 6042 6066
+type(
+  float
+)
+ident(
+  int_ref hoty "iO.ml" 190 5947 5960 "iO.ml" 190 5947 5964
+)
+"iO.ml" 192 6042 6067 "iO.ml" 192 6042 6069
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"iO.ml" 192 6042 6070 "iO.ml" 192 6042 6074
+type(
+  float
+)
+ident(
+  int_ref zoom "iO.ml" 187 5830 5868 "iO.ml" 187 5830 5872
+)
+"iO.ml" 192 6042 6061 "iO.ml" 192 6042 6075
+type(
+  float
+)
+"iO.ml" 192 6042 6055 "iO.ml" 192 6042 6075
+type(
+  int
+)
+"iO.ml" 193 6077 6093 "iO.ml" 193 6077 6115
+type(
+  Sdlvideo.surface -> float -> float -> bool -> Sdlvideo.surface
+)
+ident(
+  ext_ref Sdlgfx.rotozoomSurface
+)
+"iO.ml" 193 6077 6116 "iO.ml" 193 6077 6122
+type(
+  t
+)
+ident(
+  int_ref sprite "iO.ml" 187 5830 5857 "iO.ml" 187 5830 5863
+)
+"iO.ml" 193 6077 6116 "iO.ml" 193 6077 6130
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 193 6077 6131 "iO.ml" 193 6077 6134
+type(
+  float
+)
+ident(
+  int_ref deg "iO.ml" 188 5875 5883 "iO.ml" 188 5875 5886
+)
+"iO.ml" 193 6077 6135 "iO.ml" 193 6077 6139
+type(
+  float
+)
+ident(
+  int_ref zoom "iO.ml" 187 5830 5868 "iO.ml" 187 5830 5872
+)
+"iO.ml" 193 6077 6140 "iO.ml" 193 6077 6142
+type(
+  bool
+)
+ident(
+  int_ref aa "iO.ml" 187 5830 5847 "iO.ml" 187 5830 5849
+)
+"iO.ml" 193 6077 6093 "iO.ml" 193 6077 6142
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 191 6007 6011 "iO.ml" 193 6077 6143
+type(
+  t
+)
+"iO.ml" 190 5947 5951 "iO.ml" 193 6077 6143
+type(
+  t
+)
+"iO.ml" 189 5905 5909 "iO.ml" 193 6077 6143
+type(
+  t
+)
+"iO.ml" 188 5875 5879 "iO.ml" 193 6077 6143
+type(
+  t
+)
+"iO.ml" 195 6145 6151 "iO.ml" 195 6145 6161
+type(
+  ?align:align -> unit -> t
+)
+ident(
+  def screenshot "iO.ml" 212 6471 6500 "iO.ml" 213 6501 6504
+)
+"iO.ml" 195 6145 6163 "iO.ml" 195 6145 6168
+type(
+  align option
+)
+ident(
+  def align "iO.ml" 195 6145 6169 "iO.ml" 212 6471 6500
+)
+"iO.ml" 195 6145 6169 "iO.ml" 195 6145 6171
+type(
+  unit
+)
+"iO.ml" 196 6174 6182 "iO.ml" 196 6174 6189
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 197 6192 6198 "iO.ml" 197 6192 6223
+type(
+  Sdlvideo.surface ->
+  [ `ASYNCBLIT | `HWSURFACE | `SRCALPHA | `SRCCOLORKEY | `SWSURFACE ] list ->
+  w:int -> h:int -> Sdlvideo.surface
+)
+ident(
+  ext_ref Sdlvideo.create_RGB_surface_format
+)
+"iO.ml" 198 6224 6233 "iO.ml" 198 6224 6239
+type(
+  unit -> Sdlvideo.surface
+)
+ident(
+  int_ref screen "iO.ml" 65 2913 2917 "iO.ml" 65 2913 2923
+)
+"iO.ml" 198 6224 6240 "iO.ml" 198 6224 6242
+type(
+  unit
+)
+"iO.ml" 198 6224 6232 "iO.ml" 198 6224 6243
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 199 6244 6253 "iO.ml" 199 6244 6263
+type(
+  [ `ASYNCBLIT | `HWSURFACE | `SRCALPHA | `SRCCOLORKEY | `SWSURFACE ]
+)
+"iO.ml" 199 6244 6252 "iO.ml" 199 6244 6264
+type(
+  [ `ASYNCBLIT | `HWSURFACE | `SRCALPHA | `SRCCOLORKEY | `SWSURFACE ] list
+)
+"iO.ml" 200 6265 6277 "iO.ml" 200 6265 6278
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 200 6265 6278 "iO.ml" 200 6265 6283
+type(
+  int ref
+)
+ident(
+  int_ref width "iO.ml" 37 2318 2322 "iO.ml" 37 2318 2327
+)
+"iO.ml" 200 6265 6277 "iO.ml" 200 6265 6283
+type(
+  int
+)
+"iO.ml" 201 6284 6296 "iO.ml" 201 6284 6297
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 201 6284 6297 "iO.ml" 201 6284 6303
+type(
+  int ref
+)
+ident(
+  int_ref height "iO.ml" 38 2336 2340 "iO.ml" 38 2336 2346
+)
+"iO.ml" 201 6284 6296 "iO.ml" 201 6284 6303
+type(
+  int
+)
+"iO.ml" 197 6192 6198 "iO.ml" 201 6284 6303
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 203 6311 6315 "iO.ml" 203 6311 6327
+type(
+  src:Sdlvideo.surface ->
+  ?src_rect:Sdlvideo.rect ->
+  dst:Sdlvideo.surface -> ?dst_rect:Sdlvideo.rect -> unit -> unit
+)
+ident(
+  ext_ref Sdlvideo.blit_surface
+)
+"iO.ml" 204 6328 6341 "iO.ml" 204 6328 6347
+type(
+  unit -> Sdlvideo.surface
+)
+ident(
+  int_ref screen "iO.ml" 65 2913 2917 "iO.ml" 65 2913 2923
+)
+"iO.ml" 204 6328 6348 "iO.ml" 204 6328 6350
+type(
+  unit
+)
+"iO.ml" 204 6328 6340 "iO.ml" 204 6328 6351
+type(
+  Sdlvideo.surface
+)
+"iO.ml" 205 6352 6364 "iO.ml" 205 6352 6371
+type(
+  Sdlvideo.surface
+)
+ident(
+  int_ref surface "iO.ml" 196 6174 6182 "iO.ml" 196 6174 6189
+)
+"iO.ml" 207 6391 6405 "iO.ml" 207 6391 6406
+type(
+  int
+)
+"iO.ml" 208 6408 6422 "iO.ml" 208 6408 6423
+type(
+  int
+)
+"iO.ml" 209 6425 6439 "iO.ml" 209 6425 6440
+type(
+  int
+)
+"iO.ml" 210 6442 6456 "iO.ml" 210 6442 6457
+type(
+  int
+)
+"iO.ml" 206 6372 6389 "iO.ml" 211 6459 6466
+type(
+  Sdlvideo.rect
+)
+"iO.ml" 211 6459 6467 "iO.ml" 211 6459 6469
+type(
+  unit
+)
+"iO.ml" 203 6311 6315 "iO.ml" 211 6459 6469
+type(
+  unit
+)
+"iO.ml" 212 6471 6475 "iO.ml" 212 6471 6485
+type(
+  ?align:align -> Sdlvideo.surface -> t
+)
+ident(
+  int_ref of_surface "iO.ml" 125 4077 4083 "iO.ml" 125 4077 4093
+)
+"iO.ml" 212 6471 6487 "iO.ml" 212 6471 6492
+type(
+  align option
+)
+ident(
+  int_ref align "iO.ml" 195 6145 6163 "iO.ml" 195 6145 6168
+)
+"iO.ml" 212 6471 6493 "iO.ml" 212 6471 6500
+type(
+  Sdlvideo.surface
+)
+ident(
+  int_ref surface "iO.ml" 196 6174 6182 "iO.ml" 196 6174 6189
+)
+"iO.ml" 212 6471 6475 "iO.ml" 212 6471 6500
+type(
+  t
+)
+"iO.ml" 203 6311 6315 "iO.ml" 212 6471 6500
+type(
+  t
+)
+"iO.ml" 196 6174 6178 "iO.ml" 212 6471 6500
+type(
+  t
+)
+"iO.ml" 455 10555 10561 "iO.ml" 455 10555 10566
+type(
+  A.t option ref
+)
+ident(
+  def aquit "iO.ml" 458 10599 10601 "iO.ml" 571 13943 13946
+)
+"iO.ml" 455 10555 10569 "iO.ml" 455 10555 10572
+type(
+  A.t option -> A.t option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"iO.ml" 455 10555 10573 "iO.ml" 455 10555 10577
+type(
+  A.t option
+)
+"iO.ml" 455 10555 10569 "iO.ml" 455 10555 10577
+type(
+  A.t option ref
+)
+"iO.ml" 460 10643 10651 "iO.ml" 460 10643 10658
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "iO.ml" 460 10643 10668 "iO.ml" 461 10669 10674
+)
+"iO.ml" 460 10643 10661 "iO.ml" 460 10643 10668
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"iO.ml" 466 10759 10765 "iO.ml" 466 10759 10775
+type(
+  A.t KeyMap.t ref
+)
+ident(
+  def continuous "iO.ml" 467 10795 10797 "iO.ml" 571 13943 13946
+)
+"iO.ml" 466 10759 10778 "iO.ml" 466 10759 10781
+type(
+  A.t KeyMap.t -> A.t KeyMap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"iO.ml" 466 10759 10782 "iO.ml" 466 10759 10794
+type(
+  A.t KeyMap.t
+)
+ident(
+  ext_ref KeyMap.empty
+)
+"iO.ml" 466 10759 10778 "iO.ml" 466 10759 10794
+type(
+  A.t KeyMap.t ref
+)
+"iO.ml" 467 10795 10801 "iO.ml" 467 10795 10803
+type(
+  A.t KeyMap.t ref
+)
+ident(
+  def up "iO.ml" 468 10823 10825 "iO.ml" 571 13943 13946
+)
+"iO.ml" 467 10795 10806 "iO.ml" 467 10795 10809
+type(
+  A.t KeyMap.t -> A.t KeyMap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"iO.ml" 467 10795 10810 "iO.ml" 467 10795 10822
+type(
+  A.t KeyMap.t
+)
+ident(
+  ext_ref KeyMap.empty
+)
+"iO.ml" 467 10795 10806 "iO.ml" 467 10795 10822
+type(
+  A.t KeyMap.t ref
+)
+"iO.ml" 468 10823 10829 "iO.ml" 468 10823 10833
+type(
+  A.t KeyMap.t ref
+)
+ident(
+  def down "iO.ml" 469 10853 10855 "iO.ml" 571 13943 13946
+)
+"iO.ml" 468 10823 10836 "iO.ml" 468 10823 10839
+type(
+  A.t KeyMap.t -> A.t KeyMap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"iO.ml" 468 10823 10840 "iO.ml" 468 10823 10852
+type(
+  A.t KeyMap.t
+)
+ident(
+  ext_ref KeyMap.empty
+)
+"iO.ml" 468 10823 10836 "iO.ml" 468 10823 10852
+type(
+  A.t KeyMap.t ref
+)
+"iO.ml" 469 10853 10859 "iO.ml" 469 10853 10863
+type(
+  (A.t * int * int) KeyMap.t ref
+)
+ident(
+  def auto "iO.ml" 471 10884 10886 "iO.ml" 571 13943 13946
+)
+"iO.ml" 469 10853 10866 "iO.ml" 469 10853 10869
+type(
+  (A.t * int * int) KeyMap.t -> (A.t * int * int) KeyMap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"iO.ml" 469 10853 10870 "iO.ml" 469 10853 10882
+type(
+  (A.t * int * int) KeyMap.t
+)
+ident(
+  ext_ref KeyMap.empty
+)
+"iO.ml" 469 10853 10866 "iO.ml" 469 10853 10882
+type(
+  (A.t * int * int) KeyMap.t ref
+)
+"iO.ml" 471 10884 10890 "iO.ml" 471 10884 10902
+type(
+  one_more KeyMap.t ref
+)
+ident(
+  def pressed_keys "iO.ml" 473 10923 10925 "iO.ml" 571 13943 13946
+)
+"iO.ml" 471 10884 10905 "iO.ml" 471 10884 10908
+type(
+  one_more KeyMap.t -> one_more KeyMap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"iO.ml" 471 10884 10909 "iO.ml" 471 10884 10921
+type(
+  one_more KeyMap.t
+)
+ident(
+  ext_ref KeyMap.empty
+)
+"iO.ml" 471 10884 10905 "iO.ml" 471 10884 10921
+type(
+  one_more KeyMap.t ref
+)
+"iO.ml" 473 10923 10929 "iO.ml" 473 10923 10935
+type(
+  'b KeyMap.t ref -> KeyMap.key -> 'b list -> 'b list
+)
+ident(
+  def action "iO.ml" 477 11019 11021 "iO.ml" 571 13943 13946
+)
+"iO.ml" 473 10923 10936 "iO.ml" 473 10923 10942
+type(
+  'b KeyMap.t ref
+)
+ident(
+  def mapref "iO.ml" 473 10923 10943 "iO.ml" 475 10992 11017
+)
+"iO.ml" 473 10923 10943 "iO.ml" 473 10923 10946
+type(
+  KeyMap.key
+)
+ident(
+  def key "iO.ml" 473 10923 10947 "iO.ml" 475 10992 11017
+)
+"iO.ml" 473 10923 10947 "iO.ml" 473 10923 10950
+type(
+  'b list
+)
+ident(
+  def acc "iO.ml" 474 10953 10957 "iO.ml" 475 10992 11017
+)
+"iO.ml" 474 10953 10961 "iO.ml" 474 10953 10972
+type(
+  KeyMap.key -> 'b KeyMap.t -> 'b
+)
+ident(
+  ext_ref KeyMap.find
+)
+"iO.ml" 474 10953 10973 "iO.ml" 474 10953 10976
+type(
+  KeyMap.key
+)
+ident(
+  int_ref key "iO.ml" 473 10923 10943 "iO.ml" 473 10923 10946
+)
+"iO.ml" 474 10953 10977 "iO.ml" 474 10953 10978
+type(
+  'b KeyMap.t ref -> 'b KeyMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 474 10953 10978 "iO.ml" 474 10953 10984
+type(
+  'b KeyMap.t ref
+)
+ident(
+  int_ref mapref "iO.ml" 473 10923 10936 "iO.ml" 473 10923 10942
+)
+"iO.ml" 474 10953 10977 "iO.ml" 474 10953 10984
+type(
+  'b KeyMap.t
+)
+"iO.ml" 474 10953 10961 "iO.ml" 474 10953 10984
+type(
+  'b
+)
+"iO.ml" 474 10953 10988 "iO.ml" 474 10953 10991
+type(
+  'b list
+)
+ident(
+  int_ref acc "iO.ml" 473 10923 10947 "iO.ml" 473 10923 10950
+)
+"iO.ml" 474 10953 10961 "iO.ml" 474 10953 10991
+type(
+  'b list
+)
+"iO.ml" 475 10992 11001 "iO.ml" 475 10992 11010
+type(
+  exn
+)
+"iO.ml" 475 10992 11014 "iO.ml" 475 10992 11017
+type(
+  'b list
+)
+ident(
+  int_ref acc "iO.ml" 473 10923 10947 "iO.ml" 473 10923 10950
+)
+"iO.ml" 474 10953 10957 "iO.ml" 475 10992 11017
+type(
+  'b list
+)
+"iO.ml" 477 11019 11025 "iO.ml" 477 11019 11036
+type(
+  int -> KeyMap.key -> one_more -> A.t list -> A.t list
+)
+ident(
+  def action_auto "iO.ml" 495 11502 11504 "iO.ml" 571 13943 13946
+)
+"iO.ml" 477 11019 11037 "iO.ml" 477 11019 11040
+type(
+  int
+)
+ident(
+  def now "iO.ml" 477 11019 11041 "iO.ml" 492 11453 11478
+)
+"iO.ml" 477 11019 11041 "iO.ml" 477 11019 11044
+type(
+  KeyMap.key
+)
+ident(
+  def key "iO.ml" 477 11019 11045 "iO.ml" 492 11453 11478
+)
+"iO.ml" 477 11019 11045 "iO.ml" 477 11019 11050
+type(
+  one_more
+)
+ident(
+  def since "iO.ml" 477 11019 11051 "iO.ml" 492 11453 11478
+)
+"iO.ml" 477 11019 11051 "iO.ml" 477 11019 11054
+type(
+  A.t list
+)
+ident(
+  def acc "iO.ml" 478 11057 11061 "iO.ml" 492 11453 11478
+)
+"iO.ml" 479 11065 11075 "iO.ml" 479 11065 11076
+type(
+  A.t
+)
+ident(
+  def a "iO.ml" 480 11114 11120 "iO.ml" 491 11434 11452
+)
+"iO.ml" 479 11065 11078 "iO.ml" 479 11065 11081
+type(
+  int
+)
+ident(
+  def ini "iO.ml" 480 11114 11120 "iO.ml" 491 11434 11452
+)
+"iO.ml" 479 11065 11083 "iO.ml" 479 11065 11086
+type(
+  int
+)
+ident(
+  def rep "iO.ml" 480 11114 11120 "iO.ml" 491 11434 11452
+)
+"iO.ml" 479 11065 11075 "iO.ml" 479 11065 11086
+type(
+  A.t * int * int
+)
+"iO.ml" 479 11065 11089 "iO.ml" 479 11065 11100
+type(
+  KeyMap.key -> (A.t * int * int) KeyMap.t -> A.t * int * int
+)
+ident(
+  ext_ref KeyMap.find
+)
+"iO.ml" 479 11065 11101 "iO.ml" 479 11065 11104
+type(
+  KeyMap.key
+)
+ident(
+  int_ref key "iO.ml" 477 11019 11041 "iO.ml" 477 11019 11044
+)
+"iO.ml" 479 11065 11105 "iO.ml" 479 11065 11106
+type(
+  (A.t * int * int) KeyMap.t ref -> (A.t * int * int) KeyMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 479 11065 11106 "iO.ml" 479 11065 11110
+type(
+  (A.t * int * int) KeyMap.t ref
+)
+ident(
+  int_ref auto "iO.ml" 469 10853 10859 "iO.ml" 469 10853 10863
+)
+"iO.ml" 479 11065 11105 "iO.ml" 479 11065 11110
+type(
+  (A.t * int * int) KeyMap.t
+)
+"iO.ml" 479 11065 11089 "iO.ml" 479 11065 11110
+type(
+  A.t * int * int
+)
+"iO.ml" 480 11114 11124 "iO.ml" 480 11114 11128
+type(
+  int
+)
+ident(
+  def next "iO.ml" 485 11250 11256 "iO.ml" 491 11434 11452
+)
+"iO.ml" 480 11114 11137 "iO.ml" 480 11114 11142
+type(
+  one_more
+)
+ident(
+  int_ref since "iO.ml" 477 11019 11045 "iO.ml" 477 11019 11050
+)
+"iO.ml" 481 11148 11158 "iO.ml" 481 11148 11162
+type(
+  one_more
+)
+"iO.ml" 481 11148 11166 "iO.ml" 481 11148 11169
+type(
+  int
+)
+ident(
+  int_ref now "iO.ml" 477 11019 11037 "iO.ml" 477 11019 11040
+)
+"iO.ml" 482 11170 11184 "iO.ml" 482 11170 11189
+type(
+  int
+)
+ident(
+  def since "iO.ml" 482 11170 11193 "iO.ml" 482 11170 11204
+)
+"iO.ml" 482 11170 11180 "iO.ml" 482 11170 11189
+type(
+  one_more
+)
+"iO.ml" 482 11170 11193 "iO.ml" 482 11170 11198
+type(
+  int
+)
+ident(
+  int_ref since "iO.ml" 482 11170 11184 "iO.ml" 482 11170 11189
+)
+"iO.ml" 482 11170 11199 "iO.ml" 482 11170 11200
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"iO.ml" 482 11170 11201 "iO.ml" 482 11170 11204
+type(
+  int
+)
+ident(
+  int_ref ini "iO.ml" 479 11065 11078 "iO.ml" 479 11065 11081
+)
+"iO.ml" 482 11170 11193 "iO.ml" 482 11170 11204
+type(
+  int
+)
+"iO.ml" 483 11205 11220 "iO.ml" 483 11205 11225
+type(
+  int
+)
+ident(
+  def since "iO.ml" 483 11205 11229 "iO.ml" 483 11205 11240
+)
+"iO.ml" 483 11205 11215 "iO.ml" 483 11205 11225
+type(
+  one_more
+)
+"iO.ml" 483 11205 11229 "iO.ml" 483 11205 11234
+type(
+  int
+)
+ident(
+  int_ref since "iO.ml" 483 11205 11220 "iO.ml" 483 11205 11225
+)
+"iO.ml" 483 11205 11235 "iO.ml" 483 11205 11236
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"iO.ml" 483 11205 11237 "iO.ml" 483 11205 11240
+type(
+  int
+)
+ident(
+  int_ref rep "iO.ml" 479 11065 11083 "iO.ml" 479 11065 11086
+)
+"iO.ml" 483 11205 11229 "iO.ml" 483 11205 11240
+type(
+  int
+)
+"iO.ml" 480 11114 11131 "iO.ml" 483 11205 11240
+type(
+  int
+)
+"iO.ml" 485 11250 11259 "iO.ml" 485 11250 11263
+type(
+  int
+)
+ident(
+  int_ref next "iO.ml" 480 11114 11124 "iO.ml" 480 11114 11128
+)
+"iO.ml" 485 11250 11264 "iO.ml" 485 11250 11266
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"iO.ml" 485 11250 11267 "iO.ml" 485 11250 11270
+type(
+  int
+)
+ident(
+  int_ref now "iO.ml" 477 11019 11037 "iO.ml" 477 11019 11040
+)
+"iO.ml" 485 11250 11259 "iO.ml" 485 11250 11270
+type(
+  bool
+)
+"iO.ml" 486 11282 11290 "iO.ml" 486 11282 11302
+type(
+  one_more KeyMap.t ref
+)
+ident(
+  int_ref pressed_keys "iO.ml" 471 10884 10890 "iO.ml" 471 10884 10902
+)
+"iO.ml" 486 11282 11303 "iO.ml" 486 11282 11305
+type(
+  one_more KeyMap.t ref -> one_more KeyMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 487 11306 11316 "iO.ml" 487 11306 11326
+type(
+  KeyMap.key -> one_more -> one_more KeyMap.t -> one_more KeyMap.t
+)
+ident(
+  ext_ref KeyMap.add
+)
+"iO.ml" 487 11306 11327 "iO.ml" 487 11306 11330
+type(
+  KeyMap.key
+)
+ident(
+  int_ref key "iO.ml" 477 11019 11041 "iO.ml" 477 11019 11044
+)
+"iO.ml" 488 11331 11347 "iO.ml" 488 11331 11352
+type(
+  one_more
+)
+ident(
+  int_ref since "iO.ml" 477 11019 11045 "iO.ml" 477 11019 11050
+)
+"iO.ml" 488 11331 11353 "iO.ml" 488 11331 11354
+type(
+  one_more -> one_more -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"iO.ml" 488 11331 11355 "iO.ml" 488 11331 11359
+type(
+  one_more
+)
+"iO.ml" 488 11331 11347 "iO.ml" 488 11331 11359
+type(
+  bool
+)
+"iO.ml" 488 11331 11369 "iO.ml" 488 11331 11373
+type(
+  int
+)
+ident(
+  int_ref next "iO.ml" 480 11114 11124 "iO.ml" 480 11114 11128
+)
+"iO.ml" 488 11331 11365 "iO.ml" 488 11331 11373
+type(
+  one_more
+)
+"iO.ml" 488 11331 11384 "iO.ml" 488 11331 11388
+type(
+  int
+)
+ident(
+  int_ref next "iO.ml" 480 11114 11124 "iO.ml" 480 11114 11128
+)
+"iO.ml" 488 11331 11379 "iO.ml" 488 11331 11388
+type(
+  one_more
+)
+"iO.ml" 488 11331 11343 "iO.ml" 488 11331 11389
+type(
+  one_more
+)
+"iO.ml" 489 11390 11402 "iO.ml" 489 11390 11403
+type(
+  one_more KeyMap.t ref -> one_more KeyMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 489 11390 11403 "iO.ml" 489 11390 11415
+type(
+  one_more KeyMap.t ref
+)
+ident(
+  int_ref pressed_keys "iO.ml" 471 10884 10890 "iO.ml" 471 10884 10902
+)
+"iO.ml" 489 11390 11402 "iO.ml" 489 11390 11415
+type(
+  one_more KeyMap.t
+)
+"iO.ml" 487 11306 11316 "iO.ml" 489 11390 11415
+type(
+  one_more KeyMap.t
+)
+"iO.ml" 486 11282 11290 "iO.ml" 489 11390 11415
+type(
+  unit
+)
+"iO.ml" 490 11417 11425 "iO.ml" 490 11417 11426
+type(
+  A.t
+)
+ident(
+  int_ref a "iO.ml" 479 11065 11075 "iO.ml" 479 11065 11076
+)
+"iO.ml" 490 11417 11430 "iO.ml" 490 11417 11433
+type(
+  A.t list
+)
+ident(
+  int_ref acc "iO.ml" 477 11019 11051 "iO.ml" 477 11019 11054
+)
+"iO.ml" 490 11417 11425 "iO.ml" 490 11417 11433
+type(
+  A.t list
+)
+"iO.ml" 485 11250 11276 "iO.ml" 491 11434 11443
+type(
+  A.t list
+)
+"iO.ml" 491 11434 11449 "iO.ml" 491 11434 11452
+type(
+  A.t list
+)
+ident(
+  int_ref acc "iO.ml" 477 11019 11051 "iO.ml" 477 11019 11054
+)
+"iO.ml" 485 11250 11256 "iO.ml" 491 11434 11452
+type(
+  A.t list
+)
+"iO.ml" 480 11114 11120 "iO.ml" 491 11434 11452
+type(
+  A.t list
+)
+"iO.ml" 479 11065 11071 "iO.ml" 491 11434 11452
+type(
+  A.t list
+)
+"iO.ml" 492 11453 11462 "iO.ml" 492 11453 11471
+type(
+  exn
+)
+"iO.ml" 492 11453 11475 "iO.ml" 492 11453 11478
+type(
+  A.t list
+)
+ident(
+  int_ref acc "iO.ml" 477 11019 11051 "iO.ml" 477 11019 11054
+)
+"iO.ml" 478 11057 11061 "iO.ml" 492 11453 11478
+type(
+  A.t list
+)
+"iO.ml" 504 11682 11690 "iO.ml" 504 11682 11697
+type(
+  'c -> 'c -> int
+)
+ident(
+  def compare "iO.ml" 504 11682 11707 "iO.ml" 505 11708 11713
+)
+"iO.ml" 504 11682 11700 "iO.ml" 504 11682 11707
+type(
+  'c -> 'c -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"iO.ml" 510 11801 11809 "iO.ml" 510 11801 11816
+type(
+  'd -> 'd -> int
+)
+ident(
+  def compare "iO.ml" 510 11801 11826 "iO.ml" 511 11827 11832
+)
+"iO.ml" 510 11801 11819 "iO.ml" 510 11801 11826
+type(
+  'd -> 'd -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"iO.ml" 514 11872 11878 "iO.ml" 514 11872 11881
+type(
+  (int -> int -> A.t) MouseMap.t ref
+)
+ident(
+  def mup "iO.ml" 515 11903 11905 "iO.ml" 571 13943 13946
+)
+"iO.ml" 514 11872 11884 "iO.ml" 514 11872 11887
+type(
+  (int -> int -> A.t) MouseMap.t -> (int -> int -> A.t) MouseMap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"iO.ml" 514 11872 11888 "iO.ml" 514 11872 11902
+type(
+  (int -> int -> A.t) MouseMap.t
+)
+ident(
+  ext_ref MouseMap.empty
+)
+"iO.ml" 514 11872 11884 "iO.ml" 514 11872 11902
+type(
+  (int -> int -> A.t) MouseMap.t ref
+)
+"iO.ml" 515 11903 11909 "iO.ml" 515 11903 11914
+type(
+  (int -> int -> A.t) MouseMap.t ref
+)
+ident(
+  def mdown "iO.ml" 516 11936 11938 "iO.ml" 571 13943 13946
+)
+"iO.ml" 515 11903 11917 "iO.ml" 515 11903 11920
+type(
+  (int -> int -> A.t) MouseMap.t -> (int -> int -> A.t) MouseMap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"iO.ml" 515 11903 11921 "iO.ml" 515 11903 11935
+type(
+  (int -> int -> A.t) MouseMap.t
+)
+ident(
+  ext_ref MouseMap.empty
+)
+"iO.ml" 515 11903 11917 "iO.ml" 515 11903 11935
+type(
+  (int -> int -> A.t) MouseMap.t ref
+)
+"iO.ml" 516 11936 11942 "iO.ml" 516 11936 11949
+type(
+  (int -> int -> int -> int -> A.t) MouseLMap.t ref
+)
+ident(
+  def mmotion "iO.ml" 518 11973 11975 "iO.ml" 571 13943 13946
+)
+"iO.ml" 516 11936 11952 "iO.ml" 516 11936 11955
+type(
+  (int -> int -> int -> int -> A.t) MouseLMap.t ->
+  (int -> int -> int -> int -> A.t) MouseLMap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"iO.ml" 516 11936 11956 "iO.ml" 516 11936 11971
+type(
+  (int -> int -> int -> int -> A.t) MouseLMap.t
+)
+ident(
+  ext_ref MouseLMap.empty
+)
+"iO.ml" 516 11936 11952 "iO.ml" 516 11936 11971
+type(
+  (int -> int -> int -> int -> A.t) MouseLMap.t ref
+)
+"iO.ml" 518 11973 11979 "iO.ml" 518 11973 11991
+type(
+  (int -> int -> 'e) MouseMap.t ref ->
+  Sdlevent.mousebutton_event -> 'e list -> 'e list
+)
+ident(
+  def mouse_action "iO.ml" 522 12108 12110 "iO.ml" 571 13943 13946
+)
+"iO.ml" 518 11973 11992 "iO.ml" 518 11973 11998
+type(
+  (int -> int -> 'e) MouseMap.t ref
+)
+ident(
+  def mapref "iO.ml" 518 11973 11999 "iO.ml" 520 12081 12106
+)
+"iO.ml" 518 11973 11999 "iO.ml" 518 11973 12001
+type(
+  Sdlevent.mousebutton_event
+)
+ident(
+  def ev "iO.ml" 518 11973 12002 "iO.ml" 520 12081 12106
+)
+"iO.ml" 518 11973 12002 "iO.ml" 518 11973 12005
+type(
+  'e list
+)
+ident(
+  def acc "iO.ml" 519 12008 12012 "iO.ml" 520 12081 12106
+)
+"iO.ml" 519 12008 12018 "iO.ml" 519 12008 12031
+type(
+  MouseMap.key -> (int -> int -> 'e) MouseMap.t -> int -> int -> 'e
+)
+ident(
+  ext_ref MouseMap.find
+)
+"iO.ml" 519 12008 12032 "iO.ml" 519 12008 12034
+type(
+  Sdlevent.mousebutton_event
+)
+ident(
+  int_ref ev "iO.ml" 518 11973 11999 "iO.ml" 518 11973 12001
+)
+"iO.ml" 519 12008 12032 "iO.ml" 519 12008 12045
+type(
+  MouseMap.key
+)
+"iO.ml" 519 12008 12046 "iO.ml" 519 12008 12047
+type(
+  (int -> int -> 'e) MouseMap.t ref -> (int -> int -> 'e) MouseMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 519 12008 12047 "iO.ml" 519 12008 12053
+type(
+  (int -> int -> 'e) MouseMap.t ref
+)
+ident(
+  int_ref mapref "iO.ml" 518 11973 11992 "iO.ml" 518 11973 11998
+)
+"iO.ml" 519 12008 12046 "iO.ml" 519 12008 12053
+type(
+  (int -> int -> 'e) MouseMap.t
+)
+"iO.ml" 519 12008 12017 "iO.ml" 519 12008 12054
+type(
+  int -> int -> 'e
+)
+"iO.ml" 519 12008 12055 "iO.ml" 519 12008 12057
+type(
+  Sdlevent.mousebutton_event
+)
+ident(
+  int_ref ev "iO.ml" 518 11973 11999 "iO.ml" 518 11973 12001
+)
+"iO.ml" 519 12008 12055 "iO.ml" 519 12008 12063
+type(
+  int
+)
+"iO.ml" 519 12008 12064 "iO.ml" 519 12008 12066
+type(
+  Sdlevent.mousebutton_event
+)
+ident(
+  int_ref ev "iO.ml" 518 11973 11999 "iO.ml" 518 11973 12001
+)
+"iO.ml" 519 12008 12064 "iO.ml" 519 12008 12072
+type(
+  int
+)
+"iO.ml" 519 12008 12016 "iO.ml" 519 12008 12073
+type(
+  'e
+)
+"iO.ml" 519 12008 12077 "iO.ml" 519 12008 12080
+type(
+  'e list
+)
+ident(
+  int_ref acc "iO.ml" 518 11973 12002 "iO.ml" 518 11973 12005
+)
+"iO.ml" 519 12008 12016 "iO.ml" 519 12008 12080
+type(
+  'e list
+)
+"iO.ml" 520 12081 12090 "iO.ml" 520 12081 12099
+type(
+  exn
+)
+"iO.ml" 520 12081 12103 "iO.ml" 520 12081 12106
+type(
+  'e list
+)
+ident(
+  int_ref acc "iO.ml" 518 11973 12002 "iO.ml" 518 11973 12005
+)
+"iO.ml" 519 12008 12012 "iO.ml" 520 12081 12106
+type(
+  'e list
+)
+"iO.ml" 522 12108 12114 "iO.ml" 522 12108 12127
+type(
+  (int -> int -> int -> int -> 'f) MouseLMap.t ref ->
+  Sdlevent.mousemotion_event -> 'f list -> 'f list
+)
+ident(
+  def mousel_action "iO.ml" 529 12338 12340 "iO.ml" 571 13943 13946
+)
+"iO.ml" 522 12108 12128 "iO.ml" 522 12108 12134
+type(
+  (int -> int -> int -> int -> 'f) MouseLMap.t ref
+)
+ident(
+  def mapref "iO.ml" 522 12108 12135 "iO.ml" 526 12288 12313
+)
+"iO.ml" 522 12108 12135 "iO.ml" 522 12108 12137
+type(
+  Sdlevent.mousemotion_event
+)
+ident(
+  def ev "iO.ml" 522 12108 12138 "iO.ml" 526 12288 12313
+)
+"iO.ml" 522 12108 12138 "iO.ml" 522 12108 12141
+type(
+  'f list
+)
+ident(
+  def acc "iO.ml" 523 12144 12148 "iO.ml" 526 12288 12313
+)
+"iO.ml" 523 12144 12154 "iO.ml" 523 12144 12168
+type(
+  MouseLMap.key ->
+  (int -> int -> int -> int -> 'f) MouseLMap.t ->
+  int -> int -> int -> int -> 'f
+)
+ident(
+  ext_ref MouseLMap.find
+)
+"iO.ml" 523 12144 12170 "iO.ml" 523 12144 12184
+type(
+  (button -> button -> int) -> button list -> MouseLMap.key
+)
+ident(
+  ext_ref List.fast_sort
+)
+"iO.ml" 523 12144 12185 "iO.ml" 523 12144 12192
+type(
+  button -> button -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"iO.ml" 523 12144 12193 "iO.ml" 523 12144 12195
+type(
+  Sdlevent.mousemotion_event
+)
+ident(
+  int_ref ev "iO.ml" 522 12108 12135 "iO.ml" 522 12108 12137
+)
+"iO.ml" 523 12144 12193 "iO.ml" 523 12144 12205
+type(
+  button list
+)
+"iO.ml" 523 12144 12169 "iO.ml" 523 12144 12206
+type(
+  MouseLMap.key
+)
+"iO.ml" 523 12144 12207 "iO.ml" 523 12144 12208
+type(
+  (int -> int -> int -> int -> 'f) MouseLMap.t ref ->
+  (int -> int -> int -> int -> 'f) MouseLMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 523 12144 12208 "iO.ml" 523 12144 12214
+type(
+  (int -> int -> int -> int -> 'f) MouseLMap.t ref
+)
+ident(
+  int_ref mapref "iO.ml" 522 12108 12128 "iO.ml" 522 12108 12134
+)
+"iO.ml" 523 12144 12207 "iO.ml" 523 12144 12214
+type(
+  (int -> int -> int -> int -> 'f) MouseLMap.t
+)
+"iO.ml" 523 12144 12153 "iO.ml" 523 12144 12215
+type(
+  int -> int -> int -> int -> 'f
+)
+"iO.ml" 524 12216 12228 "iO.ml" 524 12216 12230
+type(
+  Sdlevent.mousemotion_event
+)
+ident(
+  int_ref ev "iO.ml" 522 12108 12135 "iO.ml" 522 12108 12137
+)
+"iO.ml" 524 12216 12228 "iO.ml" 524 12216 12236
+type(
+  int
+)
+"iO.ml" 524 12216 12237 "iO.ml" 524 12216 12239
+type(
+  Sdlevent.mousemotion_event
+)
+ident(
+  int_ref ev "iO.ml" 522 12108 12135 "iO.ml" 522 12108 12137
+)
+"iO.ml" 524 12216 12237 "iO.ml" 524 12216 12245
+type(
+  int
+)
+"iO.ml" 524 12216 12246 "iO.ml" 524 12216 12248
+type(
+  Sdlevent.mousemotion_event
+)
+ident(
+  int_ref ev "iO.ml" 522 12108 12135 "iO.ml" 522 12108 12137
+)
+"iO.ml" 524 12216 12246 "iO.ml" 524 12216 12257
+type(
+  int
+)
+"iO.ml" 524 12216 12258 "iO.ml" 524 12216 12260
+type(
+  Sdlevent.mousemotion_event
+)
+ident(
+  int_ref ev "iO.ml" 522 12108 12135 "iO.ml" 522 12108 12137
+)
+"iO.ml" 524 12216 12258 "iO.ml" 524 12216 12269
+type(
+  int
+)
+"iO.ml" 523 12144 12152 "iO.ml" 524 12216 12270
+type(
+  'f
+)
+"iO.ml" 525 12271 12284 "iO.ml" 525 12271 12287
+type(
+  'f list
+)
+ident(
+  int_ref acc "iO.ml" 522 12108 12138 "iO.ml" 522 12108 12141
+)
+"iO.ml" 523 12144 12152 "iO.ml" 525 12271 12287
+type(
+  'f list
+)
+"iO.ml" 526 12288 12297 "iO.ml" 526 12288 12306
+type(
+  exn
+)
+"iO.ml" 526 12288 12310 "iO.ml" 526 12288 12313
+type(
+  'f list
+)
+ident(
+  int_ref acc "iO.ml" 522 12108 12138 "iO.ml" 522 12108 12141
+)
+"iO.ml" 523 12144 12148 "iO.ml" 526 12288 12313
+type(
+  'f list
+)
+"iO.ml" 529 12338 12344 "iO.ml" 529 12338 12348
+type(
+  unit -> A.t list
+)
+ident(
+  def read "iO.ml" 560 13455 13457 "iO.ml" 571 13943 13946
+)
+"iO.ml" 529 12338 12349 "iO.ml" 529 12338 12351
+type(
+  unit
+)
+"iO.ml" 530 12354 12362 "iO.ml" 530 12354 12365
+type(
+  int
+)
+"iO.ml" 530 12354 12368 "iO.ml" 530 12354 12386
+type(
+  unit -> int
+)
+ident(
+  ext_ref Sdltimer.get_ticks
+)
+"iO.ml" 530 12354 12387 "iO.ml" 530 12354 12389
+type(
+  unit
+)
+"iO.ml" 530 12354 12368 "iO.ml" 530 12354 12389
+type(
+  int
+)
+"iO.ml" 531 12393 12405 "iO.ml" 531 12393 12416
+type(
+  A.t list -> A.t list
+)
+"iO.ml" 531 12393 12417 "iO.ml" 531 12393 12420
+type(
+  A.t list
+)
+ident(
+  def acc "iO.ml" 532 12423 12429 "iO.ml" 549 13161 13188
+)
+"iO.ml" 532 12423 12435 "iO.ml" 532 12423 12439
+type(
+  unit -> Sdlevent.event option
+)
+ident(
+  ext_ref Sdlevent.poll
+)
+"iO.ml" 532 12423 12440 "iO.ml" 532 12423 12442
+type(
+  unit
+)
+"iO.ml" 532 12423 12435 "iO.ml" 532 12423 12442
+type(
+  Sdlevent.event option
+)
+"iO.ml" 533 12448 12458 "iO.ml" 533 12448 12462
+type(
+  Sdlevent.event option
+)
+"iO.ml" 533 12448 12466 "iO.ml" 533 12448 12469
+type(
+  A.t list
+)
+ident(
+  int_ref acc "iO.ml" 531 12393 12417 "iO.ml" 531 12393 12420
+)
+"iO.ml" 534 12470 12485 "iO.ml" 534 12470 12490
+type(
+  Sdlevent.event
+)
+ident(
+  def event "iO.ml" 535 12494 12506 "iO.ml" 549 13161 13188
+)
+"iO.ml" 534 12470 12480 "iO.ml" 534 12470 12490
+type(
+  Sdlevent.event option
+)
+"iO.ml" 535 12494 12510 "iO.ml" 535 12494 12513
+type(
+  A.t list
+)
+"iO.ml" 535 12494 12528 "iO.ml" 535 12494 12533
+type(
+  Sdlevent.event
+)
+ident(
+  int_ref event "iO.ml" 534 12470 12485 "iO.ml" 534 12470 12490
+)
+"iO.ml" 536 12539 12563 "iO.ml" 536 12539 12565
+type(
+  Sdlevent.keyboard_event
+)
+ident(
+  def ke "iO.ml" 537 12569 12587 "iO.ml" 538 12644 12687
+)
+"iO.ml" 536 12539 12555 "iO.ml" 536 12539 12565
+type(
+  Sdlevent.event
+)
+"iO.ml" 537 12569 12587 "iO.ml" 537 12569 12599
+type(
+  one_more KeyMap.t ref
+)
+ident(
+  int_ref pressed_keys "iO.ml" 471 10884 10890 "iO.ml" 471 10884 10902
+)
+"iO.ml" 537 12569 12600 "iO.ml" 537 12569 12602
+type(
+  one_more KeyMap.t ref -> one_more KeyMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 537 12569 12603 "iO.ml" 537 12569 12613
+type(
+  KeyMap.key -> one_more -> one_more KeyMap.t -> one_more KeyMap.t
+)
+ident(
+  ext_ref KeyMap.add
+)
+"iO.ml" 537 12569 12614 "iO.ml" 537 12569 12616
+type(
+  Sdlevent.keyboard_event
+)
+ident(
+  int_ref ke "iO.ml" 536 12539 12563 "iO.ml" 536 12539 12565
+)
+"iO.ml" 537 12569 12614 "iO.ml" 537 12569 12623
+type(
+  KeyMap.key
+)
+"iO.ml" 537 12569 12624 "iO.ml" 537 12569 12628
+type(
+  one_more
+)
+"iO.ml" 537 12569 12629 "iO.ml" 537 12569 12630
+type(
+  one_more KeyMap.t ref -> one_more KeyMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 537 12569 12630 "iO.ml" 537 12569 12642
+type(
+  one_more KeyMap.t ref
+)
+ident(
+  int_ref pressed_keys "iO.ml" 471 10884 10890 "iO.ml" 471 10884 10902
+)
+"iO.ml" 537 12569 12629 "iO.ml" 537 12569 12642
+type(
+  one_more KeyMap.t
+)
+"iO.ml" 537 12569 12603 "iO.ml" 537 12569 12642
+type(
+  one_more KeyMap.t
+)
+"iO.ml" 537 12569 12587 "iO.ml" 537 12569 12642
+type(
+  unit
+)
+"iO.ml" 538 12644 12662 "iO.ml" 538 12644 12668
+type(
+  A.t KeyMap.t ref -> KeyMap.key -> A.t list -> A.t list
+)
+ident(
+  int_ref action "iO.ml" 473 10923 10929 "iO.ml" 473 10923 10935
+)
+"iO.ml" 538 12644 12669 "iO.ml" 538 12644 12673
+type(
+  A.t KeyMap.t ref
+)
+ident(
+  int_ref down "iO.ml" 468 10823 10829 "iO.ml" 468 10823 10833
+)
+"iO.ml" 538 12644 12674 "iO.ml" 538 12644 12676
+type(
+  Sdlevent.keyboard_event
+)
+ident(
+  int_ref ke "iO.ml" 536 12539 12563 "iO.ml" 536 12539 12565
+)
+"iO.ml" 538 12644 12674 "iO.ml" 538 12644 12683
+type(
+  KeyMap.key
+)
+"iO.ml" 538 12644 12684 "iO.ml" 538 12644 12687
+type(
+  A.t list
+)
+ident(
+  int_ref acc "iO.ml" 531 12393 12417 "iO.ml" 531 12393 12420
+)
+"iO.ml" 538 12644 12662 "iO.ml" 538 12644 12687
+type(
+  A.t list
+)
+"iO.ml" 537 12569 12587 "iO.ml" 538 12644 12687
+type(
+  A.t list
+)
+"iO.ml" 539 12688 12710 "iO.ml" 539 12688 12712
+type(
+  Sdlevent.keyboard_event
+)
+ident(
+  def ke "iO.ml" 540 12716 12734 "iO.ml" 541 12789 12830
+)
+"iO.ml" 539 12688 12704 "iO.ml" 539 12688 12712
+type(
+  Sdlevent.event
+)
+"iO.ml" 540 12716 12734 "iO.ml" 540 12716 12746
+type(
+  one_more KeyMap.t ref
+)
+ident(
+  int_ref pressed_keys "iO.ml" 471 10884 10890 "iO.ml" 471 10884 10902
+)
+"iO.ml" 540 12716 12747 "iO.ml" 540 12716 12749
+type(
+  one_more KeyMap.t ref -> one_more KeyMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 540 12716 12750 "iO.ml" 540 12716 12763
+type(
+  KeyMap.key -> one_more KeyMap.t -> one_more KeyMap.t
+)
+ident(
+  ext_ref KeyMap.remove
+)
+"iO.ml" 540 12716 12764 "iO.ml" 540 12716 12766
+type(
+  Sdlevent.keyboard_event
+)
+ident(
+  int_ref ke "iO.ml" 539 12688 12710 "iO.ml" 539 12688 12712
+)
+"iO.ml" 540 12716 12764 "iO.ml" 540 12716 12773
+type(
+  KeyMap.key
+)
+"iO.ml" 540 12716 12774 "iO.ml" 540 12716 12775
+type(
+  one_more KeyMap.t ref -> one_more KeyMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 540 12716 12775 "iO.ml" 540 12716 12787
+type(
+  one_more KeyMap.t ref
+)
+ident(
+  int_ref pressed_keys "iO.ml" 471 10884 10890 "iO.ml" 471 10884 10902
+)
+"iO.ml" 540 12716 12774 "iO.ml" 540 12716 12787
+type(
+  one_more KeyMap.t
+)
+"iO.ml" 540 12716 12750 "iO.ml" 540 12716 12787
+type(
+  one_more KeyMap.t
+)
+"iO.ml" 540 12716 12734 "iO.ml" 540 12716 12787
+type(
+  unit
+)
+"iO.ml" 541 12789 12807 "iO.ml" 541 12789 12813
+type(
+  A.t KeyMap.t ref -> KeyMap.key -> A.t list -> A.t list
+)
+ident(
+  int_ref action "iO.ml" 473 10923 10929 "iO.ml" 473 10923 10935
+)
+"iO.ml" 541 12789 12814 "iO.ml" 541 12789 12816
+type(
+  A.t KeyMap.t ref
+)
+ident(
+  int_ref up "iO.ml" 467 10795 10801 "iO.ml" 467 10795 10803
+)
+"iO.ml" 541 12789 12817 "iO.ml" 541 12789 12819
+type(
+  Sdlevent.keyboard_event
+)
+ident(
+  int_ref ke "iO.ml" 539 12688 12710 "iO.ml" 539 12688 12712
+)
+"iO.ml" 541 12789 12817 "iO.ml" 541 12789 12826
+type(
+  KeyMap.key
+)
+"iO.ml" 541 12789 12827 "iO.ml" 541 12789 12830
+type(
+  A.t list
+)
+ident(
+  int_ref acc "iO.ml" 531 12393 12417 "iO.ml" 531 12393 12420
+)
+"iO.ml" 541 12789 12807 "iO.ml" 541 12789 12830
+type(
+  A.t list
+)
+"iO.ml" 540 12716 12734 "iO.ml" 541 12789 12830
+type(
+  A.t list
+)
+"iO.ml" 542 12831 12863 "iO.ml" 542 12831 12865
+type(
+  Sdlevent.mousebutton_event
+)
+ident(
+  def ev "iO.ml" 542 12831 12869 "iO.ml" 542 12831 12894
+)
+"iO.ml" 542 12831 12847 "iO.ml" 542 12831 12865
+type(
+  Sdlevent.event
+)
+"iO.ml" 542 12831 12869 "iO.ml" 542 12831 12881
+type(
+  (int -> int -> A.t) MouseMap.t ref ->
+  Sdlevent.mousebutton_event -> A.t list -> A.t list
+)
+ident(
+  int_ref mouse_action "iO.ml" 518 11973 11979 "iO.ml" 518 11973 11991
+)
+"iO.ml" 542 12831 12882 "iO.ml" 542 12831 12887
+type(
+  (int -> int -> A.t) MouseMap.t ref
+)
+ident(
+  int_ref mdown "iO.ml" 515 11903 11909 "iO.ml" 515 11903 11914
+)
+"iO.ml" 542 12831 12888 "iO.ml" 542 12831 12890
+type(
+  Sdlevent.mousebutton_event
+)
+ident(
+  int_ref ev "iO.ml" 542 12831 12863 "iO.ml" 542 12831 12865
+)
+"iO.ml" 542 12831 12891 "iO.ml" 542 12831 12894
+type(
+  A.t list
+)
+ident(
+  int_ref acc "iO.ml" 531 12393 12417 "iO.ml" 531 12393 12420
+)
+"iO.ml" 542 12831 12869 "iO.ml" 542 12831 12894
+type(
+  A.t list
+)
+"iO.ml" 543 12895 12925 "iO.ml" 543 12895 12927
+type(
+  Sdlevent.mousebutton_event
+)
+ident(
+  def ev "iO.ml" 543 12895 12931 "iO.ml" 543 12895 12954
+)
+"iO.ml" 543 12895 12911 "iO.ml" 543 12895 12927
+type(
+  Sdlevent.event
+)
+"iO.ml" 543 12895 12931 "iO.ml" 543 12895 12943
+type(
+  (int -> int -> A.t) MouseMap.t ref ->
+  Sdlevent.mousebutton_event -> A.t list -> A.t list
+)
+ident(
+  int_ref mouse_action "iO.ml" 518 11973 11979 "iO.ml" 518 11973 11991
+)
+"iO.ml" 543 12895 12944 "iO.ml" 543 12895 12947
+type(
+  (int -> int -> A.t) MouseMap.t ref
+)
+ident(
+  int_ref mup "iO.ml" 514 11872 11878 "iO.ml" 514 11872 11881
+)
+"iO.ml" 543 12895 12948 "iO.ml" 543 12895 12950
+type(
+  Sdlevent.mousebutton_event
+)
+ident(
+  int_ref ev "iO.ml" 543 12895 12925 "iO.ml" 543 12895 12927
+)
+"iO.ml" 543 12895 12951 "iO.ml" 543 12895 12954
+type(
+  A.t list
+)
+ident(
+  int_ref acc "iO.ml" 531 12393 12417 "iO.ml" 531 12393 12420
+)
+"iO.ml" 543 12895 12931 "iO.ml" 543 12895 12954
+type(
+  A.t list
+)
+"iO.ml" 544 12955 12983 "iO.ml" 544 12955 12985
+type(
+  Sdlevent.mousemotion_event
+)
+ident(
+  def ev "iO.ml" 544 12955 12989 "iO.ml" 544 12955 13017
+)
+"iO.ml" 544 12955 12971 "iO.ml" 544 12955 12985
+type(
+  Sdlevent.event
+)
+"iO.ml" 544 12955 12989 "iO.ml" 544 12955 13002
+type(
+  (int -> int -> int -> int -> A.t) MouseLMap.t ref ->
+  Sdlevent.mousemotion_event -> A.t list -> A.t list
+)
+ident(
+  int_ref mousel_action "iO.ml" 522 12108 12114 "iO.ml" 522 12108 12127
+)
+"iO.ml" 544 12955 13003 "iO.ml" 544 12955 13010
+type(
+  (int -> int -> int -> int -> A.t) MouseLMap.t ref
+)
+ident(
+  int_ref mmotion "iO.ml" 516 11936 11942 "iO.ml" 516 11936 11949
+)
+"iO.ml" 544 12955 13011 "iO.ml" 544 12955 13013
+type(
+  Sdlevent.mousemotion_event
+)
+ident(
+  int_ref ev "iO.ml" 544 12955 12983 "iO.ml" 544 12955 12985
+)
+"iO.ml" 544 12955 13014 "iO.ml" 544 12955 13017
+type(
+  A.t list
+)
+ident(
+  int_ref acc "iO.ml" 531 12393 12417 "iO.ml" 531 12393 12420
+)
+"iO.ml" 544 12955 12989 "iO.ml" 544 12955 13017
+type(
+  A.t list
+)
+"iO.ml" 545 13018 13034 "iO.ml" 545 13018 13038
+type(
+  Sdlevent.event
+)
+"iO.ml" 546 13042 13070 "iO.ml" 546 13042 13071
+type(
+  A.t option ref -> A.t option
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 546 13042 13071 "iO.ml" 546 13042 13076
+type(
+  A.t option ref
+)
+ident(
+  int_ref aquit "iO.ml" 455 10555 10561 "iO.ml" 455 10555 10566
+)
+"iO.ml" 546 13042 13070 "iO.ml" 546 13042 13076
+type(
+  A.t option
+)
+"iO.ml" 546 13042 13082 "iO.ml" 546 13042 13086
+type(
+  A.t option
+)
+"iO.ml" 546 13042 13090 "iO.ml" 546 13042 13093
+type(
+  A.t list
+)
+ident(
+  int_ref acc "iO.ml" 531 12393 12417 "iO.ml" 531 12393 12420
+)
+"iO.ml" 546 13042 13101 "iO.ml" 546 13042 13102
+type(
+  A.t
+)
+ident(
+  def a "iO.ml" 546 13042 13106 "iO.ml" 546 13042 13112
+)
+"iO.ml" 546 13042 13096 "iO.ml" 546 13042 13102
+type(
+  A.t option
+)
+"iO.ml" 546 13042 13106 "iO.ml" 546 13042 13107
+type(
+  A.t
+)
+ident(
+  int_ref a "iO.ml" 546 13042 13101 "iO.ml" 546 13042 13102
+)
+"iO.ml" 546 13042 13109 "iO.ml" 546 13042 13112
+type(
+  A.t list
+)
+ident(
+  int_ref acc "iO.ml" 531 12393 12417 "iO.ml" 531 12393 12420
+)
+"iO.ml" 546 13042 13106 "iO.ml" 546 13042 13112
+type(
+  A.t list
+)
+"iO.ml" 546 13042 13058 "iO.ml" 546 13042 13116
+type(
+  A.t list
+)
+"iO.ml" 547 13117 13133 "iO.ml" 547 13117 13134
+type(
+  Sdlevent.event
+)
+"iO.ml" 547 13117 13138 "iO.ml" 547 13117 13141
+type(
+  A.t list
+)
+ident(
+  int_ref acc "iO.ml" 531 12393 12417 "iO.ml" 531 12393 12420
+)
+"iO.ml" 535 12494 12516 "iO.ml" 548 13142 13157
+type(
+  A.t list
+)
+"iO.ml" 549 13161 13173 "iO.ml" 549 13161 13184
+type(
+  A.t list -> A.t list
+)
+ident(
+  int_ref read_events "iO.ml" 531 12393 12405 "iO.ml" 531 12393 12416
+)
+"iO.ml" 549 13161 13185 "iO.ml" 549 13161 13188
+type(
+  A.t list
+)
+ident(
+  int_ref acc "iO.ml" 535 12494 12510 "iO.ml" 535 12494 12513
+)
+"iO.ml" 549 13161 13173 "iO.ml" 549 13161 13188
+type(
+  A.t list
+)
+"iO.ml" 535 12494 12506 "iO.ml" 549 13161 13188
+type(
+  A.t list
+)
+"iO.ml" 532 12423 12429 "iO.ml" 549 13161 13188
+type(
+  A.t list
+)
+"iO.ml" 551 13196 13204 "iO.ml" 551 13196 13211
+type(
+  A.t list
+)
+"iO.ml" 551 13196 13214 "iO.ml" 551 13196 13225
+type(
+  A.t list -> A.t list
+)
+ident(
+  int_ref read_events "iO.ml" 531 12393 12405 "iO.ml" 531 12393 12416
+)
+"iO.ml" 551 13196 13226 "iO.ml" 551 13196 13228
+type(
+  A.t list
+)
+"iO.ml" 551 13196 13214 "iO.ml" 551 13196 13228
+type(
+  A.t list
+)
+"iO.ml" 552 13232 13240 "iO.ml" 552 13232 13247
+type(
+  A.t list
+)
+"iO.ml" 553 13250 13256 "iO.ml" 553 13250 13267
+type(
+  (KeyMap.key -> one_more -> A.t list -> A.t list) ->
+  one_more KeyMap.t -> A.t list -> A.t list
+)
+ident(
+  ext_ref KeyMap.fold
+)
+"iO.ml" 553 13250 13273 "iO.ml" 553 13250 13274
+type(
+  KeyMap.key
+)
+ident(
+  def k "iO.ml" 553 13250 13275 "iO.ml" 553 13250 13299
+)
+"iO.ml" 553 13250 13275 "iO.ml" 553 13250 13276
+type(
+  one_more
+)
+"iO.ml" 553 13250 13280 "iO.ml" 553 13250 13286
+type(
+  A.t KeyMap.t ref -> KeyMap.key -> A.t list -> A.t list
+)
+ident(
+  int_ref action "iO.ml" 473 10923 10929 "iO.ml" 473 10923 10935
+)
+"iO.ml" 553 13250 13287 "iO.ml" 553 13250 13297
+type(
+  A.t KeyMap.t ref
+)
+ident(
+  int_ref continuous "iO.ml" 466 10759 10765 "iO.ml" 466 10759 10775
+)
+"iO.ml" 553 13250 13298 "iO.ml" 553 13250 13299
+type(
+  KeyMap.key
+)
+ident(
+  int_ref k "iO.ml" 553 13250 13273 "iO.ml" 553 13250 13274
+)
+"iO.ml" 553 13250 13280 "iO.ml" 553 13250 13299
+type(
+  A.t list -> A.t list
+)
+"iO.ml" 553 13250 13268 "iO.ml" 553 13250 13300
+type(
+  KeyMap.key -> one_more -> A.t list -> A.t list
+)
+"iO.ml" 553 13250 13301 "iO.ml" 553 13250 13302
+type(
+  one_more KeyMap.t ref -> one_more KeyMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 553 13250 13302 "iO.ml" 553 13250 13314
+type(
+  one_more KeyMap.t ref
+)
+ident(
+  int_ref pressed_keys "iO.ml" 471 10884 10890 "iO.ml" 471 10884 10902
+)
+"iO.ml" 553 13250 13301 "iO.ml" 553 13250 13314
+type(
+  one_more KeyMap.t
+)
+"iO.ml" 553 13250 13315 "iO.ml" 553 13250 13322
+type(
+  A.t list
+)
+ident(
+  int_ref actions "iO.ml" 551 13196 13204 "iO.ml" 551 13196 13211
+)
+"iO.ml" 553 13250 13256 "iO.ml" 553 13250 13322
+type(
+  A.t list
+)
+"iO.ml" 554 13326 13334 "iO.ml" 554 13326 13341
+type(
+  A.t list
+)
+"iO.ml" 555 13344 13350 "iO.ml" 555 13344 13361
+type(
+  (KeyMap.key -> one_more -> A.t list -> A.t list) ->
+  one_more KeyMap.t -> A.t list -> A.t list
+)
+ident(
+  ext_ref KeyMap.fold
+)
+"iO.ml" 555 13344 13363 "iO.ml" 555 13344 13374
+type(
+  int -> KeyMap.key -> one_more -> A.t list -> A.t list
+)
+ident(
+  int_ref action_auto "iO.ml" 477 11019 11025 "iO.ml" 477 11019 11036
+)
+"iO.ml" 555 13344 13375 "iO.ml" 555 13344 13378
+type(
+  int
+)
+ident(
+  int_ref now "iO.ml" 530 12354 12362 "iO.ml" 530 12354 12365
+)
+"iO.ml" 555 13344 13362 "iO.ml" 555 13344 13379
+type(
+  KeyMap.key -> one_more -> A.t list -> A.t list
+)
+"iO.ml" 555 13344 13380 "iO.ml" 555 13344 13381
+type(
+  one_more KeyMap.t ref -> one_more KeyMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 555 13344 13381 "iO.ml" 555 13344 13393
+type(
+  one_more KeyMap.t ref
+)
+ident(
+  int_ref pressed_keys "iO.ml" 471 10884 10890 "iO.ml" 471 10884 10902
+)
+"iO.ml" 555 13344 13380 "iO.ml" 555 13344 13393
+type(
+  one_more KeyMap.t
+)
+"iO.ml" 555 13344 13394 "iO.ml" 555 13344 13401
+type(
+  A.t list
+)
+ident(
+  int_ref actions "iO.ml" 552 13232 13240 "iO.ml" 552 13232 13247
+)
+"iO.ml" 555 13344 13350 "iO.ml" 555 13344 13401
+type(
+  A.t list
+)
+"iO.ml" 556 13405 13409 "iO.ml" 556 13405 13417
+type(
+  A.t list -> A.t list
+)
+ident(
+  ext_ref List.rev
+)
+"iO.ml" 556 13405 13418 "iO.ml" 556 13405 13425
+type(
+  A.t list
+)
+ident(
+  int_ref actions "iO.ml" 554 13326 13334 "iO.ml" 554 13326 13341
+)
+"iO.ml" 556 13405 13409 "iO.ml" 556 13405 13425
+type(
+  A.t list
+)
+"iO.ml" 554 13326 13330 "iO.ml" 556 13405 13425
+type(
+  A.t list
+)
+"iO.ml" 552 13232 13236 "iO.ml" 556 13405 13425
+type(
+  A.t list
+)
+"iO.ml" 551 13196 13200 "iO.ml" 556 13405 13425
+type(
+  A.t list
+)
+"iO.ml" 531 12393 12397 "iO.ml" 556 13405 13425
+type(
+  A.t list
+)
+"iO.ml" 530 12354 12358 "iO.ml" 556 13405 13425
+type(
+  A.t list
+)
+"iO.ml" 560 13455 13461 "iO.ml" 560 13455 13475
+type(
+  KeyMap.key -> A.t -> unit
+)
+ident(
+  def key_continuous "iO.ml" 561 13523 13525 "iO.ml" 571 13943 13946
+)
+"iO.ml" 560 13455 13476 "iO.ml" 560 13455 13477
+type(
+  KeyMap.key
+)
+ident(
+  def k "iO.ml" 560 13455 13478 "iO.ml" 560 13455 13522
+)
+"iO.ml" 560 13455 13478 "iO.ml" 560 13455 13479
+type(
+  A.t
+)
+ident(
+  def a "iO.ml" 560 13455 13482 "iO.ml" 560 13455 13522
+)
+"iO.ml" 560 13455 13482 "iO.ml" 560 13455 13492
+type(
+  A.t KeyMap.t ref
+)
+ident(
+  int_ref continuous "iO.ml" 466 10759 10765 "iO.ml" 466 10759 10775
+)
+"iO.ml" 560 13455 13493 "iO.ml" 560 13455 13495
+type(
+  A.t KeyMap.t ref -> A.t KeyMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 560 13455 13496 "iO.ml" 560 13455 13506
+type(
+  KeyMap.key -> A.t -> A.t KeyMap.t -> A.t KeyMap.t
+)
+ident(
+  ext_ref KeyMap.add
+)
+"iO.ml" 560 13455 13507 "iO.ml" 560 13455 13508
+type(
+  KeyMap.key
+)
+ident(
+  int_ref k "iO.ml" 560 13455 13476 "iO.ml" 560 13455 13477
+)
+"iO.ml" 560 13455 13509 "iO.ml" 560 13455 13510
+type(
+  A.t
+)
+ident(
+  int_ref a "iO.ml" 560 13455 13478 "iO.ml" 560 13455 13479
+)
+"iO.ml" 560 13455 13511 "iO.ml" 560 13455 13512
+type(
+  A.t KeyMap.t ref -> A.t KeyMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 560 13455 13512 "iO.ml" 560 13455 13522
+type(
+  A.t KeyMap.t ref
+)
+ident(
+  int_ref continuous "iO.ml" 466 10759 10765 "iO.ml" 466 10759 10775
+)
+"iO.ml" 560 13455 13511 "iO.ml" 560 13455 13522
+type(
+  A.t KeyMap.t
+)
+"iO.ml" 560 13455 13496 "iO.ml" 560 13455 13522
+type(
+  A.t KeyMap.t
+)
+"iO.ml" 560 13455 13482 "iO.ml" 560 13455 13522
+type(
+  unit
+)
+"iO.ml" 561 13523 13529 "iO.ml" 561 13523 13535
+type(
+  KeyMap.key -> A.t -> unit
+)
+ident(
+  def key_up "iO.ml" 562 13567 13569 "iO.ml" 571 13943 13946
+)
+"iO.ml" 561 13523 13536 "iO.ml" 561 13523 13537
+type(
+  KeyMap.key
+)
+ident(
+  def k "iO.ml" 561 13523 13538 "iO.ml" 561 13523 13566
+)
+"iO.ml" 561 13523 13538 "iO.ml" 561 13523 13539
+type(
+  A.t
+)
+ident(
+  def a "iO.ml" 561 13523 13542 "iO.ml" 561 13523 13566
+)
+"iO.ml" 561 13523 13542 "iO.ml" 561 13523 13544
+type(
+  A.t KeyMap.t ref
+)
+ident(
+  int_ref up "iO.ml" 467 10795 10801 "iO.ml" 467 10795 10803
+)
+"iO.ml" 561 13523 13545 "iO.ml" 561 13523 13547
+type(
+  A.t KeyMap.t ref -> A.t KeyMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 561 13523 13548 "iO.ml" 561 13523 13558
+type(
+  KeyMap.key -> A.t -> A.t KeyMap.t -> A.t KeyMap.t
+)
+ident(
+  ext_ref KeyMap.add
+)
+"iO.ml" 561 13523 13559 "iO.ml" 561 13523 13560
+type(
+  KeyMap.key
+)
+ident(
+  int_ref k "iO.ml" 561 13523 13536 "iO.ml" 561 13523 13537
+)
+"iO.ml" 561 13523 13561 "iO.ml" 561 13523 13562
+type(
+  A.t
+)
+ident(
+  int_ref a "iO.ml" 561 13523 13538 "iO.ml" 561 13523 13539
+)
+"iO.ml" 561 13523 13563 "iO.ml" 561 13523 13564
+type(
+  A.t KeyMap.t ref -> A.t KeyMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 561 13523 13564 "iO.ml" 561 13523 13566
+type(
+  A.t KeyMap.t ref
+)
+ident(
+  int_ref up "iO.ml" 467 10795 10801 "iO.ml" 467 10795 10803
+)
+"iO.ml" 561 13523 13563 "iO.ml" 561 13523 13566
+type(
+  A.t KeyMap.t
+)
+"iO.ml" 561 13523 13548 "iO.ml" 561 13523 13566
+type(
+  A.t KeyMap.t
+)
+"iO.ml" 561 13523 13542 "iO.ml" 561 13523 13566
+type(
+  unit
+)
+"iO.ml" 562 13567 13573 "iO.ml" 562 13567 13581
+type(
+  KeyMap.key -> A.t -> unit
+)
+ident(
+  def key_down "iO.ml" 563 13617 13619 "iO.ml" 571 13943 13946
+)
+"iO.ml" 562 13567 13582 "iO.ml" 562 13567 13583
+type(
+  KeyMap.key
+)
+ident(
+  def k "iO.ml" 562 13567 13584 "iO.ml" 562 13567 13616
+)
+"iO.ml" 562 13567 13584 "iO.ml" 562 13567 13585
+type(
+  A.t
+)
+ident(
+  def a "iO.ml" 562 13567 13588 "iO.ml" 562 13567 13616
+)
+"iO.ml" 562 13567 13588 "iO.ml" 562 13567 13592
+type(
+  A.t KeyMap.t ref
+)
+ident(
+  int_ref down "iO.ml" 468 10823 10829 "iO.ml" 468 10823 10833
+)
+"iO.ml" 562 13567 13593 "iO.ml" 562 13567 13595
+type(
+  A.t KeyMap.t ref -> A.t KeyMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 562 13567 13596 "iO.ml" 562 13567 13606
+type(
+  KeyMap.key -> A.t -> A.t KeyMap.t -> A.t KeyMap.t
+)
+ident(
+  ext_ref KeyMap.add
+)
+"iO.ml" 562 13567 13607 "iO.ml" 562 13567 13608
+type(
+  KeyMap.key
+)
+ident(
+  int_ref k "iO.ml" 562 13567 13582 "iO.ml" 562 13567 13583
+)
+"iO.ml" 562 13567 13609 "iO.ml" 562 13567 13610
+type(
+  A.t
+)
+ident(
+  int_ref a "iO.ml" 562 13567 13584 "iO.ml" 562 13567 13585
+)
+"iO.ml" 562 13567 13611 "iO.ml" 562 13567 13612
+type(
+  A.t KeyMap.t ref -> A.t KeyMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 562 13567 13612 "iO.ml" 562 13567 13616
+type(
+  A.t KeyMap.t ref
+)
+ident(
+  int_ref down "iO.ml" 468 10823 10829 "iO.ml" 468 10823 10833
+)
+"iO.ml" 562 13567 13611 "iO.ml" 562 13567 13616
+type(
+  A.t KeyMap.t
+)
+"iO.ml" 562 13567 13596 "iO.ml" 562 13567 13616
+type(
+  A.t KeyMap.t
+)
+"iO.ml" 562 13567 13588 "iO.ml" 562 13567 13616
+type(
+  unit
+)
+"iO.ml" 563 13617 13623 "iO.ml" 563 13617 13631
+type(
+  int -> int -> KeyMap.key -> A.t -> unit
+)
+ident(
+  def key_auto "iO.ml" 564 13687 13689 "iO.ml" 571 13943 13946
+)
+"iO.ml" 563 13617 13632 "iO.ml" 563 13617 13635
+type(
+  int
+)
+ident(
+  def ini "iO.ml" 563 13617 13636 "iO.ml" 563 13617 13686
+)
+"iO.ml" 563 13617 13636 "iO.ml" 563 13617 13639
+type(
+  int
+)
+ident(
+  def rep "iO.ml" 563 13617 13640 "iO.ml" 563 13617 13686
+)
+"iO.ml" 563 13617 13640 "iO.ml" 563 13617 13641
+type(
+  KeyMap.key
+)
+ident(
+  def k "iO.ml" 563 13617 13642 "iO.ml" 563 13617 13686
+)
+"iO.ml" 563 13617 13642 "iO.ml" 563 13617 13643
+type(
+  A.t
+)
+ident(
+  def a "iO.ml" 563 13617 13646 "iO.ml" 563 13617 13686
+)
+"iO.ml" 563 13617 13646 "iO.ml" 563 13617 13650
+type(
+  (A.t * int * int) KeyMap.t ref
+)
+ident(
+  int_ref auto "iO.ml" 469 10853 10859 "iO.ml" 469 10853 10863
+)
+"iO.ml" 563 13617 13651 "iO.ml" 563 13617 13653
+type(
+  (A.t * int * int) KeyMap.t ref -> (A.t * int * int) KeyMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 563 13617 13654 "iO.ml" 563 13617 13664
+type(
+  KeyMap.key ->
+  A.t * int * int -> (A.t * int * int) KeyMap.t -> (A.t * int * int) KeyMap.t
+)
+ident(
+  ext_ref KeyMap.add
+)
+"iO.ml" 563 13617 13665 "iO.ml" 563 13617 13666
+type(
+  KeyMap.key
+)
+ident(
+  int_ref k "iO.ml" 563 13617 13640 "iO.ml" 563 13617 13641
+)
+"iO.ml" 563 13617 13668 "iO.ml" 563 13617 13669
+type(
+  A.t
+)
+ident(
+  int_ref a "iO.ml" 563 13617 13642 "iO.ml" 563 13617 13643
+)
+"iO.ml" 563 13617 13671 "iO.ml" 563 13617 13674
+type(
+  int
+)
+ident(
+  int_ref ini "iO.ml" 563 13617 13632 "iO.ml" 563 13617 13635
+)
+"iO.ml" 563 13617 13676 "iO.ml" 563 13617 13679
+type(
+  int
+)
+ident(
+  int_ref rep "iO.ml" 563 13617 13636 "iO.ml" 563 13617 13639
+)
+"iO.ml" 563 13617 13667 "iO.ml" 563 13617 13680
+type(
+  A.t * int * int
+)
+"iO.ml" 563 13617 13681 "iO.ml" 563 13617 13682
+type(
+  (A.t * int * int) KeyMap.t ref -> (A.t * int * int) KeyMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 563 13617 13682 "iO.ml" 563 13617 13686
+type(
+  (A.t * int * int) KeyMap.t ref
+)
+ident(
+  int_ref auto "iO.ml" 469 10853 10859 "iO.ml" 469 10853 10863
+)
+"iO.ml" 563 13617 13681 "iO.ml" 563 13617 13686
+type(
+  (A.t * int * int) KeyMap.t
+)
+"iO.ml" 563 13617 13654 "iO.ml" 563 13617 13686
+type(
+  (A.t * int * int) KeyMap.t
+)
+"iO.ml" 563 13617 13646 "iO.ml" 563 13617 13686
+type(
+  unit
+)
+"iO.ml" 564 13687 13693 "iO.ml" 564 13687 13704
+type(
+  A.t -> unit
+)
+ident(
+  def quit_action "iO.ml" 565 13725 13727 "iO.ml" 571 13943 13946
+)
+"iO.ml" 564 13687 13705 "iO.ml" 564 13687 13706
+type(
+  A.t
+)
+ident(
+  def a "iO.ml" 564 13687 13709 "iO.ml" 564 13687 13724
+)
+"iO.ml" 564 13687 13709 "iO.ml" 564 13687 13714
+type(
+  A.t option ref
+)
+ident(
+  int_ref aquit "iO.ml" 455 10555 10561 "iO.ml" 455 10555 10566
+)
+"iO.ml" 564 13687 13715 "iO.ml" 564 13687 13717
+type(
+  A.t option ref -> A.t option -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 564 13687 13723 "iO.ml" 564 13687 13724
+type(
+  A.t
+)
+ident(
+  int_ref a "iO.ml" 564 13687 13705 "iO.ml" 564 13687 13706
+)
+"iO.ml" 564 13687 13718 "iO.ml" 564 13687 13724
+type(
+  A.t option
+)
+"iO.ml" 564 13687 13709 "iO.ml" 564 13687 13724
+type(
+  unit
+)
+"iO.ml" 565 13725 13731 "iO.ml" 565 13725 13739
+type(
+  MouseMap.key -> (int -> int -> A.t) -> unit
+)
+ident(
+  def mouse_up "iO.ml" 566 13775 13777 "iO.ml" 571 13943 13946
+)
+"iO.ml" 565 13725 13740 "iO.ml" 565 13725 13741
+type(
+  MouseMap.key
+)
+ident(
+  def b "iO.ml" 565 13725 13742 "iO.ml" 565 13725 13774
+)
+"iO.ml" 565 13725 13742 "iO.ml" 565 13725 13743
+type(
+  int -> int -> A.t
+)
+ident(
+  def a "iO.ml" 565 13725 13746 "iO.ml" 565 13725 13774
+)
+"iO.ml" 565 13725 13746 "iO.ml" 565 13725 13749
+type(
+  (int -> int -> A.t) MouseMap.t ref
+)
+ident(
+  int_ref mup "iO.ml" 514 11872 11878 "iO.ml" 514 11872 11881
+)
+"iO.ml" 565 13725 13750 "iO.ml" 565 13725 13752
+type(
+  (int -> int -> A.t) MouseMap.t ref ->
+  (int -> int -> A.t) MouseMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 565 13725 13753 "iO.ml" 565 13725 13765
+type(
+  MouseMap.key ->
+  (int -> int -> A.t) ->
+  (int -> int -> A.t) MouseMap.t -> (int -> int -> A.t) MouseMap.t
+)
+ident(
+  ext_ref MouseMap.add
+)
+"iO.ml" 565 13725 13766 "iO.ml" 565 13725 13767
+type(
+  MouseMap.key
+)
+ident(
+  int_ref b "iO.ml" 565 13725 13740 "iO.ml" 565 13725 13741
+)
+"iO.ml" 565 13725 13768 "iO.ml" 565 13725 13769
+type(
+  int -> int -> A.t
+)
+ident(
+  int_ref a "iO.ml" 565 13725 13742 "iO.ml" 565 13725 13743
+)
+"iO.ml" 565 13725 13770 "iO.ml" 565 13725 13771
+type(
+  (int -> int -> A.t) MouseMap.t ref -> (int -> int -> A.t) MouseMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 565 13725 13771 "iO.ml" 565 13725 13774
+type(
+  (int -> int -> A.t) MouseMap.t ref
+)
+ident(
+  int_ref mup "iO.ml" 514 11872 11878 "iO.ml" 514 11872 11881
+)
+"iO.ml" 565 13725 13770 "iO.ml" 565 13725 13774
+type(
+  (int -> int -> A.t) MouseMap.t
+)
+"iO.ml" 565 13725 13753 "iO.ml" 565 13725 13774
+type(
+  (int -> int -> A.t) MouseMap.t
+)
+"iO.ml" 565 13725 13746 "iO.ml" 565 13725 13774
+type(
+  unit
+)
+"iO.ml" 566 13775 13781 "iO.ml" 566 13775 13791
+type(
+  MouseMap.key -> (int -> int -> A.t) -> unit
+)
+ident(
+  def mouse_down "iO.ml" 567 13831 13833 "iO.ml" 571 13943 13946
+)
+"iO.ml" 566 13775 13792 "iO.ml" 566 13775 13793
+type(
+  MouseMap.key
+)
+ident(
+  def b "iO.ml" 566 13775 13794 "iO.ml" 566 13775 13830
+)
+"iO.ml" 566 13775 13794 "iO.ml" 566 13775 13795
+type(
+  int -> int -> A.t
+)
+ident(
+  def a "iO.ml" 566 13775 13798 "iO.ml" 566 13775 13830
+)
+"iO.ml" 566 13775 13798 "iO.ml" 566 13775 13803
+type(
+  (int -> int -> A.t) MouseMap.t ref
+)
+ident(
+  int_ref mdown "iO.ml" 515 11903 11909 "iO.ml" 515 11903 11914
+)
+"iO.ml" 566 13775 13804 "iO.ml" 566 13775 13806
+type(
+  (int -> int -> A.t) MouseMap.t ref ->
+  (int -> int -> A.t) MouseMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 566 13775 13807 "iO.ml" 566 13775 13819
+type(
+  MouseMap.key ->
+  (int -> int -> A.t) ->
+  (int -> int -> A.t) MouseMap.t -> (int -> int -> A.t) MouseMap.t
+)
+ident(
+  ext_ref MouseMap.add
+)
+"iO.ml" 566 13775 13820 "iO.ml" 566 13775 13821
+type(
+  MouseMap.key
+)
+ident(
+  int_ref b "iO.ml" 566 13775 13792 "iO.ml" 566 13775 13793
+)
+"iO.ml" 566 13775 13822 "iO.ml" 566 13775 13823
+type(
+  int -> int -> A.t
+)
+ident(
+  int_ref a "iO.ml" 566 13775 13794 "iO.ml" 566 13775 13795
+)
+"iO.ml" 566 13775 13824 "iO.ml" 566 13775 13825
+type(
+  (int -> int -> A.t) MouseMap.t ref -> (int -> int -> A.t) MouseMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 566 13775 13825 "iO.ml" 566 13775 13830
+type(
+  (int -> int -> A.t) MouseMap.t ref
+)
+ident(
+  int_ref mdown "iO.ml" 515 11903 11909 "iO.ml" 515 11903 11914
+)
+"iO.ml" 566 13775 13824 "iO.ml" 566 13775 13830
+type(
+  (int -> int -> A.t) MouseMap.t
+)
+"iO.ml" 566 13775 13807 "iO.ml" 566 13775 13830
+type(
+  (int -> int -> A.t) MouseMap.t
+)
+"iO.ml" 566 13775 13798 "iO.ml" 566 13775 13830
+type(
+  unit
+)
+"iO.ml" 567 13831 13837 "iO.ml" 567 13831 13849
+type(
+  button list -> (int -> int -> int -> int -> A.t) -> unit
+)
+ident(
+  def mouse_motion "iO.ml" 569 13899 13941 "iO.ml" 571 13943 13946
+)
+"iO.ml" 567 13831 13850 "iO.ml" 567 13831 13852
+type(
+  button list
+)
+ident(
+  def bl "iO.ml" 567 13831 13853 "iO.ml" 569 13899 13941
+)
+"iO.ml" 567 13831 13853 "iO.ml" 567 13831 13854
+type(
+  int -> int -> int -> int -> A.t
+)
+ident(
+  def a "iO.ml" 568 13857 13861 "iO.ml" 569 13899 13941
+)
+"iO.ml" 568 13857 13865 "iO.ml" 568 13857 13867
+type(
+  button list
+)
+"iO.ml" 568 13857 13870 "iO.ml" 568 13857 13884
+type(
+  (button -> button -> int) -> button list -> button list
+)
+ident(
+  ext_ref List.fast_sort
+)
+"iO.ml" 568 13857 13885 "iO.ml" 568 13857 13892
+type(
+  button -> button -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"iO.ml" 568 13857 13893 "iO.ml" 568 13857 13895
+type(
+  button list
+)
+ident(
+  int_ref bl "iO.ml" 567 13831 13850 "iO.ml" 567 13831 13852
+)
+"iO.ml" 568 13857 13870 "iO.ml" 568 13857 13895
+type(
+  button list
+)
+"iO.ml" 569 13899 13903 "iO.ml" 569 13899 13910
+type(
+  (int -> int -> int -> int -> A.t) MouseLMap.t ref
+)
+ident(
+  int_ref mmotion "iO.ml" 516 11936 11942 "iO.ml" 516 11936 11949
+)
+"iO.ml" 569 13899 13911 "iO.ml" 569 13899 13913
+type(
+  (int -> int -> int -> int -> A.t) MouseLMap.t ref ->
+  (int -> int -> int -> int -> A.t) MouseLMap.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"iO.ml" 569 13899 13914 "iO.ml" 569 13899 13927
+type(
+  MouseLMap.key ->
+  (int -> int -> int -> int -> A.t) ->
+  (int -> int -> int -> int -> A.t) MouseLMap.t ->
+  (int -> int -> int -> int -> A.t) MouseLMap.t
+)
+ident(
+  ext_ref MouseLMap.add
+)
+"iO.ml" 569 13899 13928 "iO.ml" 569 13899 13930
+type(
+  MouseLMap.key
+)
+ident(
+  int_ref bl "iO.ml" 568 13857 13865 "iO.ml" 568 13857 13867
+)
+"iO.ml" 569 13899 13931 "iO.ml" 569 13899 13932
+type(
+  int -> int -> int -> int -> A.t
+)
+ident(
+  int_ref a "iO.ml" 567 13831 13853 "iO.ml" 567 13831 13854
+)
+"iO.ml" 569 13899 13933 "iO.ml" 569 13899 13934
+type(
+  (int -> int -> int -> int -> A.t) MouseLMap.t ref ->
+  (int -> int -> int -> int -> A.t) MouseLMap.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"iO.ml" 569 13899 13934 "iO.ml" 569 13899 13941
+type(
+  (int -> int -> int -> int -> A.t) MouseLMap.t ref
+)
+ident(
+  int_ref mmotion "iO.ml" 516 11936 11942 "iO.ml" 516 11936 11949
+)
+"iO.ml" 569 13899 13933 "iO.ml" 569 13899 13941
+type(
+  (int -> int -> int -> int -> A.t) MouseLMap.t
+)
+"iO.ml" 569 13899 13914 "iO.ml" 569 13899 13941
+type(
+  (int -> int -> int -> int -> A.t) MouseLMap.t
+)
+"iO.ml" 569 13899 13903 "iO.ml" 569 13899 13941
+type(
+  unit
+)
+"iO.ml" 568 13857 13861 "iO.ml" 569 13899 13941
+type(
+  unit
+)

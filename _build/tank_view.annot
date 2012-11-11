@@ -1,0 +1,372 @@
+"tank_view.ml" 6 58 62 "tank_view.ml" 6 58 68
+type(
+  IO.Sprite.t
+)
+ident(
+  def blinde "tank_view.ml" 8 132 132 --
+)
+"tank_view.ml" 6 58 71 "tank_view.ml" 6 58 82
+type(
+  ?align:IO.align -> string -> IO.Sprite.t
+)
+ident(
+  ext_ref IO.Sprite.load
+)
+"tank_view.ml" 6 58 90 "tank_view.ml" 6 58 96
+type(
+  IO.align
+)
+"tank_view.ml" 6 58 97 "tank_view.ml" 6 58 112
+type(
+  string
+)
+"tank_view.ml" 6 58 71 "tank_view.ml" 6 58 112
+type(
+  IO.Sprite.t
+)
+"tank_view.ml" 8 132 136 "tank_view.ml" 8 132 145
+type(
+  Tank.tank -> int * int -> unit
+)
+ident(
+  def draw_tank "tank_view.ml" 18 569 588 --
+)
+"tank_view.ml" 8 132 146 "tank_view.ml" 8 132 147
+type(
+  Tank.tank
+)
+ident(
+  def t "tank_view.ml" 8 132 148 "tank_view.ml" 18 569 588
+)
+"tank_view.ml" 8 132 148 "tank_view.ml" 8 132 156
+type(
+  int * int
+)
+ident(
+  def position "tank_view.ml" 9 158 160 "tank_view.ml" 18 569 588
+)
+"tank_view.ml" 9 158 164 "tank_view.ml" 9 158 165
+type(
+  int
+)
+"tank_view.ml" 9 158 167 "tank_view.ml" 9 158 170
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"tank_view.ml" 9 158 170 "tank_view.ml" 9 158 180
+type(
+  int * int
+)
+ident(
+  int_ref position "tank_view.ml" 8 132 148 "tank_view.ml" 8 132 156
+)
+"tank_view.ml" 9 158 167 "tank_view.ml" 9 158 180
+type(
+  int
+)
+"tank_view.ml" 9 158 185 "tank_view.ml" 9 158 186
+type(
+  int
+)
+"tank_view.ml" 9 158 189 "tank_view.ml" 9 158 192
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"tank_view.ml" 9 158 192 "tank_view.ml" 9 158 202
+type(
+  int * int
+)
+ident(
+  int_ref position "tank_view.ml" 8 132 148 "tank_view.ml" 8 132 156
+)
+"tank_view.ml" 9 158 189 "tank_view.ml" 9 158 202
+type(
+  int
+)
+"tank_view.ml" 10 206 212 "tank_view.ml" 10 206 217
+type(
+  IO.Sprite.t
+)
+"tank_view.ml" 11 219 229 "tank_view.ml" 11 219 230
+type(
+  Tank.tank
+)
+ident(
+  int_ref t "tank_view.ml" 8 132 146 "tank_view.ml" 8 132 147
+)
+"tank_view.ml" 11 219 229 "tank_view.ml" 11 219 236
+type(
+  Tank.orientation
+)
+"tank_view.ml" 12 242 249 "tank_view.ml" 12 242 259
+type(
+  Tank.orientation
+)
+"tank_view.ml" 12 242 264 "tank_view.ml" 12 242 272
+type(
+  ?aa:bool -> IO.Sprite.t -> float -> float -> IO.Sprite.t
+)
+ident(
+  ext_ref IO.Sprite.rotozoom
+)
+"tank_view.ml" 12 242 273 "tank_view.ml" 12 242 279
+type(
+  IO.Sprite.t
+)
+ident(
+  int_ref blinde "tank_view.ml" 6 58 62 "tank_view.ml" 6 58 68
+)
+"tank_view.ml" 12 242 280 "tank_view.ml" 12 242 284
+type(
+  float
+)
+"tank_view.ml" 12 242 287 "tank_view.ml" 12 242 288
+type(
+  Tank.tank
+)
+ident(
+  int_ref t "tank_view.ml" 8 132 146 "tank_view.ml" 8 132 147
+)
+"tank_view.ml" 12 242 286 "tank_view.ml" 12 242 296
+type(
+  float
+)
+"tank_view.ml" 12 242 264 "tank_view.ml" 12 242 296
+type(
+  IO.Sprite.t
+)
+"tank_view.ml" 13 297 304 "tank_view.ml" 13 297 314
+type(
+  Tank.orientation
+)
+"tank_view.ml" 13 297 318 "tank_view.ml" 13 297 326
+type(
+  ?aa:bool -> IO.Sprite.t -> float -> float -> IO.Sprite.t
+)
+ident(
+  ext_ref IO.Sprite.rotozoom
+)
+"tank_view.ml" 13 297 327 "tank_view.ml" 13 297 333
+type(
+  IO.Sprite.t
+)
+ident(
+  int_ref blinde "tank_view.ml" 6 58 62 "tank_view.ml" 6 58 68
+)
+"tank_view.ml" 13 297 334 "tank_view.ml" 13 297 341
+type(
+  float
+)
+"tank_view.ml" 13 297 344 "tank_view.ml" 13 297 345
+type(
+  Tank.tank
+)
+ident(
+  int_ref t "tank_view.ml" 8 132 146 "tank_view.ml" 8 132 147
+)
+"tank_view.ml" 13 297 343 "tank_view.ml" 13 297 353
+type(
+  float
+)
+"tank_view.ml" 13 297 318 "tank_view.ml" 13 297 353
+type(
+  IO.Sprite.t
+)
+"tank_view.ml" 14 355 362 "tank_view.ml" 14 355 373
+type(
+  Tank.orientation
+)
+"tank_view.ml" 14 355 377 "tank_view.ml" 14 355 385
+type(
+  ?aa:bool -> IO.Sprite.t -> float -> float -> IO.Sprite.t
+)
+ident(
+  ext_ref IO.Sprite.rotozoom
+)
+"tank_view.ml" 14 355 386 "tank_view.ml" 14 355 392
+type(
+  IO.Sprite.t
+)
+ident(
+  int_ref blinde "tank_view.ml" 6 58 62 "tank_view.ml" 6 58 68
+)
+"tank_view.ml" 14 355 393 "tank_view.ml" 14 355 396
+type(
+  float
+)
+"tank_view.ml" 14 355 399 "tank_view.ml" 14 355 400
+type(
+  Tank.tank
+)
+ident(
+  int_ref t "tank_view.ml" 8 132 146 "tank_view.ml" 8 132 147
+)
+"tank_view.ml" 14 355 398 "tank_view.ml" 14 355 408
+type(
+  float
+)
+"tank_view.ml" 14 355 377 "tank_view.ml" 14 355 408
+type(
+  IO.Sprite.t
+)
+"tank_view.ml" 15 410 417 "tank_view.ml" 15 410 428
+type(
+  Tank.orientation
+)
+"tank_view.ml" 15 410 432 "tank_view.ml" 15 410 440
+type(
+  ?aa:bool -> IO.Sprite.t -> float -> float -> IO.Sprite.t
+)
+ident(
+  ext_ref IO.Sprite.rotozoom
+)
+"tank_view.ml" 15 410 441 "tank_view.ml" 15 410 447
+type(
+  IO.Sprite.t
+)
+ident(
+  int_ref blinde "tank_view.ml" 6 58 62 "tank_view.ml" 6 58 68
+)
+"tank_view.ml" 15 410 448 "tank_view.ml" 15 410 454
+type(
+  float
+)
+"tank_view.ml" 15 410 457 "tank_view.ml" 15 410 458
+type(
+  Tank.tank
+)
+ident(
+  int_ref t "tank_view.ml" 8 132 146 "tank_view.ml" 8 132 147
+)
+"tank_view.ml" 15 410 455 "tank_view.ml" 15 410 466
+type(
+  float
+)
+"tank_view.ml" 15 410 432 "tank_view.ml" 15 410 466
+type(
+  IO.Sprite.t
+)
+"tank_view.ml" 16 467 474 "tank_view.ml" 16 467 480
+type(
+  Tank.orientation
+)
+"tank_view.ml" 16 467 485 "tank_view.ml" 16 467 493
+type(
+  ?aa:bool -> IO.Sprite.t -> float -> float -> IO.Sprite.t
+)
+ident(
+  ext_ref IO.Sprite.rotozoom
+)
+"tank_view.ml" 16 467 494 "tank_view.ml" 16 467 500
+type(
+  IO.Sprite.t
+)
+ident(
+  int_ref blinde "tank_view.ml" 6 58 62 "tank_view.ml" 6 58 68
+)
+"tank_view.ml" 16 467 501 "tank_view.ml" 16 467 504
+type(
+  float
+)
+"tank_view.ml" 16 467 506 "tank_view.ml" 16 467 507
+type(
+  Tank.tank
+)
+ident(
+  int_ref t "tank_view.ml" 8 132 146 "tank_view.ml" 8 132 147
+)
+"tank_view.ml" 16 467 505 "tank_view.ml" 16 467 515
+type(
+  float
+)
+"tank_view.ml" 16 467 485 "tank_view.ml" 16 467 515
+type(
+  IO.Sprite.t
+)
+"tank_view.ml" 17 516 523 "tank_view.ml" 17 516 529
+type(
+  Tank.orientation
+)
+"tank_view.ml" 17 516 533 "tank_view.ml" 17 516 541
+type(
+  ?aa:bool -> IO.Sprite.t -> float -> float -> IO.Sprite.t
+)
+ident(
+  ext_ref IO.Sprite.rotozoom
+)
+"tank_view.ml" 17 516 542 "tank_view.ml" 17 516 548
+type(
+  IO.Sprite.t
+)
+ident(
+  int_ref blinde "tank_view.ml" 6 58 62 "tank_view.ml" 6 58 68
+)
+"tank_view.ml" 17 516 549 "tank_view.ml" 17 516 555
+type(
+  float
+)
+"tank_view.ml" 17 516 558 "tank_view.ml" 17 516 559
+type(
+  Tank.tank
+)
+ident(
+  int_ref t "tank_view.ml" 8 132 146 "tank_view.ml" 8 132 147
+)
+"tank_view.ml" 17 516 557 "tank_view.ml" 17 516 567
+type(
+  float
+)
+"tank_view.ml" 17 516 533 "tank_view.ml" 17 516 567
+type(
+  IO.Sprite.t
+)
+"tank_view.ml" 11 219 223 "tank_view.ml" 17 516 567
+type(
+  IO.Sprite.t
+)
+"tank_view.ml" 18 569 574 "tank_view.ml" 18 569 578
+type(
+  IO.Sprite.t -> int -> int -> unit
+)
+ident(
+  ext_ref IO.Sprite.draw
+)
+"tank_view.ml" 18 569 579 "tank_view.ml" 18 569 584
+type(
+  IO.Sprite.t
+)
+ident(
+  int_ref image "tank_view.ml" 10 206 212 "tank_view.ml" 10 206 217
+)
+"tank_view.ml" 18 569 585 "tank_view.ml" 18 569 586
+type(
+  int
+)
+ident(
+  int_ref x "tank_view.ml" 9 158 164 "tank_view.ml" 9 158 165
+)
+"tank_view.ml" 18 569 587 "tank_view.ml" 18 569 588
+type(
+  int
+)
+ident(
+  int_ref y "tank_view.ml" 9 158 185 "tank_view.ml" 9 158 186
+)
+"tank_view.ml" 18 569 574 "tank_view.ml" 18 569 588
+type(
+  unit
+)
+"tank_view.ml" 10 206 208 "tank_view.ml" 18 569 588
+type(
+  unit
+)
+"tank_view.ml" 9 158 160 "tank_view.ml" 18 569 588
+type(
+  unit
+)

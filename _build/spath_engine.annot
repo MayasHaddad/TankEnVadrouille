@@ -1,0 +1,2586 @@
+"spath_engine.ml" 5 74 78 "spath_engine.ml" 5 74 87
+type(
+  unit -> heap ref
+)
+ident(
+  def init_heap "spath_engine.ml" 7 105 105 --
+)
+"spath_engine.ml" 5 74 88 "spath_engine.ml" 5 74 90
+type(
+  unit
+)
+"spath_engine.ml" 5 74 93 "spath_engine.ml" 5 74 96
+type(
+  heap -> heap ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"spath_engine.ml" 5 74 97 "spath_engine.ml" 5 74 102
+type(
+  heap
+)
+"spath_engine.ml" 5 74 93 "spath_engine.ml" 5 74 102
+type(
+  heap ref
+)
+"spath_engine.ml" 7 105 113 "spath_engine.ml" 7 105 118
+type(
+  heap -> heap -> heap
+)
+ident(
+  def merge "spath_engine.ml" 7 105 105 --
+)
+"spath_engine.ml" 7 105 119 "spath_engine.ml" 7 105 121
+type(
+  heap
+)
+ident(
+  def h1 "spath_engine.ml" 7 105 122 "spath_engine.ml" 11 270 304
+)
+"spath_engine.ml" 7 105 122 "spath_engine.ml" 7 105 124
+type(
+  heap
+)
+ident(
+  def h2 "spath_engine.ml" 7 105 127 "spath_engine.ml" 11 270 304
+)
+"spath_engine.ml" 7 105 133 "spath_engine.ml" 7 105 135
+type(
+  heap
+)
+ident(
+  int_ref h1 "spath_engine.ml" 7 105 119 "spath_engine.ml" 7 105 121
+)
+"spath_engine.ml" 7 105 136 "spath_engine.ml" 7 105 138
+type(
+  heap
+)
+ident(
+  int_ref h2 "spath_engine.ml" 7 105 122 "spath_engine.ml" 7 105 124
+)
+"spath_engine.ml" 7 105 133 "spath_engine.ml" 7 105 138
+type(
+  heap * heap
+)
+"spath_engine.ml" 8 145 148 "spath_engine.ml" 8 145 149
+type(
+  heap
+)
+"spath_engine.ml" 8 145 150 "spath_engine.ml" 8 145 155
+type(
+  heap
+)
+"spath_engine.ml" 8 145 148 "spath_engine.ml" 8 145 155
+type(
+  heap * heap
+)
+"spath_engine.ml" 8 145 159 "spath_engine.ml" 8 145 161
+type(
+  heap
+)
+ident(
+  int_ref h1 "spath_engine.ml" 7 105 119 "spath_engine.ml" 7 105 121
+)
+"spath_engine.ml" 9 162 165 "spath_engine.ml" 9 162 170
+type(
+  heap
+)
+"spath_engine.ml" 9 162 171 "spath_engine.ml" 9 162 172
+type(
+  heap
+)
+"spath_engine.ml" 9 162 165 "spath_engine.ml" 9 162 172
+type(
+  heap * heap
+)
+"spath_engine.ml" 9 162 176 "spath_engine.ml" 9 162 178
+type(
+  heap
+)
+ident(
+  int_ref h2 "spath_engine.ml" 7 105 122 "spath_engine.ml" 7 105 124
+)
+"spath_engine.ml" 10 180 188 "spath_engine.ml" 10 180 190
+type(
+  int * (int * int)
+)
+ident(
+  def r1 "spath_engine.ml" 10 180 219 "spath_engine.ml" 11 270 304
+)
+"spath_engine.ml" 10 180 191 "spath_engine.ml" 10 180 194
+type(
+  heap
+)
+ident(
+  def h11 "spath_engine.ml" 10 180 219 "spath_engine.ml" 11 270 304
+)
+"spath_engine.ml" 10 180 195 "spath_engine.ml" 10 180 198
+type(
+  heap
+)
+ident(
+  def h12 "spath_engine.ml" 10 180 219 "spath_engine.ml" 11 270 304
+)
+"spath_engine.ml" 10 180 183 "spath_engine.ml" 10 180 199
+type(
+  heap
+)
+"spath_engine.ml" 10 180 205 "spath_engine.ml" 10 180 207
+type(
+  int * (int * int)
+)
+ident(
+  def r2 "spath_engine.ml" 10 180 219 "spath_engine.ml" 11 270 304
+)
+"spath_engine.ml" 10 180 208 "spath_engine.ml" 10 180 211
+type(
+  heap
+)
+ident(
+  def h21 "spath_engine.ml" 10 180 219 "spath_engine.ml" 11 270 304
+)
+"spath_engine.ml" 10 180 212 "spath_engine.ml" 10 180 215
+type(
+  heap
+)
+ident(
+  def h22 "spath_engine.ml" 10 180 219 "spath_engine.ml" 11 270 304
+)
+"spath_engine.ml" 10 180 200 "spath_engine.ml" 10 180 216
+type(
+  heap
+)
+"spath_engine.ml" 10 180 183 "spath_engine.ml" 10 180 216
+type(
+  heap * heap
+)
+"spath_engine.ml" 10 180 222 "spath_engine.ml" 10 180 225
+type(
+  int * (int * int) -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"spath_engine.ml" 10 180 226 "spath_engine.ml" 10 180 228
+type(
+  int * (int * int)
+)
+ident(
+  int_ref r1 "spath_engine.ml" 10 180 188 "spath_engine.ml" 10 180 190
+)
+"spath_engine.ml" 10 180 222 "spath_engine.ml" 10 180 228
+type(
+  int
+)
+"spath_engine.ml" 10 180 229 "spath_engine.ml" 10 180 231
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"spath_engine.ml" 10 180 232 "spath_engine.ml" 10 180 235
+type(
+  int * (int * int) -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"spath_engine.ml" 10 180 236 "spath_engine.ml" 10 180 238
+type(
+  int * (int * int)
+)
+ident(
+  int_ref r2 "spath_engine.ml" 10 180 205 "spath_engine.ml" 10 180 207
+)
+"spath_engine.ml" 10 180 232 "spath_engine.ml" 10 180 238
+type(
+  int
+)
+"spath_engine.ml" 10 180 222 "spath_engine.ml" 10 180 238
+type(
+  bool
+)
+"spath_engine.ml" 10 180 249 "spath_engine.ml" 10 180 251
+type(
+  int * (int * int)
+)
+ident(
+  int_ref r1 "spath_engine.ml" 10 180 188 "spath_engine.ml" 10 180 190
+)
+"spath_engine.ml" 10 180 252 "spath_engine.ml" 10 180 255
+type(
+  heap
+)
+ident(
+  int_ref h12 "spath_engine.ml" 10 180 195 "spath_engine.ml" 10 180 198
+)
+"spath_engine.ml" 10 180 256 "spath_engine.ml" 10 180 261
+type(
+  heap -> heap -> heap
+)
+ident(
+  int_ref merge "spath_engine.ml" 7 105 113 "spath_engine.ml" 7 105 118
+)
+"spath_engine.ml" 10 180 262 "spath_engine.ml" 10 180 265
+type(
+  heap
+)
+ident(
+  int_ref h11 "spath_engine.ml" 10 180 191 "spath_engine.ml" 10 180 194
+)
+"spath_engine.ml" 10 180 266 "spath_engine.ml" 10 180 268
+type(
+  heap
+)
+ident(
+  int_ref h2 "spath_engine.ml" 7 105 122 "spath_engine.ml" 7 105 124
+)
+"spath_engine.ml" 10 180 256 "spath_engine.ml" 10 180 268
+type(
+  heap
+)
+"spath_engine.ml" 10 180 244 "spath_engine.ml" 10 180 269
+type(
+  heap
+)
+"spath_engine.ml" 11 270 284 "spath_engine.ml" 11 270 286
+type(
+  int * (int * int)
+)
+ident(
+  int_ref r2 "spath_engine.ml" 10 180 205 "spath_engine.ml" 10 180 207
+)
+"spath_engine.ml" 11 270 287 "spath_engine.ml" 11 270 290
+type(
+  heap
+)
+ident(
+  int_ref h22 "spath_engine.ml" 10 180 212 "spath_engine.ml" 10 180 215
+)
+"spath_engine.ml" 11 270 291 "spath_engine.ml" 11 270 296
+type(
+  heap -> heap -> heap
+)
+ident(
+  int_ref merge "spath_engine.ml" 7 105 113 "spath_engine.ml" 7 105 118
+)
+"spath_engine.ml" 11 270 297 "spath_engine.ml" 11 270 300
+type(
+  heap
+)
+ident(
+  int_ref h21 "spath_engine.ml" 10 180 208 "spath_engine.ml" 10 180 211
+)
+"spath_engine.ml" 11 270 301 "spath_engine.ml" 11 270 303
+type(
+  heap
+)
+ident(
+  int_ref h1 "spath_engine.ml" 7 105 119 "spath_engine.ml" 7 105 121
+)
+"spath_engine.ml" 11 270 291 "spath_engine.ml" 11 270 303
+type(
+  heap
+)
+"spath_engine.ml" 11 270 279 "spath_engine.ml" 11 270 304
+type(
+  heap
+)
+"spath_engine.ml" 10 180 219 "spath_engine.ml" 11 270 304
+type(
+  heap
+)
+"spath_engine.ml" 7 105 127 "spath_engine.ml" 11 270 304
+type(
+  heap
+)
+"spath_engine.ml" 13 306 310 "spath_engine.ml" 13 306 318
+type(
+  heap -> int * (int * int) -> heap
+)
+ident(
+  def heap_add "spath_engine.ml" 17 409 409 --
+)
+"spath_engine.ml" 13 306 319 "spath_engine.ml" 13 306 320
+type(
+  heap
+)
+ident(
+  def h "spath_engine.ml" 13 306 321 "spath_engine.ml" 15 370 407
+)
+"spath_engine.ml" 13 306 321 "spath_engine.ml" 13 306 322
+type(
+  int * (int * int)
+)
+ident(
+  def e "spath_engine.ml" 13 306 325 "spath_engine.ml" 15 370 407
+)
+"spath_engine.ml" 13 306 331 "spath_engine.ml" 13 306 332
+type(
+  heap
+)
+ident(
+  int_ref h "spath_engine.ml" 13 306 319 "spath_engine.ml" 13 306 320
+)
+"spath_engine.ml" 14 338 341 "spath_engine.ml" 14 338 346
+type(
+  heap
+)
+"spath_engine.ml" 14 338 355 "spath_engine.ml" 14 338 356
+type(
+  int * (int * int)
+)
+ident(
+  int_ref e "spath_engine.ml" 13 306 321 "spath_engine.ml" 13 306 322
+)
+"spath_engine.ml" 14 338 357 "spath_engine.ml" 14 338 362
+type(
+  heap
+)
+"spath_engine.ml" 14 338 363 "spath_engine.ml" 14 338 368
+type(
+  heap
+)
+"spath_engine.ml" 14 338 350 "spath_engine.ml" 14 338 369
+type(
+  heap
+)
+"spath_engine.ml" 15 370 373 "spath_engine.ml" 15 370 374
+type(
+  heap
+)
+"spath_engine.ml" 15 370 378 "spath_engine.ml" 15 370 383
+type(
+  heap -> heap -> heap
+)
+ident(
+  int_ref merge "spath_engine.ml" 7 105 113 "spath_engine.ml" 7 105 118
+)
+"spath_engine.ml" 15 370 390 "spath_engine.ml" 15 370 391
+type(
+  int * (int * int)
+)
+ident(
+  int_ref e "spath_engine.ml" 13 306 321 "spath_engine.ml" 13 306 322
+)
+"spath_engine.ml" 15 370 392 "spath_engine.ml" 15 370 397
+type(
+  heap
+)
+"spath_engine.ml" 15 370 398 "spath_engine.ml" 15 370 403
+type(
+  heap
+)
+"spath_engine.ml" 15 370 384 "spath_engine.ml" 15 370 405
+type(
+  heap
+)
+"spath_engine.ml" 15 370 406 "spath_engine.ml" 15 370 407
+type(
+  heap
+)
+ident(
+  int_ref h "spath_engine.ml" 13 306 319 "spath_engine.ml" 13 306 320
+)
+"spath_engine.ml" 15 370 378 "spath_engine.ml" 15 370 407
+type(
+  heap
+)
+"spath_engine.ml" 13 306 325 "spath_engine.ml" 15 370 407
+type(
+  heap
+)
+"spath_engine.ml" 17 409 413 "spath_engine.ml" 17 409 429
+type(
+  heap ref -> int * (int * int)
+)
+ident(
+  def heap_extract_min "spath_engine.ml" 21 510 510 --
+)
+"spath_engine.ml" 17 409 430 "spath_engine.ml" 17 409 431
+type(
+  heap ref
+)
+ident(
+  def h "spath_engine.ml" 17 409 434 "spath_engine.ml" 19 477 508
+)
+"spath_engine.ml" 17 409 440 "spath_engine.ml" 17 409 441
+type(
+  heap ref -> heap
+)
+ident(
+  ext_ref Pervasives.!
+)
+"spath_engine.ml" 17 409 441 "spath_engine.ml" 17 409 442
+type(
+  heap ref
+)
+ident(
+  int_ref h "spath_engine.ml" 17 409 430 "spath_engine.ml" 17 409 431
+)
+"spath_engine.ml" 17 409 440 "spath_engine.ml" 17 409 442
+type(
+  heap
+)
+"spath_engine.ml" 18 449 452 "spath_engine.ml" 18 449 457
+type(
+  heap
+)
+"spath_engine.ml" 18 449 461 "spath_engine.ml" 18 449 466
+type(
+  exn -> int * (int * int)
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"spath_engine.ml" 18 449 467 "spath_engine.ml" 18 449 476
+type(
+  exn
+)
+"spath_engine.ml" 18 449 461 "spath_engine.ml" 18 449 476
+type(
+  int * (int * int)
+)
+"spath_engine.ml" 19 477 485 "spath_engine.ml" 19 477 486
+type(
+  int * (int * int)
+)
+ident(
+  def r "spath_engine.ml" 19 477 493 "spath_engine.ml" 19 477 508
+)
+"spath_engine.ml" 19 477 487 "spath_engine.ml" 19 477 488
+type(
+  heap
+)
+ident(
+  def g "spath_engine.ml" 19 477 493 "spath_engine.ml" 19 477 508
+)
+"spath_engine.ml" 19 477 489 "spath_engine.ml" 19 477 490
+type(
+  heap
+)
+ident(
+  def d "spath_engine.ml" 19 477 493 "spath_engine.ml" 19 477 508
+)
+"spath_engine.ml" 19 477 480 "spath_engine.ml" 19 477 491
+type(
+  heap
+)
+"spath_engine.ml" 19 477 493 "spath_engine.ml" 19 477 494
+type(
+  heap ref
+)
+ident(
+  int_ref h "spath_engine.ml" 17 409 430 "spath_engine.ml" 17 409 431
+)
+"spath_engine.ml" 19 477 494 "spath_engine.ml" 19 477 496
+type(
+  heap ref -> heap -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"spath_engine.ml" 19 477 497 "spath_engine.ml" 19 477 502
+type(
+  heap -> heap -> heap
+)
+ident(
+  int_ref merge "spath_engine.ml" 7 105 113 "spath_engine.ml" 7 105 118
+)
+"spath_engine.ml" 19 477 503 "spath_engine.ml" 19 477 504
+type(
+  heap
+)
+ident(
+  int_ref g "spath_engine.ml" 19 477 487 "spath_engine.ml" 19 477 488
+)
+"spath_engine.ml" 19 477 505 "spath_engine.ml" 19 477 506
+type(
+  heap
+)
+ident(
+  int_ref d "spath_engine.ml" 19 477 489 "spath_engine.ml" 19 477 490
+)
+"spath_engine.ml" 19 477 497 "spath_engine.ml" 19 477 506
+type(
+  heap
+)
+"spath_engine.ml" 19 477 493 "spath_engine.ml" 19 477 506
+type(
+  unit
+)
+"spath_engine.ml" 19 477 507 "spath_engine.ml" 19 477 508
+type(
+  int * (int * int)
+)
+ident(
+  int_ref r "spath_engine.ml" 19 477 485 "spath_engine.ml" 19 477 486
+)
+"spath_engine.ml" 19 477 493 "spath_engine.ml" 19 477 508
+type(
+  int * (int * int)
+)
+"spath_engine.ml" 17 409 434 "spath_engine.ml" 19 477 508
+type(
+  int * (int * int)
+)
+"spath_engine.ml" 21 510 514 "spath_engine.ml" 21 510 527
+type(
+  heap -> bool
+)
+ident(
+  def heap_is_empty "spath_engine.ml" 23 570 570 --
+)
+"spath_engine.ml" 21 510 528 "spath_engine.ml" 21 510 529
+type(
+  heap
+)
+ident(
+  def h "spath_engine.ml" 21 510 532 "spath_engine.ml" 21 510 567
+)
+"spath_engine.ml" 21 510 536 "spath_engine.ml" 21 510 537
+type(
+  heap
+)
+ident(
+  int_ref h "spath_engine.ml" 21 510 528 "spath_engine.ml" 21 510 529
+)
+"spath_engine.ml" 21 510 538 "spath_engine.ml" 21 510 539
+type(
+  heap -> heap -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"spath_engine.ml" 21 510 540 "spath_engine.ml" 21 510 545
+type(
+  heap
+)
+"spath_engine.ml" 21 510 535 "spath_engine.ml" 21 510 546
+type(
+  bool
+)
+"spath_engine.ml" 21 510 552 "spath_engine.ml" 21 510 556
+type(
+  bool
+)
+"spath_engine.ml" 21 510 562 "spath_engine.ml" 21 510 567
+type(
+  bool
+)
+"spath_engine.ml" 21 510 532 "spath_engine.ml" 21 510 567
+type(
+  bool
+)
+"spath_engine.ml" 23 570 574 "spath_engine.ml" 23 570 582
+type(
+  'a array array -> 'b -> 'b array array
+)
+ident(
+  def init_mat "spath_engine.ml" 25 683 683 --
+)
+"spath_engine.ml" 23 570 583 "spath_engine.ml" 23 570 587
+type(
+  'a array array
+)
+ident(
+  def grid "spath_engine.ml" 23 570 588 "spath_engine.ml" 23 570 681
+)
+"spath_engine.ml" 23 570 588 "spath_engine.ml" 23 570 589
+type(
+  'b
+)
+ident(
+  def a "spath_engine.ml" 23 570 592 "spath_engine.ml" 23 570 681
+)
+"spath_engine.ml" 23 570 592 "spath_engine.ml" 23 570 602
+type(
+  int -> (int -> 'b array) -> 'b array array
+)
+ident(
+  ext_ref Array.init
+)
+"spath_engine.ml" 23 570 604 "spath_engine.ml" 23 570 616
+type(
+  'a array array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"spath_engine.ml" 23 570 617 "spath_engine.ml" 23 570 621
+type(
+  'a array array
+)
+ident(
+  int_ref grid "spath_engine.ml" 23 570 583 "spath_engine.ml" 23 570 587
+)
+"spath_engine.ml" 23 570 603 "spath_engine.ml" 23 570 622
+type(
+  int
+)
+"spath_engine.ml" 23 570 628 "spath_engine.ml" 23 570 629
+type(
+  int
+)
+ident(
+  def i "spath_engine.ml" 23 570 633 "spath_engine.ml" 23 570 680
+)
+"spath_engine.ml" 23 570 633 "spath_engine.ml" 23 570 643
+type(
+  int -> (int -> 'b) -> 'b array
+)
+ident(
+  ext_ref Array.init
+)
+"spath_engine.ml" 23 570 645 "spath_engine.ml" 23 570 657
+type(
+  'a array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"spath_engine.ml" 23 570 658 "spath_engine.ml" 23 570 662
+type(
+  'a array array
+)
+ident(
+  int_ref grid "spath_engine.ml" 23 570 583 "spath_engine.ml" 23 570 587
+)
+"spath_engine.ml" 23 570 664 "spath_engine.ml" 23 570 665
+type(
+  int
+)
+ident(
+  int_ref i "spath_engine.ml" 23 570 628 "spath_engine.ml" 23 570 629
+)
+"spath_engine.ml" 23 570 658 "spath_engine.ml" 23 570 666
+type(
+  'a array
+)
+"spath_engine.ml" 23 570 644 "spath_engine.ml" 23 570 667
+type(
+  int
+)
+"spath_engine.ml" 23 570 673 "spath_engine.ml" 23 570 674
+type(
+  int
+)
+"spath_engine.ml" 23 570 678 "spath_engine.ml" 23 570 679
+type(
+  'b
+)
+ident(
+  int_ref a "spath_engine.ml" 23 570 588 "spath_engine.ml" 23 570 589
+)
+"spath_engine.ml" 23 570 668 "spath_engine.ml" 23 570 680
+type(
+  int -> 'b
+)
+"spath_engine.ml" 23 570 633 "spath_engine.ml" 23 570 680
+type(
+  'b array
+)
+"spath_engine.ml" 23 570 623 "spath_engine.ml" 23 570 681
+type(
+  int -> 'b array
+)
+"spath_engine.ml" 23 570 592 "spath_engine.ml" 23 570 681
+type(
+  'b array array
+)
+"spath_engine.ml" 25 683 687 "spath_engine.ml" 25 683 695
+type(
+  Field.hexagone array array -> int * int -> int * int -> (int * int) list
+)
+ident(
+  def dijkstra "spath_engine.ml" 88 2894 2908 --
+)
+"spath_engine.ml" 25 683 696 "spath_engine.ml" 25 683 700
+type(
+  Field.hexagone array array
+)
+ident(
+  def grid "spath_engine.ml" 25 683 701 "spath_engine.ml" 88 2894 2908
+)
+"spath_engine.ml" 25 683 701 "spath_engine.ml" 25 683 706
+type(
+  int * int
+)
+ident(
+  def start "spath_engine.ml" 25 683 707 "spath_engine.ml" 88 2894 2908
+)
+"spath_engine.ml" 25 683 707 "spath_engine.ml" 25 683 711
+type(
+  int * int
+)
+ident(
+  def stop "spath_engine.ml" 27 717 719 "spath_engine.ml" 88 2894 2908
+)
+"spath_engine.ml" 27 717 723 "spath_engine.ml" 27 717 729
+type(
+  '_a list ref
+)
+"spath_engine.ml" 27 717 731 "spath_engine.ml" 27 717 734
+type(
+  '_a list -> '_a list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"spath_engine.ml" 27 717 735 "spath_engine.ml" 27 717 737
+type(
+  '_a list
+)
+"spath_engine.ml" 27 717 731 "spath_engine.ml" 27 717 737
+type(
+  '_a list ref
+)
+"spath_engine.ml" 28 741 747 "spath_engine.ml" 28 741 755
+type(
+  (int * int) list ref
+)
+"spath_engine.ml" 28 741 758 "spath_engine.ml" 28 741 761
+type(
+  (int * int) list -> (int * int) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"spath_engine.ml" 28 741 762 "spath_engine.ml" 28 741 764
+type(
+  (int * int) list
+)
+"spath_engine.ml" 28 741 758 "spath_engine.ml" 28 741 764
+type(
+  (int * int) list ref
+)
+"spath_engine.ml" 29 769 775 "spath_engine.ml" 29 769 779
+type(
+  (int * int) array array ref
+)
+"spath_engine.ml" 29 769 782 "spath_engine.ml" 29 769 785
+type(
+  (int * int) array array -> (int * int) array array ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"spath_engine.ml" 29 769 787 "spath_engine.ml" 29 769 795
+type(
+  Field.hexagone array array -> int * int -> (int * int) array array
+)
+ident(
+  int_ref init_mat "spath_engine.ml" 23 570 574 "spath_engine.ml" 23 570 582
+)
+"spath_engine.ml" 29 769 796 "spath_engine.ml" 29 769 800
+type(
+  Field.hexagone array array
+)
+ident(
+  int_ref grid "spath_engine.ml" 25 683 696 "spath_engine.ml" 25 683 700
+)
+"spath_engine.ml" 29 769 802 "spath_engine.ml" 29 769 803
+type(
+  int
+)
+"spath_engine.ml" 29 769 804 "spath_engine.ml" 29 769 805
+type(
+  int
+)
+"spath_engine.ml" 29 769 801 "spath_engine.ml" 29 769 806
+type(
+  int * int
+)
+"spath_engine.ml" 29 769 786 "spath_engine.ml" 29 769 807
+type(
+  (int * int) array array
+)
+"spath_engine.ml" 29 769 782 "spath_engine.ml" 29 769 807
+type(
+  (int * int) array array ref
+)
+"spath_engine.ml" 30 812 818 "spath_engine.ml" 30 812 821
+type(
+  int array array ref
+)
+"spath_engine.ml" 30 812 824 "spath_engine.ml" 30 812 827
+type(
+  int array array -> int array array ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"spath_engine.ml" 30 812 829 "spath_engine.ml" 30 812 837
+type(
+  Field.hexagone array array -> int -> int array array
+)
+ident(
+  int_ref init_mat "spath_engine.ml" 23 570 574 "spath_engine.ml" 23 570 582
+)
+"spath_engine.ml" 30 812 838 "spath_engine.ml" 30 812 842
+type(
+  Field.hexagone array array
+)
+ident(
+  int_ref grid "spath_engine.ml" 25 683 696 "spath_engine.ml" 25 683 700
+)
+"spath_engine.ml" 30 812 843 "spath_engine.ml" 30 812 850
+type(
+  int
+)
+"spath_engine.ml" 30 812 828 "spath_engine.ml" 30 812 851
+type(
+  int array array
+)
+"spath_engine.ml" 30 812 824 "spath_engine.ml" 30 812 851
+type(
+  int array array ref
+)
+"spath_engine.ml" 31 855 861 "spath_engine.ml" 31 855 869
+type(
+  int * int -> int
+)
+"spath_engine.ml" 31 855 870 "spath_engine.ml" 31 855 872
+type(
+  int * int
+)
+ident(
+  def ij "spath_engine.ml" 31 855 875 "spath_engine.ml" 31 855 897
+)
+"spath_engine.ml" 31 855 875 "spath_engine.ml" 31 855 876
+type(
+  int array array ref -> int array array
+)
+ident(
+  ext_ref Pervasives.!
+)
+"spath_engine.ml" 31 855 876 "spath_engine.ml" 31 855 879
+type(
+  int array array ref
+)
+ident(
+  int_ref mat "spath_engine.ml" 30 812 818 "spath_engine.ml" 30 812 821
+)
+"spath_engine.ml" 31 855 875 "spath_engine.ml" 31 855 879
+type(
+  int array array
+)
+"spath_engine.ml" 31 855 881 "spath_engine.ml" 31 855 884
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"spath_engine.ml" 31 855 885 "spath_engine.ml" 31 855 887
+type(
+  int * int
+)
+ident(
+  int_ref ij "spath_engine.ml" 31 855 870 "spath_engine.ml" 31 855 872
+)
+"spath_engine.ml" 31 855 881 "spath_engine.ml" 31 855 887
+type(
+  int
+)
+"spath_engine.ml" 31 855 875 "spath_engine.ml" 31 855 888
+type(
+  int array
+)
+"spath_engine.ml" 31 855 890 "spath_engine.ml" 31 855 893
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"spath_engine.ml" 31 855 894 "spath_engine.ml" 31 855 896
+type(
+  int * int
+)
+ident(
+  int_ref ij "spath_engine.ml" 31 855 870 "spath_engine.ml" 31 855 872
+)
+"spath_engine.ml" 31 855 890 "spath_engine.ml" 31 855 896
+type(
+  int
+)
+"spath_engine.ml" 31 855 875 "spath_engine.ml" 31 855 897
+type(
+  int
+)
+"spath_engine.ml" 32 901 907 "spath_engine.ml" 32 901 915
+type(
+  int * int -> int -> unit
+)
+"spath_engine.ml" 32 901 916 "spath_engine.ml" 32 901 918
+type(
+  int * int
+)
+ident(
+  def ij "spath_engine.ml" 32 901 919 "spath_engine.ml" 32 901 954
+)
+"spath_engine.ml" 32 901 919 "spath_engine.ml" 32 901 923
+type(
+  int
+)
+ident(
+  def dist "spath_engine.ml" 32 901 926 "spath_engine.ml" 32 901 954
+)
+"spath_engine.ml" 32 901 926 "spath_engine.ml" 32 901 927
+type(
+  int array array ref -> int array array
+)
+ident(
+  ext_ref Pervasives.!
+)
+"spath_engine.ml" 32 901 927 "spath_engine.ml" 32 901 930
+type(
+  int array array ref
+)
+ident(
+  int_ref mat "spath_engine.ml" 30 812 818 "spath_engine.ml" 30 812 821
+)
+"spath_engine.ml" 32 901 926 "spath_engine.ml" 32 901 930
+type(
+  int array array
+)
+"spath_engine.ml" 32 901 932 "spath_engine.ml" 32 901 935
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"spath_engine.ml" 32 901 936 "spath_engine.ml" 32 901 938
+type(
+  int * int
+)
+ident(
+  int_ref ij "spath_engine.ml" 32 901 916 "spath_engine.ml" 32 901 918
+)
+"spath_engine.ml" 32 901 932 "spath_engine.ml" 32 901 938
+type(
+  int
+)
+"spath_engine.ml" 32 901 926 "spath_engine.ml" 32 901 939
+type(
+  int array
+)
+"spath_engine.ml" 32 901 941 "spath_engine.ml" 32 901 944
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"spath_engine.ml" 32 901 945 "spath_engine.ml" 32 901 947
+type(
+  int * int
+)
+ident(
+  int_ref ij "spath_engine.ml" 32 901 916 "spath_engine.ml" 32 901 918
+)
+"spath_engine.ml" 32 901 941 "spath_engine.ml" 32 901 947
+type(
+  int
+)
+"spath_engine.ml" 32 901 950 "spath_engine.ml" 32 901 954
+type(
+  int
+)
+ident(
+  int_ref dist "spath_engine.ml" 32 901 919 "spath_engine.ml" 32 901 923
+)
+"spath_engine.ml" 32 901 926 "spath_engine.ml" 32 901 954
+type(
+  unit
+)
+"spath_engine.ml" 33 970 976 "spath_engine.ml" 33 970 981
+type(
+  heap ref
+)
+"spath_engine.ml" 33 970 984 "spath_engine.ml" 33 970 993
+type(
+  unit -> heap ref
+)
+ident(
+  int_ref init_heap "spath_engine.ml" 5 74 78 "spath_engine.ml" 5 74 87
+)
+"spath_engine.ml" 33 970 994 "spath_engine.ml" 33 970 996
+type(
+  unit
+)
+"spath_engine.ml" 33 970 984 "spath_engine.ml" 33 970 996
+type(
+  heap ref
+)
+"spath_engine.ml" 34 1001 1013 "spath_engine.ml" 34 1001 1017
+type(
+  'b -> 'b list -> bool
+)
+"spath_engine.ml" 34 1001 1018 "spath_engine.ml" 34 1001 1020
+type(
+  'b
+)
+ident(
+  def ij "spath_engine.ml" 34 1001 1021 "spath_engine.ml" 35 1050 1096
+)
+"spath_engine.ml" 34 1001 1021 "spath_engine.ml" 34 1001 1022
+type(
+  'b list
+)
+ident(
+  def l "spath_engine.ml" 34 1001 1025 "spath_engine.ml" 35 1050 1096
+)
+"spath_engine.ml" 34 1001 1031 "spath_engine.ml" 34 1001 1032
+type(
+  'b list
+)
+ident(
+  int_ref l "spath_engine.ml" 34 1001 1021 "spath_engine.ml" 34 1001 1022
+)
+"spath_engine.ml" 34 1001 1038 "spath_engine.ml" 34 1001 1040
+type(
+  'b list
+)
+"spath_engine.ml" 34 1001 1043 "spath_engine.ml" 34 1001 1048
+type(
+  bool
+)
+"spath_engine.ml" 35 1050 1054 "spath_engine.ml" 35 1050 1055
+type(
+  'b
+)
+ident(
+  def a "spath_engine.ml" 35 1050 1062 "spath_engine.ml" 35 1050 1096
+)
+"spath_engine.ml" 35 1050 1057 "spath_engine.ml" 35 1050 1058
+type(
+  'b list
+)
+ident(
+  def q "spath_engine.ml" 35 1050 1062 "spath_engine.ml" 35 1050 1096
+)
+"spath_engine.ml" 35 1050 1054 "spath_engine.ml" 35 1050 1058
+type(
+  'b list
+)
+"spath_engine.ml" 35 1050 1065 "spath_engine.ml" 35 1050 1067
+type(
+  'b
+)
+ident(
+  int_ref ij "spath_engine.ml" 34 1001 1018 "spath_engine.ml" 34 1001 1020
+)
+"spath_engine.ml" 35 1050 1068 "spath_engine.ml" 35 1050 1069
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"spath_engine.ml" 35 1050 1070 "spath_engine.ml" 35 1050 1071
+type(
+  'b
+)
+ident(
+  int_ref a "spath_engine.ml" 35 1050 1054 "spath_engine.ml" 35 1050 1055
+)
+"spath_engine.ml" 35 1050 1065 "spath_engine.ml" 35 1050 1071
+type(
+  bool
+)
+"spath_engine.ml" 35 1050 1077 "spath_engine.ml" 35 1050 1081
+type(
+  bool
+)
+"spath_engine.ml" 35 1050 1087 "spath_engine.ml" 35 1050 1091
+type(
+  'b -> 'b list -> bool
+)
+ident(
+  int_ref seen "spath_engine.ml" 34 1001 1013 "spath_engine.ml" 34 1001 1017
+)
+"spath_engine.ml" 35 1050 1092 "spath_engine.ml" 35 1050 1094
+type(
+  'b
+)
+ident(
+  int_ref ij "spath_engine.ml" 34 1001 1018 "spath_engine.ml" 34 1001 1020
+)
+"spath_engine.ml" 35 1050 1095 "spath_engine.ml" 35 1050 1096
+type(
+  'b list
+)
+ident(
+  int_ref q "spath_engine.ml" 35 1050 1057 "spath_engine.ml" 35 1050 1058
+)
+"spath_engine.ml" 35 1050 1087 "spath_engine.ml" 35 1050 1096
+type(
+  bool
+)
+"spath_engine.ml" 35 1050 1062 "spath_engine.ml" 35 1050 1096
+type(
+  bool
+)
+"spath_engine.ml" 34 1001 1025 "spath_engine.ml" 35 1050 1096
+type(
+  bool
+)
+"spath_engine.ml" 37 1101 1105 "spath_engine.ml" 37 1101 1113
+type(
+  'c -> 'c list ref -> 'c list
+)
+"spath_engine.ml" 37 1101 1114 "spath_engine.ml" 37 1101 1116
+type(
+  'c
+)
+ident(
+  def ij "spath_engine.ml" 37 1101 1117 "spath_engine.ml" 37 1101 1127
+)
+"spath_engine.ml" 37 1101 1117 "spath_engine.ml" 37 1101 1118
+type(
+  'c list ref
+)
+ident(
+  def l "spath_engine.ml" 37 1101 1121 "spath_engine.ml" 37 1101 1127
+)
+"spath_engine.ml" 37 1101 1121 "spath_engine.ml" 37 1101 1123
+type(
+  'c
+)
+ident(
+  int_ref ij "spath_engine.ml" 37 1101 1114 "spath_engine.ml" 37 1101 1116
+)
+"spath_engine.ml" 37 1101 1125 "spath_engine.ml" 37 1101 1126
+type(
+  'c list ref -> 'c list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"spath_engine.ml" 37 1101 1126 "spath_engine.ml" 37 1101 1127
+type(
+  'c list ref
+)
+ident(
+  int_ref l "spath_engine.ml" 37 1101 1117 "spath_engine.ml" 37 1101 1118
+)
+"spath_engine.ml" 37 1101 1125 "spath_engine.ml" 37 1101 1127
+type(
+  'c list
+)
+"spath_engine.ml" 37 1101 1121 "spath_engine.ml" 37 1101 1127
+type(
+  'c list
+)
+"spath_engine.ml" 39 1133 1137 "spath_engine.ml" 39 1133 1143
+type(
+  'd -> int * int -> int
+)
+"spath_engine.ml" 39 1133 1144 "spath_engine.ml" 39 1133 1147
+type(
+  'd
+)
+ident(
+  def ij1 "spath_engine.ml" 39 1133 1148 "spath_engine.ml" 40 1155 1263
+)
+"spath_engine.ml" 39 1133 1148 "spath_engine.ml" 39 1133 1151
+type(
+  int * int
+)
+ident(
+  def ij2 "spath_engine.ml" 40 1155 1155 "spath_engine.ml" 40 1155 1263
+)
+"spath_engine.ml" 40 1155 1155 "spath_engine.ml" 40 1155 1167
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"spath_engine.ml" 40 1155 1169 "spath_engine.ml" 40 1155 1173
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.sqrt
+)
+"spath_engine.ml" 40 1155 1175 "spath_engine.ml" 40 1155 1180
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"spath_engine.ml" 40 1155 1182 "spath_engine.ml" 40 1155 1185
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"spath_engine.ml" 40 1155 1186 "spath_engine.ml" 40 1155 1189
+type(
+  int * int
+)
+ident(
+  int_ref ij2 "spath_engine.ml" 39 1133 1148 "spath_engine.ml" 39 1133 1151
+)
+"spath_engine.ml" 40 1155 1182 "spath_engine.ml" 40 1155 1189
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1190 "spath_engine.ml" 40 1155 1191
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"spath_engine.ml" 40 1155 1192 "spath_engine.ml" 40 1155 1195
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"spath_engine.ml" 40 1155 1196 "spath_engine.ml" 40 1155 1199
+type(
+  int * int
+)
+ident(
+  int_ref ij2 "spath_engine.ml" 39 1133 1148 "spath_engine.ml" 39 1133 1151
+)
+"spath_engine.ml" 40 1155 1192 "spath_engine.ml" 40 1155 1199
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1181 "spath_engine.ml" 40 1155 1200
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1200 "spath_engine.ml" 40 1155 1201
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.*
+)
+"spath_engine.ml" 40 1155 1202 "spath_engine.ml" 40 1155 1205
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"spath_engine.ml" 40 1155 1206 "spath_engine.ml" 40 1155 1209
+type(
+  int * int
+)
+ident(
+  int_ref ij2 "spath_engine.ml" 39 1133 1148 "spath_engine.ml" 39 1133 1151
+)
+"spath_engine.ml" 40 1155 1202 "spath_engine.ml" 40 1155 1209
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1210 "spath_engine.ml" 40 1155 1211
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"spath_engine.ml" 40 1155 1212 "spath_engine.ml" 40 1155 1215
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"spath_engine.ml" 40 1155 1216 "spath_engine.ml" 40 1155 1219
+type(
+  int * int
+)
+ident(
+  int_ref ij2 "spath_engine.ml" 39 1133 1148 "spath_engine.ml" 39 1133 1151
+)
+"spath_engine.ml" 40 1155 1212 "spath_engine.ml" 40 1155 1219
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1201 "spath_engine.ml" 40 1155 1220
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1181 "spath_engine.ml" 40 1155 1220
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1220 "spath_engine.ml" 40 1155 1221
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"spath_engine.ml" 40 1155 1222 "spath_engine.ml" 40 1155 1225
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"spath_engine.ml" 40 1155 1226 "spath_engine.ml" 40 1155 1229
+type(
+  int * int
+)
+ident(
+  int_ref ij2 "spath_engine.ml" 39 1133 1148 "spath_engine.ml" 39 1133 1151
+)
+"spath_engine.ml" 40 1155 1222 "spath_engine.ml" 40 1155 1229
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1230 "spath_engine.ml" 40 1155 1231
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"spath_engine.ml" 40 1155 1232 "spath_engine.ml" 40 1155 1235
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"spath_engine.ml" 40 1155 1236 "spath_engine.ml" 40 1155 1239
+type(
+  int * int
+)
+ident(
+  int_ref ij2 "spath_engine.ml" 39 1133 1148 "spath_engine.ml" 39 1133 1151
+)
+"spath_engine.ml" 40 1155 1232 "spath_engine.ml" 40 1155 1239
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1221 "spath_engine.ml" 40 1155 1240
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1240 "spath_engine.ml" 40 1155 1241
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.*
+)
+"spath_engine.ml" 40 1155 1242 "spath_engine.ml" 40 1155 1245
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"spath_engine.ml" 40 1155 1246 "spath_engine.ml" 40 1155 1249
+type(
+  int * int
+)
+ident(
+  int_ref ij2 "spath_engine.ml" 39 1133 1148 "spath_engine.ml" 39 1133 1151
+)
+"spath_engine.ml" 40 1155 1242 "spath_engine.ml" 40 1155 1249
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1250 "spath_engine.ml" 40 1155 1251
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"spath_engine.ml" 40 1155 1252 "spath_engine.ml" 40 1155 1255
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"spath_engine.ml" 40 1155 1256 "spath_engine.ml" 40 1155 1259
+type(
+  int * int
+)
+ident(
+  int_ref ij2 "spath_engine.ml" 39 1133 1148 "spath_engine.ml" 39 1133 1151
+)
+"spath_engine.ml" 40 1155 1252 "spath_engine.ml" 40 1155 1259
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1241 "spath_engine.ml" 40 1155 1260
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1221 "spath_engine.ml" 40 1155 1260
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1180 "spath_engine.ml" 40 1155 1261
+type(
+  int
+)
+"spath_engine.ml" 40 1155 1174 "spath_engine.ml" 40 1155 1262
+type(
+  float
+)
+"spath_engine.ml" 40 1155 1168 "spath_engine.ml" 40 1155 1263
+type(
+  float
+)
+"spath_engine.ml" 40 1155 1155 "spath_engine.ml" 40 1155 1263
+type(
+  int
+)
+"spath_engine.ml" 43 1312 1322 "spath_engine.ml" 43 1312 1326
+type(
+  int * int -> unit
+)
+"spath_engine.ml" 43 1312 1327 "spath_engine.ml" 43 1312 1330
+type(
+  int * int
+)
+ident(
+  def ij2 "spath_engine.ml" 47 1479 1481 "spath_engine.ml" 79 2628 2633
+)
+"spath_engine.ml" 47 1479 1485 "spath_engine.ml" 47 1479 1487
+type(
+  int * int
+)
+"spath_engine.ml" 47 1479 1495 "spath_engine.ml" 47 1479 1498
+type(
+  int * (int * int) -> int * int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"spath_engine.ml" 47 1479 1500 "spath_engine.ml" 47 1479 1516
+type(
+  heap ref -> int * (int * int)
+)
+ident(
+  int_ref heap_extract_min "spath_engine.ml" 17 409 413 "spath_engine.ml" 17 409 429
+)
+"spath_engine.ml" 47 1479 1517 "spath_engine.ml" 47 1479 1522
+type(
+  heap ref
+)
+ident(
+  int_ref theap "spath_engine.ml" 33 970 976 "spath_engine.ml" 33 970 981
+)
+"spath_engine.ml" 47 1479 1499 "spath_engine.ml" 47 1479 1523
+type(
+  int * (int * int)
+)
+"spath_engine.ml" 47 1479 1494 "spath_engine.ml" 47 1479 1524
+type(
+  int * int
+)
+"spath_engine.ml" 47 1479 1530 "spath_engine.ml" 47 1479 1539
+type(
+  exn
+)
+"spath_engine.ml" 47 1479 1543 "spath_engine.ml" 47 1479 1546
+type(
+  int * int
+)
+ident(
+  int_ref ij2 "spath_engine.ml" 43 1312 1327 "spath_engine.ml" 43 1312 1330
+)
+"spath_engine.ml" 47 1479 1490 "spath_engine.ml" 47 1479 1546
+type(
+  int * int
+)
+"spath_engine.ml" 48 1551 1557 "spath_engine.ml" 48 1551 1558
+type(
+  int
+)
+"spath_engine.ml" 48 1551 1561 "spath_engine.ml" 48 1551 1569
+type(
+  int * int -> int
+)
+ident(
+  int_ref get_dist "spath_engine.ml" 31 855 861 "spath_engine.ml" 31 855 869
+)
+"spath_engine.ml" 48 1551 1570 "spath_engine.ml" 48 1551 1572
+type(
+  int * int
+)
+ident(
+  int_ref ij "spath_engine.ml" 47 1479 1485 "spath_engine.ml" 47 1479 1487
+)
+"spath_engine.ml" 48 1551 1561 "spath_engine.ml" 48 1551 1572
+type(
+  int
+)
+"spath_engine.ml" 50 1578 1583 "spath_engine.ml" 50 1578 1585
+type(
+  int * int
+)
+ident(
+  int_ref ij "spath_engine.ml" 47 1479 1485 "spath_engine.ml" 47 1479 1487
+)
+"spath_engine.ml" 50 1578 1586 "spath_engine.ml" 50 1578 1587
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"spath_engine.ml" 50 1578 1588 "spath_engine.ml" 50 1578 1591
+type(
+  int * int
+)
+ident(
+  int_ref ij2 "spath_engine.ml" 43 1312 1327 "spath_engine.ml" 43 1312 1330
+)
+"spath_engine.ml" 50 1578 1583 "spath_engine.ml" 50 1578 1591
+type(
+  bool
+)
+"spath_engine.ml" 51 1631 1633 "spath_engine.ml" 51 1631 1635
+type(
+  unit
+)
+"spath_engine.ml" 54 1685 1691 "spath_engine.ml" 54 1685 1695
+type(
+  int * int -> (int * int) list -> bool
+)
+ident(
+  int_ref seen "spath_engine.ml" 34 1001 1013 "spath_engine.ml" 34 1001 1017
+)
+"spath_engine.ml" 54 1685 1696 "spath_engine.ml" 54 1685 1698
+type(
+  int * int
+)
+ident(
+  int_ref ij "spath_engine.ml" 47 1479 1485 "spath_engine.ml" 47 1479 1487
+)
+"spath_engine.ml" 54 1685 1699 "spath_engine.ml" 54 1685 1700
+type(
+  (int * int) list ref -> (int * int) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"spath_engine.ml" 54 1685 1700 "spath_engine.ml" 54 1685 1708
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref seenlist "spath_engine.ml" 28 741 747 "spath_engine.ml" 28 741 755
+)
+"spath_engine.ml" 54 1685 1699 "spath_engine.ml" 54 1685 1708
+type(
+  (int * int) list
+)
+"spath_engine.ml" 54 1685 1691 "spath_engine.ml" 54 1685 1708
+type(
+  bool
+)
+"spath_engine.ml" 56 1768 1772 "spath_engine.ml" 56 1768 1776
+type(
+  int * int -> unit
+)
+ident(
+  int_ref find "spath_engine.ml" 43 1312 1322 "spath_engine.ml" 43 1312 1326
+)
+"spath_engine.ml" 56 1768 1777 "spath_engine.ml" 56 1768 1780
+type(
+  int * int
+)
+ident(
+  int_ref ij2 "spath_engine.ml" 43 1312 1327 "spath_engine.ml" 43 1312 1330
+)
+"spath_engine.ml" 56 1768 1772 "spath_engine.ml" 56 1768 1780
+type(
+  unit
+)
+"spath_engine.ml" 59 1849 1851 "spath_engine.ml" 59 1849 1859
+type(
+  int * int -> (int * int) list ref -> (int * int) list
+)
+ident(
+  int_ref set_seen "spath_engine.ml" 37 1101 1105 "spath_engine.ml" 37 1101 1113
+)
+"spath_engine.ml" 59 1849 1860 "spath_engine.ml" 59 1849 1862
+type(
+  int * int
+)
+ident(
+  int_ref ij "spath_engine.ml" 47 1479 1485 "spath_engine.ml" 47 1479 1487
+)
+"spath_engine.ml" 59 1849 1863 "spath_engine.ml" 59 1849 1871
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref seenlist "spath_engine.ml" 28 741 747 "spath_engine.ml" 28 741 755
+)
+"spath_engine.ml" 59 1849 1851 "spath_engine.ml" 59 1849 1871
+type(
+  (int * int) list
+)
+"spath_engine.ml" 60 1874 1880 "spath_engine.ml" 60 1874 1889
+type(
+  (int * int) list
+)
+"spath_engine.ml" 60 1874 1892 "spath_engine.ml" 60 1874 1900
+type(
+  int * int -> Field.hexagone array array -> (int * int) list
+)
+ident(
+  ext_ref Field.neighbor
+)
+"spath_engine.ml" 60 1874 1901 "spath_engine.ml" 60 1874 1903
+type(
+  int * int
+)
+ident(
+  int_ref ij "spath_engine.ml" 47 1479 1485 "spath_engine.ml" 47 1479 1487
+)
+"spath_engine.ml" 60 1874 1904 "spath_engine.ml" 60 1874 1908
+type(
+  Field.hexagone array array
+)
+ident(
+  int_ref grid "spath_engine.ml" 25 683 696 "spath_engine.ml" 25 683 700
+)
+"spath_engine.ml" 60 1874 1892 "spath_engine.ml" 60 1874 1908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 61 1913 1915 "spath_engine.ml" 61 1913 1924
+type(
+  (int * int -> unit) -> (int * int) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"spath_engine.ml" 61 1913 1930 "spath_engine.ml" 61 1913 1933
+type(
+  int * int
+)
+ident(
+  def vij "spath_engine.ml" 62 1936 1939 "spath_engine.ml" 76 2594 2600
+)
+"spath_engine.ml" 62 1936 1942 "spath_engine.ml" 62 1936 1945
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"spath_engine.ml" 62 1936 1947 "spath_engine.ml" 62 1936 1951
+type(
+  int * int -> (int * int) list -> bool
+)
+ident(
+  int_ref seen "spath_engine.ml" 34 1001 1013 "spath_engine.ml" 34 1001 1017
+)
+"spath_engine.ml" 62 1936 1952 "spath_engine.ml" 62 1936 1955
+type(
+  int * int
+)
+ident(
+  int_ref vij "spath_engine.ml" 61 1913 1930 "spath_engine.ml" 61 1913 1933
+)
+"spath_engine.ml" 62 1936 1956 "spath_engine.ml" 62 1936 1957
+type(
+  (int * int) list ref -> (int * int) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"spath_engine.ml" 62 1936 1957 "spath_engine.ml" 62 1936 1965
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref seenlist "spath_engine.ml" 28 741 747 "spath_engine.ml" 28 741 755
+)
+"spath_engine.ml" 62 1936 1956 "spath_engine.ml" 62 1936 1965
+type(
+  (int * int) list
+)
+"spath_engine.ml" 62 1936 1946 "spath_engine.ml" 62 1936 1966
+type(
+  bool
+)
+"spath_engine.ml" 62 1936 1942 "spath_engine.ml" 62 1936 1966
+type(
+  bool
+)
+"spath_engine.ml" 63 1979 1990 "spath_engine.ml" 63 1979 2002
+type(
+  Field.hexagone -> Field.hexagone -> int option
+)
+ident(
+  ext_ref Field.cost_between
+)
+"spath_engine.ml" 63 1979 2004 "spath_engine.ml" 63 1979 2015
+type(
+  int -> int -> Field.hexagone array array -> Field.hexagone
+)
+ident(
+  ext_ref Field.getTypeCase
+)
+"spath_engine.ml" 63 1979 2017 "spath_engine.ml" 63 1979 2020
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"spath_engine.ml" 63 1979 2021 "spath_engine.ml" 63 1979 2024
+type(
+  int * int
+)
+ident(
+  int_ref vij "spath_engine.ml" 61 1913 1930 "spath_engine.ml" 61 1913 1933
+)
+"spath_engine.ml" 63 1979 2016 "spath_engine.ml" 63 1979 2025
+type(
+  int
+)
+"spath_engine.ml" 63 1979 2027 "spath_engine.ml" 63 1979 2030
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"spath_engine.ml" 63 1979 2031 "spath_engine.ml" 63 1979 2034
+type(
+  int * int
+)
+ident(
+  int_ref vij "spath_engine.ml" 61 1913 1930 "spath_engine.ml" 61 1913 1933
+)
+"spath_engine.ml" 63 1979 2026 "spath_engine.ml" 63 1979 2035
+type(
+  int
+)
+"spath_engine.ml" 63 1979 2036 "spath_engine.ml" 63 1979 2040
+type(
+  Field.hexagone array array
+)
+ident(
+  int_ref grid "spath_engine.ml" 25 683 696 "spath_engine.ml" 25 683 700
+)
+"spath_engine.ml" 63 1979 2003 "spath_engine.ml" 63 1979 2041
+type(
+  Field.hexagone
+)
+"spath_engine.ml" 64 2042 2043 "spath_engine.ml" 64 2042 2054
+type(
+  int -> int -> Field.hexagone array array -> Field.hexagone
+)
+ident(
+  ext_ref Field.getTypeCase
+)
+"spath_engine.ml" 64 2042 2056 "spath_engine.ml" 64 2042 2059
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"spath_engine.ml" 64 2042 2060 "spath_engine.ml" 64 2042 2062
+type(
+  int * int
+)
+ident(
+  int_ref ij "spath_engine.ml" 47 1479 1485 "spath_engine.ml" 47 1479 1487
+)
+"spath_engine.ml" 64 2042 2055 "spath_engine.ml" 64 2042 2063
+type(
+  int
+)
+"spath_engine.ml" 64 2042 2064 "spath_engine.ml" 64 2042 2067
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"spath_engine.ml" 64 2042 2068 "spath_engine.ml" 64 2042 2070
+type(
+  int * int
+)
+ident(
+  int_ref ij "spath_engine.ml" 47 1479 1485 "spath_engine.ml" 47 1479 1487
+)
+"spath_engine.ml" 64 2042 2063 "spath_engine.ml" 64 2042 2071
+type(
+  int
+)
+"spath_engine.ml" 64 2042 2072 "spath_engine.ml" 64 2042 2076
+type(
+  Field.hexagone array array
+)
+ident(
+  int_ref grid "spath_engine.ml" 25 683 696 "spath_engine.ml" 25 683 700
+)
+"spath_engine.ml" 64 2042 2042 "spath_engine.ml" 64 2042 2077
+type(
+  Field.hexagone
+)
+"spath_engine.ml" 63 1979 1989 "spath_engine.ml" 64 2042 2078
+type(
+  int option
+)
+"spath_engine.ml" 65 2085 2092 "spath_engine.ml" 65 2085 2096
+type(
+  int option
+)
+"spath_engine.ml" 65 2085 2148 "spath_engine.ml" 65 2085 2150
+type(
+  unit
+)
+"spath_engine.ml" 66 2151 2163 "spath_engine.ml" 66 2151 2165
+type(
+  int
+)
+ident(
+  def cb "spath_engine.ml" 67 2170 2176 "spath_engine.ml" 75 2584 2593
+)
+"spath_engine.ml" 66 2151 2158 "spath_engine.ml" 66 2151 2165
+type(
+  int option
+)
+"spath_engine.ml" 67 2170 2180 "spath_engine.ml" 67 2170 2184
+type(
+  int
+)
+"spath_engine.ml" 67 2170 2187 "spath_engine.ml" 67 2170 2188
+type(
+  int
+)
+ident(
+  int_ref d "spath_engine.ml" 48 1551 1557 "spath_engine.ml" 48 1551 1558
+)
+"spath_engine.ml" 67 2170 2189 "spath_engine.ml" 67 2170 2190
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"spath_engine.ml" 67 2170 2191 "spath_engine.ml" 67 2170 2193
+type(
+  int
+)
+ident(
+  int_ref cb "spath_engine.ml" 66 2151 2163 "spath_engine.ml" 66 2151 2165
+)
+"spath_engine.ml" 67 2170 2187 "spath_engine.ml" 67 2170 2193
+type(
+  int
+)
+"spath_engine.ml" 69 2272 2276 "spath_engine.ml" 69 2272 2284
+type(
+  int * int -> int
+)
+ident(
+  int_ref get_dist "spath_engine.ml" 31 855 861 "spath_engine.ml" 31 855 869
+)
+"spath_engine.ml" 69 2272 2285 "spath_engine.ml" 69 2272 2288
+type(
+  int * int
+)
+ident(
+  int_ref vij "spath_engine.ml" 61 1913 1930 "spath_engine.ml" 61 1913 1933
+)
+"spath_engine.ml" 69 2272 2276 "spath_engine.ml" 69 2272 2288
+type(
+  int
+)
+"spath_engine.ml" 69 2272 2289 "spath_engine.ml" 69 2272 2290
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"spath_engine.ml" 69 2272 2291 "spath_engine.ml" 69 2272 2295
+type(
+  int
+)
+ident(
+  int_ref dvij "spath_engine.ml" 67 2170 2180 "spath_engine.ml" 67 2170 2184
+)
+"spath_engine.ml" 69 2272 2276 "spath_engine.ml" 69 2272 2295
+type(
+  bool
+)
+"spath_engine.ml" 71 2384 2386 "spath_engine.ml" 71 2384 2387
+type(
+  (int * int) array array ref -> (int * int) array array
+)
+ident(
+  ext_ref Pervasives.!
+)
+"spath_engine.ml" 71 2384 2387 "spath_engine.ml" 71 2384 2391
+type(
+  (int * int) array array ref
+)
+ident(
+  int_ref mat1 "spath_engine.ml" 29 769 775 "spath_engine.ml" 29 769 779
+)
+"spath_engine.ml" 71 2384 2386 "spath_engine.ml" 71 2384 2391
+type(
+  (int * int) array array
+)
+"spath_engine.ml" 71 2384 2393 "spath_engine.ml" 71 2384 2396
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"spath_engine.ml" 71 2384 2397 "spath_engine.ml" 71 2384 2400
+type(
+  int * int
+)
+ident(
+  int_ref vij "spath_engine.ml" 61 1913 1930 "spath_engine.ml" 61 1913 1933
+)
+"spath_engine.ml" 71 2384 2393 "spath_engine.ml" 71 2384 2400
+type(
+  int
+)
+"spath_engine.ml" 71 2384 2386 "spath_engine.ml" 71 2384 2401
+type(
+  (int * int) array
+)
+"spath_engine.ml" 71 2384 2403 "spath_engine.ml" 71 2384 2406
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"spath_engine.ml" 71 2384 2407 "spath_engine.ml" 71 2384 2410
+type(
+  int * int
+)
+ident(
+  int_ref vij "spath_engine.ml" 61 1913 1930 "spath_engine.ml" 61 1913 1933
+)
+"spath_engine.ml" 71 2384 2403 "spath_engine.ml" 71 2384 2410
+type(
+  int
+)
+"spath_engine.ml" 71 2384 2415 "spath_engine.ml" 71 2384 2417
+type(
+  int * int
+)
+ident(
+  int_ref ij "spath_engine.ml" 47 1479 1485 "spath_engine.ml" 47 1479 1487
+)
+"spath_engine.ml" 71 2384 2386 "spath_engine.ml" 71 2384 2417
+type(
+  unit
+)
+"spath_engine.ml" 72 2419 2420 "spath_engine.ml" 72 2419 2428
+type(
+  int * int -> int -> unit
+)
+ident(
+  int_ref set_dist "spath_engine.ml" 32 901 907 "spath_engine.ml" 32 901 915
+)
+"spath_engine.ml" 72 2419 2429 "spath_engine.ml" 72 2419 2432
+type(
+  int * int
+)
+ident(
+  int_ref vij "spath_engine.ml" 61 1913 1930 "spath_engine.ml" 61 1913 1933
+)
+"spath_engine.ml" 72 2419 2433 "spath_engine.ml" 72 2419 2437
+type(
+  int
+)
+ident(
+  int_ref dvij "spath_engine.ml" 67 2170 2180 "spath_engine.ml" 67 2170 2184
+)
+"spath_engine.ml" 72 2419 2420 "spath_engine.ml" 72 2419 2437
+type(
+  unit
+)
+"spath_engine.ml" 74 2525 2531 "spath_engine.ml" 74 2525 2536
+type(
+  heap ref
+)
+ident(
+  int_ref theap "spath_engine.ml" 33 970 976 "spath_engine.ml" 33 970 981
+)
+"spath_engine.ml" 74 2525 2536 "spath_engine.ml" 74 2525 2538
+type(
+  heap ref -> heap -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"spath_engine.ml" 74 2525 2539 "spath_engine.ml" 74 2525 2547
+type(
+  heap -> int * (int * int) -> heap
+)
+ident(
+  int_ref heap_add "spath_engine.ml" 13 306 310 "spath_engine.ml" 13 306 318
+)
+"spath_engine.ml" 74 2525 2548 "spath_engine.ml" 74 2525 2549
+type(
+  heap ref -> heap
+)
+ident(
+  ext_ref Pervasives.!
+)
+"spath_engine.ml" 74 2525 2549 "spath_engine.ml" 74 2525 2554
+type(
+  heap ref
+)
+ident(
+  int_ref theap "spath_engine.ml" 33 970 976 "spath_engine.ml" 33 970 981
+)
+"spath_engine.ml" 74 2525 2548 "spath_engine.ml" 74 2525 2554
+type(
+  heap
+)
+"spath_engine.ml" 74 2525 2556 "spath_engine.ml" 74 2525 2560
+type(
+  int
+)
+ident(
+  int_ref dvij "spath_engine.ml" 67 2170 2180 "spath_engine.ml" 67 2170 2184
+)
+"spath_engine.ml" 74 2525 2560 "spath_engine.ml" 74 2525 2561
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"spath_engine.ml" 74 2525 2562 "spath_engine.ml" 74 2525 2568
+type(
+  int * int -> int * int -> int
+)
+ident(
+  int_ref oracle "spath_engine.ml" 39 1133 1137 "spath_engine.ml" 39 1133 1143
+)
+"spath_engine.ml" 74 2525 2569 "spath_engine.ml" 74 2525 2572
+type(
+  int * int
+)
+ident(
+  int_ref vij "spath_engine.ml" 61 1913 1930 "spath_engine.ml" 61 1913 1933
+)
+"spath_engine.ml" 74 2525 2573 "spath_engine.ml" 74 2525 2576
+type(
+  int * int
+)
+ident(
+  int_ref ij2 "spath_engine.ml" 43 1312 1327 "spath_engine.ml" 43 1312 1330
+)
+"spath_engine.ml" 74 2525 2562 "spath_engine.ml" 74 2525 2576
+type(
+  int
+)
+"spath_engine.ml" 74 2525 2556 "spath_engine.ml" 74 2525 2576
+type(
+  int
+)
+"spath_engine.ml" 74 2525 2577 "spath_engine.ml" 74 2525 2580
+type(
+  int * int
+)
+ident(
+  int_ref vij "spath_engine.ml" 61 1913 1930 "spath_engine.ml" 61 1913 1933
+)
+"spath_engine.ml" 74 2525 2555 "spath_engine.ml" 74 2525 2581
+type(
+  int * (int * int)
+)
+"spath_engine.ml" 74 2525 2539 "spath_engine.ml" 74 2525 2581
+type(
+  heap
+)
+"spath_engine.ml" 74 2525 2531 "spath_engine.ml" 74 2525 2582
+type(
+  unit
+)
+"spath_engine.ml" 72 2419 2420 "spath_engine.ml" 74 2525 2582
+type(
+  unit
+)
+"spath_engine.ml" 69 2272 2301 "spath_engine.ml" 75 2584 2593
+type(
+  unit
+)
+"spath_engine.ml" 69 2272 2273 "spath_engine.ml" 75 2584 2593
+type(
+  unit
+)
+"spath_engine.ml" 67 2170 2176 "spath_engine.ml" 75 2584 2593
+type(
+  unit
+)
+"spath_engine.ml" 62 1936 1972 "spath_engine.ml" 76 2594 2600
+type(
+  unit
+)
+"spath_engine.ml" 62 1936 1939 "spath_engine.ml" 76 2594 2600
+type(
+  unit
+)
+"spath_engine.ml" 61 1913 1925 "spath_engine.ml" 77 2602 2605
+type(
+  int * int -> unit
+)
+"spath_engine.ml" 77 2602 2606 "spath_engine.ml" 77 2602 2615
+type(
+  (int * int) list
+)
+ident(
+  int_ref neighbors "spath_engine.ml" 60 1874 1880 "spath_engine.ml" 60 1874 1889
+)
+"spath_engine.ml" 61 1913 1915 "spath_engine.ml" 77 2602 2615
+type(
+  unit
+)
+"spath_engine.ml" 78 2617 2619 "spath_engine.ml" 78 2617 2623
+type(
+  int * int -> unit
+)
+ident(
+  int_ref find "spath_engine.ml" 43 1312 1322 "spath_engine.ml" 43 1312 1326
+)
+"spath_engine.ml" 78 2617 2624 "spath_engine.ml" 78 2617 2627
+type(
+  int * int
+)
+ident(
+  int_ref ij2 "spath_engine.ml" 43 1312 1327 "spath_engine.ml" 43 1312 1330
+)
+"spath_engine.ml" 78 2617 2619 "spath_engine.ml" 78 2617 2627
+type(
+  unit
+)
+"spath_engine.ml" 61 1913 1915 "spath_engine.ml" 78 2617 2627
+type(
+  unit
+)
+"spath_engine.ml" 60 1874 1876 "spath_engine.ml" 78 2617 2627
+type(
+  unit
+)
+"spath_engine.ml" 57 1781 1788 "spath_engine.ml" 79 2628 2633
+type(
+  unit
+)
+"spath_engine.ml" 54 1685 1688 "spath_engine.ml" 79 2628 2633
+type(
+  unit
+)
+"spath_engine.ml" 50 1578 1580 "spath_engine.ml" 79 2628 2633
+type(
+  unit
+)
+"spath_engine.ml" 48 1551 1553 "spath_engine.ml" 79 2628 2633
+type(
+  unit
+)
+"spath_engine.ml" 47 1479 1481 "spath_engine.ml" 79 2628 2633
+type(
+  unit
+)
+"spath_engine.ml" 80 2634 2645 "spath_engine.ml" 80 2634 2651
+type(
+  (int * int) list -> int * int -> (int * int) list
+)
+"spath_engine.ml" 80 2634 2652 "spath_engine.ml" 80 2634 2658
+type(
+  (int * int) list
+)
+ident(
+  def chemin "spath_engine.ml" 80 2634 2659 "spath_engine.ml" 82 2700 2764
+)
+"spath_engine.ml" 80 2634 2659 "spath_engine.ml" 80 2634 2664
+type(
+  int * int
+)
+ident(
+  def point "spath_engine.ml" 81 2666 2671 "spath_engine.ml" 82 2700 2764
+)
+"spath_engine.ml" 81 2666 2674 "spath_engine.ml" 81 2666 2679
+type(
+  int * int
+)
+ident(
+  int_ref point "spath_engine.ml" 80 2634 2659 "spath_engine.ml" 80 2634 2664
+)
+"spath_engine.ml" 81 2666 2680 "spath_engine.ml" 81 2666 2681
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"spath_engine.ml" 81 2666 2682 "spath_engine.ml" 81 2666 2687
+type(
+  int * int
+)
+ident(
+  int_ref start "spath_engine.ml" 25 683 701 "spath_engine.ml" 25 683 706
+)
+"spath_engine.ml" 81 2666 2674 "spath_engine.ml" 81 2666 2687
+type(
+  bool
+)
+"spath_engine.ml" 81 2666 2693 "spath_engine.ml" 81 2666 2699
+type(
+  (int * int) list
+)
+ident(
+  int_ref chemin "spath_engine.ml" 80 2634 2652 "spath_engine.ml" 80 2634 2658
+)
+"spath_engine.ml" 82 2700 2710 "spath_engine.ml" 82 2700 2716
+type(
+  (int * int) list -> int * int -> (int * int) list
+)
+ident(
+  int_ref parent "spath_engine.ml" 80 2634 2645 "spath_engine.ml" 80 2634 2651
+)
+"spath_engine.ml" 82 2700 2718 "spath_engine.ml" 82 2700 2723
+type(
+  int * int
+)
+ident(
+  int_ref point "spath_engine.ml" 80 2634 2659 "spath_engine.ml" 80 2634 2664
+)
+"spath_engine.ml" 82 2700 2725 "spath_engine.ml" 82 2700 2731
+type(
+  (int * int) list
+)
+ident(
+  int_ref chemin "spath_engine.ml" 80 2634 2652 "spath_engine.ml" 80 2634 2658
+)
+"spath_engine.ml" 82 2700 2717 "spath_engine.ml" 82 2700 2732
+type(
+  (int * int) list
+)
+"spath_engine.ml" 82 2700 2734 "spath_engine.ml" 82 2700 2735
+type(
+  (int * int) array array ref -> (int * int) array array
+)
+ident(
+  ext_ref Pervasives.!
+)
+"spath_engine.ml" 82 2700 2735 "spath_engine.ml" 82 2700 2739
+type(
+  (int * int) array array ref
+)
+ident(
+  int_ref mat1 "spath_engine.ml" 29 769 775 "spath_engine.ml" 29 769 779
+)
+"spath_engine.ml" 82 2700 2734 "spath_engine.ml" 82 2700 2739
+type(
+  (int * int) array array
+)
+"spath_engine.ml" 82 2700 2741 "spath_engine.ml" 82 2700 2744
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"spath_engine.ml" 82 2700 2745 "spath_engine.ml" 82 2700 2750
+type(
+  int * int
+)
+ident(
+  int_ref point "spath_engine.ml" 80 2634 2659 "spath_engine.ml" 80 2634 2664
+)
+"spath_engine.ml" 82 2700 2741 "spath_engine.ml" 82 2700 2750
+type(
+  int
+)
+"spath_engine.ml" 82 2700 2734 "spath_engine.ml" 82 2700 2751
+type(
+  (int * int) array
+)
+"spath_engine.ml" 82 2700 2753 "spath_engine.ml" 82 2700 2756
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"spath_engine.ml" 82 2700 2757 "spath_engine.ml" 82 2700 2762
+type(
+  int * int
+)
+ident(
+  int_ref point "spath_engine.ml" 80 2634 2659 "spath_engine.ml" 80 2634 2664
+)
+"spath_engine.ml" 82 2700 2753 "spath_engine.ml" 82 2700 2762
+type(
+  int
+)
+"spath_engine.ml" 82 2700 2733 "spath_engine.ml" 82 2700 2764
+type(
+  int * int
+)
+"spath_engine.ml" 82 2700 2710 "spath_engine.ml" 82 2700 2764
+type(
+  (int * int) list
+)
+"spath_engine.ml" 81 2666 2671 "spath_engine.ml" 82 2700 2764
+type(
+  (int * int) list
+)
+"spath_engine.ml" 84 2772 2773 "spath_engine.ml" 84 2772 2778
+type(
+  heap ref
+)
+ident(
+  int_ref theap "spath_engine.ml" 33 970 976 "spath_engine.ml" 33 970 981
+)
+"spath_engine.ml" 84 2772 2778 "spath_engine.ml" 84 2772 2780
+type(
+  heap ref -> heap -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"spath_engine.ml" 84 2772 2780 "spath_engine.ml" 84 2772 2788
+type(
+  heap -> int * (int * int) -> heap
+)
+ident(
+  int_ref heap_add "spath_engine.ml" 13 306 310 "spath_engine.ml" 13 306 318
+)
+"spath_engine.ml" 84 2772 2789 "spath_engine.ml" 84 2772 2790
+type(
+  heap ref -> heap
+)
+ident(
+  ext_ref Pervasives.!
+)
+"spath_engine.ml" 84 2772 2790 "spath_engine.ml" 84 2772 2795
+type(
+  heap ref
+)
+ident(
+  int_ref theap "spath_engine.ml" 33 970 976 "spath_engine.ml" 33 970 981
+)
+"spath_engine.ml" 84 2772 2789 "spath_engine.ml" 84 2772 2795
+type(
+  heap
+)
+"spath_engine.ml" 84 2772 2797 "spath_engine.ml" 84 2772 2798
+type(
+  int
+)
+"spath_engine.ml" 84 2772 2799 "spath_engine.ml" 84 2772 2804
+type(
+  int * int
+)
+ident(
+  int_ref start "spath_engine.ml" 25 683 701 "spath_engine.ml" 25 683 706
+)
+"spath_engine.ml" 84 2772 2796 "spath_engine.ml" 84 2772 2805
+type(
+  int * (int * int)
+)
+"spath_engine.ml" 84 2772 2780 "spath_engine.ml" 84 2772 2805
+type(
+  heap
+)
+"spath_engine.ml" 84 2772 2773 "spath_engine.ml" 84 2772 2805
+type(
+  unit
+)
+"spath_engine.ml" 85 2807 2808 "spath_engine.ml" 85 2807 2809
+type(
+  int array array ref -> int array array
+)
+ident(
+  ext_ref Pervasives.!
+)
+"spath_engine.ml" 85 2807 2809 "spath_engine.ml" 85 2807 2812
+type(
+  int array array ref
+)
+ident(
+  int_ref mat "spath_engine.ml" 30 812 818 "spath_engine.ml" 30 812 821
+)
+"spath_engine.ml" 85 2807 2808 "spath_engine.ml" 85 2807 2812
+type(
+  int array array
+)
+"spath_engine.ml" 85 2807 2814 "spath_engine.ml" 85 2807 2817
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"spath_engine.ml" 85 2807 2818 "spath_engine.ml" 85 2807 2823
+type(
+  int * int
+)
+ident(
+  int_ref start "spath_engine.ml" 25 683 701 "spath_engine.ml" 25 683 706
+)
+"spath_engine.ml" 85 2807 2814 "spath_engine.ml" 85 2807 2823
+type(
+  int
+)
+"spath_engine.ml" 85 2807 2808 "spath_engine.ml" 85 2807 2824
+type(
+  int array
+)
+"spath_engine.ml" 85 2807 2826 "spath_engine.ml" 85 2807 2829
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"spath_engine.ml" 85 2807 2830 "spath_engine.ml" 85 2807 2835
+type(
+  int * int
+)
+ident(
+  int_ref start "spath_engine.ml" 25 683 701 "spath_engine.ml" 25 683 706
+)
+"spath_engine.ml" 85 2807 2826 "spath_engine.ml" 85 2807 2835
+type(
+  int
+)
+"spath_engine.ml" 85 2807 2838 "spath_engine.ml" 85 2807 2839
+type(
+  int
+)
+"spath_engine.ml" 85 2807 2808 "spath_engine.ml" 85 2807 2839
+type(
+  unit
+)
+"spath_engine.ml" 86 2841 2842 "spath_engine.ml" 86 2841 2846
+type(
+  int * int -> unit
+)
+ident(
+  int_ref find "spath_engine.ml" 43 1312 1322 "spath_engine.ml" 43 1312 1326
+)
+"spath_engine.ml" 86 2841 2847 "spath_engine.ml" 86 2841 2851
+type(
+  int * int
+)
+ident(
+  int_ref stop "spath_engine.ml" 25 683 707 "spath_engine.ml" 25 683 711
+)
+"spath_engine.ml" 86 2841 2842 "spath_engine.ml" 86 2841 2851
+type(
+  unit
+)
+"spath_engine.ml" 88 2894 2894 "spath_engine.ml" 88 2894 2900
+type(
+  (int * int) list -> int * int -> (int * int) list
+)
+ident(
+  int_ref parent "spath_engine.ml" 80 2634 2645 "spath_engine.ml" 80 2634 2651
+)
+"spath_engine.ml" 88 2894 2901 "spath_engine.ml" 88 2894 2903
+type(
+  (int * int) list
+)
+"spath_engine.ml" 88 2894 2904 "spath_engine.ml" 88 2894 2908
+type(
+  int * int
+)
+ident(
+  int_ref stop "spath_engine.ml" 25 683 707 "spath_engine.ml" 25 683 711
+)
+"spath_engine.ml" 88 2894 2894 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 86 2841 2842 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 85 2807 2808 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 84 2772 2773 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 80 2634 2637 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 43 1312 1314 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 39 1133 1133 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 37 1101 1101 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 34 1001 1005 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 33 970 972 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 32 901 903 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 31 855 857 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 30 812 814 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 29 769 771 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 28 741 743 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)
+"spath_engine.ml" 27 717 719 "spath_engine.ml" 88 2894 2908
+type(
+  (int * int) list
+)

@@ -1,0 +1,3005 @@
+"field.ml" 4 98 102 "field.ml" 4 98 123
+type(
+  string -> hexagone list
+)
+ident(
+  def create_list_from_line "field.ml" 15 752 752 --
+)
+"field.ml" 4 98 124 "field.ml" 4 98 129
+type(
+  string
+)
+ident(
+  def ligne "field.ml" 5 131 132 "field.ml" 12 651 698
+)
+"field.ml" 5 131 140 "field.ml" 5 131 147
+type(
+  string -> int -> hexagone list -> hexagone list
+)
+"field.ml" 5 131 148 "field.ml" 5 131 153
+type(
+  string
+)
+ident(
+  def ligne "field.ml" 5 131 154 "field.ml" 11 537 615
+)
+"field.ml" 5 131 154 "field.ml" 5 131 157
+type(
+  int
+)
+ident(
+  def cpt "field.ml" 5 131 158 "field.ml" 11 537 615
+)
+"field.ml" 5 131 158 "field.ml" 5 131 162
+type(
+  hexagone list
+)
+ident(
+  def list "field.ml" 5 131 165 "field.ml" 11 537 615
+)
+"field.ml" 5 131 168 "field.ml" 5 131 171
+type(
+  int
+)
+ident(
+  int_ref cpt "field.ml" 5 131 154 "field.ml" 5 131 157
+)
+"field.ml" 5 131 172 "field.ml" 5 131 174
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"field.ml" 5 131 175 "field.ml" 5 131 176
+type(
+  int
+)
+"field.ml" 5 131 168 "field.ml" 5 131 176
+type(
+  bool
+)
+"field.ml" 5 131 182 "field.ml" 5 131 186
+type(
+  hexagone list
+)
+ident(
+  int_ref list "field.ml" 5 131 158 "field.ml" 5 131 162
+)
+"field.ml" 7 223 260 "field.ml" 7 223 265
+type(
+  string
+)
+ident(
+  int_ref ligne "field.ml" 5 131 148 "field.ml" 5 131 153
+)
+"field.ml" 7 223 267 "field.ml" 7 223 270
+type(
+  int
+)
+ident(
+  int_ref cpt "field.ml" 5 131 154 "field.ml" 5 131 157
+)
+"field.ml" 7 223 270 "field.ml" 7 223 271
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 7 223 271 "field.ml" 7 223 272
+type(
+  int
+)
+"field.ml" 7 223 267 "field.ml" 7 223 272
+type(
+  int
+)
+"field.ml" 7 223 260 "field.ml" 7 223 273
+type(
+  char
+)
+"field.ml" 8 279 327 "field.ml" 8 279 330
+type(
+  char
+)
+"field.ml" 8 279 333 "field.ml" 8 279 340
+type(
+  string -> int -> hexagone list -> hexagone list
+)
+ident(
+  int_ref add_car "field.ml" 5 131 140 "field.ml" 5 131 147
+)
+"field.ml" 8 279 341 "field.ml" 8 279 346
+type(
+  string
+)
+ident(
+  int_ref ligne "field.ml" 5 131 148 "field.ml" 5 131 153
+)
+"field.ml" 8 279 348 "field.ml" 8 279 351
+type(
+  int
+)
+ident(
+  int_ref cpt "field.ml" 5 131 154 "field.ml" 5 131 157
+)
+"field.ml" 8 279 351 "field.ml" 8 279 352
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 8 279 352 "field.ml" 8 279 353
+type(
+  int
+)
+"field.ml" 8 279 347 "field.ml" 8 279 354
+type(
+  int
+)
+"field.ml" 8 279 356 "field.ml" 8 279 357
+type(
+  hexagone
+)
+"field.ml" 8 279 359 "field.ml" 8 279 363
+type(
+  hexagone list
+)
+ident(
+  int_ref list "field.ml" 5 131 158 "field.ml" 5 131 162
+)
+"field.ml" 8 279 355 "field.ml" 8 279 364
+type(
+  hexagone list
+)
+"field.ml" 8 279 333 "field.ml" 8 279 364
+type(
+  hexagone list
+)
+"field.ml" 9 365 413 "field.ml" 9 365 416
+type(
+  char
+)
+"field.ml" 9 365 419 "field.ml" 9 365 426
+type(
+  string -> int -> hexagone list -> hexagone list
+)
+ident(
+  int_ref add_car "field.ml" 5 131 140 "field.ml" 5 131 147
+)
+"field.ml" 9 365 427 "field.ml" 9 365 432
+type(
+  string
+)
+ident(
+  int_ref ligne "field.ml" 5 131 148 "field.ml" 5 131 153
+)
+"field.ml" 9 365 434 "field.ml" 9 365 437
+type(
+  int
+)
+ident(
+  int_ref cpt "field.ml" 5 131 154 "field.ml" 5 131 157
+)
+"field.ml" 9 365 437 "field.ml" 9 365 438
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 9 365 438 "field.ml" 9 365 439
+type(
+  int
+)
+"field.ml" 9 365 433 "field.ml" 9 365 440
+type(
+  int
+)
+"field.ml" 9 365 442 "field.ml" 9 365 443
+type(
+  hexagone
+)
+"field.ml" 9 365 445 "field.ml" 9 365 449
+type(
+  hexagone list
+)
+ident(
+  int_ref list "field.ml" 5 131 158 "field.ml" 5 131 162
+)
+"field.ml" 9 365 441 "field.ml" 9 365 450
+type(
+  hexagone list
+)
+"field.ml" 9 365 419 "field.ml" 9 365 450
+type(
+  hexagone list
+)
+"field.ml" 10 451 499 "field.ml" 10 451 502
+type(
+  char
+)
+"field.ml" 10 451 505 "field.ml" 10 451 512
+type(
+  string -> int -> hexagone list -> hexagone list
+)
+ident(
+  int_ref add_car "field.ml" 5 131 140 "field.ml" 5 131 147
+)
+"field.ml" 10 451 513 "field.ml" 10 451 518
+type(
+  string
+)
+ident(
+  int_ref ligne "field.ml" 5 131 148 "field.ml" 5 131 153
+)
+"field.ml" 10 451 520 "field.ml" 10 451 523
+type(
+  int
+)
+ident(
+  int_ref cpt "field.ml" 5 131 154 "field.ml" 5 131 157
+)
+"field.ml" 10 451 523 "field.ml" 10 451 524
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 10 451 524 "field.ml" 10 451 525
+type(
+  int
+)
+"field.ml" 10 451 519 "field.ml" 10 451 526
+type(
+  int
+)
+"field.ml" 10 451 528 "field.ml" 10 451 529
+type(
+  hexagone
+)
+"field.ml" 10 451 531 "field.ml" 10 451 535
+type(
+  hexagone list
+)
+ident(
+  int_ref list "field.ml" 5 131 158 "field.ml" 5 131 162
+)
+"field.ml" 10 451 527 "field.ml" 10 451 536
+type(
+  hexagone list
+)
+"field.ml" 10 451 505 "field.ml" 10 451 536
+type(
+  hexagone list
+)
+"field.ml" 11 537 585 "field.ml" 11 537 586
+type(
+  char
+)
+"field.ml" 11 537 589 "field.ml" 11 537 596
+type(
+  string -> int -> hexagone list -> hexagone list
+)
+ident(
+  int_ref add_car "field.ml" 5 131 140 "field.ml" 5 131 147
+)
+"field.ml" 11 537 597 "field.ml" 11 537 602
+type(
+  string
+)
+ident(
+  int_ref ligne "field.ml" 5 131 148 "field.ml" 5 131 153
+)
+"field.ml" 11 537 604 "field.ml" 11 537 607
+type(
+  int
+)
+ident(
+  int_ref cpt "field.ml" 5 131 154 "field.ml" 5 131 157
+)
+"field.ml" 11 537 607 "field.ml" 11 537 608
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 11 537 608 "field.ml" 11 537 609
+type(
+  int
+)
+"field.ml" 11 537 603 "field.ml" 11 537 610
+type(
+  int
+)
+"field.ml" 11 537 611 "field.ml" 11 537 615
+type(
+  hexagone list
+)
+ident(
+  int_ref list "field.ml" 5 131 158 "field.ml" 5 131 162
+)
+"field.ml" 11 537 589 "field.ml" 11 537 615
+type(
+  hexagone list
+)
+"field.ml" 7 223 254 "field.ml" 11 537 615
+type(
+  hexagone list
+)
+"field.ml" 5 131 165 "field.ml" 11 537 615
+type(
+  hexagone list
+)
+"field.ml" 12 651 660 "field.ml" 12 651 667
+type(
+  string -> int -> hexagone list -> hexagone list
+)
+ident(
+  int_ref add_car "field.ml" 5 131 140 "field.ml" 5 131 147
+)
+"field.ml" 12 651 668 "field.ml" 12 651 673
+type(
+  string
+)
+ident(
+  int_ref ligne "field.ml" 4 98 124 "field.ml" 4 98 129
+)
+"field.ml" 12 651 675 "field.ml" 12 651 688
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"field.ml" 12 651 689 "field.ml" 12 651 694
+type(
+  string
+)
+ident(
+  int_ref ligne "field.ml" 4 98 124 "field.ml" 4 98 129
+)
+"field.ml" 12 651 674 "field.ml" 12 651 695
+type(
+  int
+)
+"field.ml" 12 651 696 "field.ml" 12 651 698
+type(
+  hexagone list
+)
+"field.ml" 12 651 660 "field.ml" 12 651 698
+type(
+  hexagone list
+)
+"field.ml" 5 131 132 "field.ml" 12 651 698
+type(
+  hexagone list
+)
+"field.ml" 15 752 756 "field.ml" 15 752 764
+type(
+  string -> hexagone list list
+)
+ident(
+  def getField "field.ml" 28 1216 1216 --
+)
+"field.ml" 15 752 765 "field.ml" 15 752 769
+type(
+  string
+)
+ident(
+  def file "field.ml" 15 752 773 "field.ml" 25 1129 1161
+)
+"field.ml" 15 752 777 "field.ml" 15 752 789
+type(
+  in_channel
+)
+"field.ml" 15 752 792 "field.ml" 15 752 799
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"field.ml" 15 752 800 "field.ml" 15 752 804
+type(
+  string
+)
+ident(
+  int_ref file "field.ml" 15 752 765 "field.ml" 15 752 769
+)
+"field.ml" 15 752 792 "field.ml" 15 752 804
+type(
+  in_channel
+)
+"field.ml" 16 807 818 "field.ml" 16 807 830
+type(
+  in_channel -> hexagone list list -> hexagone list list
+)
+"field.ml" 16 807 831 "field.ml" 16 807 843
+type(
+  in_channel
+)
+ident(
+  def canal_entree "field.ml" 16 807 844 "field.ml" 24 1102 1127
+)
+"field.ml" 16 807 844 "field.ml" 16 807 847
+type(
+  hexagone list list
+)
+ident(
+  def map "field.ml" 17 850 851 "field.ml" 24 1102 1127
+)
+"field.ml" 18 856 864 "field.ml" 18 856 869
+type(
+  string
+)
+ident(
+  def ligne "field.ml" 19 896 903 "field.ml" 20 946 988
+)
+"field.ml" 18 856 872 "field.ml" 18 856 882
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"field.ml" 18 856 883 "field.ml" 18 856 895
+type(
+  in_channel
+)
+ident(
+  int_ref canal_entree "field.ml" 16 807 831 "field.ml" 16 807 843
+)
+"field.ml" 18 856 872 "field.ml" 18 856 895
+type(
+  string
+)
+"field.ml" 19 896 907 "field.ml" 19 896 911
+type(
+  hexagone list
+)
+ident(
+  def list "field.ml" 20 946 951 "field.ml" 20 946 988
+)
+"field.ml" 19 896 914 "field.ml" 19 896 935
+type(
+  string -> hexagone list
+)
+ident(
+  int_ref create_list_from_line "field.ml" 4 98 102 "field.ml" 4 98 123
+)
+"field.ml" 19 896 936 "field.ml" 19 896 941
+type(
+  string
+)
+ident(
+  int_ref ligne "field.ml" 18 856 864 "field.ml" 18 856 869
+)
+"field.ml" 19 896 914 "field.ml" 19 896 941
+type(
+  hexagone list
+)
+"field.ml" 20 946 951 "field.ml" 20 946 963
+type(
+  in_channel -> hexagone list list -> hexagone list list
+)
+ident(
+  int_ref read_channel "field.ml" 16 807 818 "field.ml" 16 807 830
+)
+"field.ml" 20 946 964 "field.ml" 20 946 976
+type(
+  in_channel
+)
+ident(
+  int_ref canal_entree "field.ml" 16 807 831 "field.ml" 16 807 843
+)
+"field.ml" 20 946 978 "field.ml" 20 946 982
+type(
+  hexagone list
+)
+ident(
+  int_ref list "field.ml" 19 896 907 "field.ml" 19 896 911
+)
+"field.ml" 20 946 984 "field.ml" 20 946 987
+type(
+  hexagone list list
+)
+ident(
+  int_ref map "field.ml" 16 807 844 "field.ml" 16 807 847
+)
+"field.ml" 20 946 977 "field.ml" 20 946 988
+type(
+  hexagone list list
+)
+"field.ml" 20 946 951 "field.ml" 20 946 988
+type(
+  hexagone list list
+)
+"field.ml" 19 896 903 "field.ml" 20 946 988
+type(
+  hexagone list list
+)
+"field.ml" 18 856 860 "field.ml" 20 946 988
+type(
+  hexagone list list
+)
+"field.ml" 21 989 995 "field.ml" 21 989 1006
+type(
+  exn
+)
+"field.ml" 22 1016 1037 "field.ml" 22 1016 1045
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"field.ml" 22 1016 1046 "field.ml" 22 1016 1058
+type(
+  in_channel
+)
+ident(
+  int_ref canal_entree "field.ml" 16 807 831 "field.ml" 16 807 843
+)
+"field.ml" 22 1016 1037 "field.ml" 22 1016 1058
+type(
+  unit
+)
+"field.ml" 23 1060 1082 "field.ml" 23 1060 1090
+type(
+  hexagone list list -> hexagone list list
+)
+ident(
+  ext_ref List.rev
+)
+"field.ml" 23 1060 1092 "field.ml" 23 1060 1095
+type(
+  hexagone list list
+)
+ident(
+  int_ref map "field.ml" 16 807 844 "field.ml" 16 807 847
+)
+"field.ml" 23 1060 1082 "field.ml" 23 1060 1095
+type(
+  hexagone list list
+)
+"field.ml" 21 989 1010 "field.ml" 24 1102 1127
+type(
+  hexagone list list
+)
+"field.ml" 17 850 851 "field.ml" 24 1102 1127
+type(
+  hexagone list list
+)
+"field.ml" 25 1129 1133 "field.ml" 25 1129 1145
+type(
+  in_channel -> hexagone list list -> hexagone list list
+)
+ident(
+  int_ref read_channel "field.ml" 16 807 818 "field.ml" 16 807 830
+)
+"field.ml" 25 1129 1146 "field.ml" 25 1129 1158
+type(
+  in_channel
+)
+ident(
+  int_ref canal_entree "field.ml" 15 752 777 "field.ml" 15 752 789
+)
+"field.ml" 25 1129 1159 "field.ml" 25 1129 1161
+type(
+  hexagone list list
+)
+"field.ml" 25 1129 1133 "field.ml" 25 1129 1161
+type(
+  hexagone list list
+)
+"field.ml" 16 807 810 "field.ml" 25 1129 1161
+type(
+  hexagone list list
+)
+"field.ml" 15 752 773 "field.ml" 25 1129 1161
+type(
+  hexagone list list
+)
+"field.ml" 28 1216 1220 "field.ml" 28 1216 1237
+type(
+  'a list list -> 'a array array
+)
+ident(
+  def from_list_to_grid "field.ml" 33 1430 1430 --
+)
+"field.ml" 28 1216 1238 "field.ml" 28 1216 1243
+type(
+  'a list list
+)
+ident(
+  def carte "field.ml" 29 1246 1250 "field.ml" 29 1246 1294
+)
+"field.ml" 29 1246 1250 "field.ml" 29 1246 1263
+type(
+  'a array list -> 'a array array
+)
+ident(
+  ext_ref Array.of_list
+)
+"field.ml" 29 1246 1265 "field.ml" 29 1246 1273
+type(
+  ('a list -> 'a array) -> 'a list list -> 'a array list
+)
+ident(
+  ext_ref List.map
+)
+"field.ml" 29 1246 1274 "field.ml" 29 1246 1287
+type(
+  'a list -> 'a array
+)
+ident(
+  ext_ref Array.of_list
+)
+"field.ml" 29 1246 1288 "field.ml" 29 1246 1293
+type(
+  'a list list
+)
+ident(
+  int_ref carte "field.ml" 28 1216 1238 "field.ml" 28 1216 1243
+)
+"field.ml" 29 1246 1264 "field.ml" 29 1246 1294
+type(
+  'a array list
+)
+"field.ml" 29 1246 1250 "field.ml" 29 1246 1294
+type(
+  'a array array
+)
+"field.ml" 33 1430 1434 "field.ml" 33 1430 1455
+type(
+  hexagone array array -> int * int
+)
+ident(
+  def premier_case_non_vide "field.ml" 39 1615 1615 --
+)
+"field.ml" 33 1430 1456 "field.ml" 33 1430 1461
+type(
+  hexagone array array
+)
+ident(
+  def carte "field.ml" 33 1430 1464 "field.ml" 37 1606 1613
+)
+"field.ml" 33 1430 1468 "field.ml" 33 1430 1469
+type(
+  int ref
+)
+"field.ml" 33 1430 1472 "field.ml" 33 1430 1475
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"field.ml" 33 1430 1476 "field.ml" 33 1430 1477
+type(
+  int
+)
+"field.ml" 33 1430 1472 "field.ml" 33 1430 1477
+type(
+  int ref
+)
+"field.ml" 33 1430 1482 "field.ml" 33 1430 1483
+type(
+  int ref
+)
+"field.ml" 33 1430 1486 "field.ml" 33 1430 1489
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"field.ml" 33 1430 1490 "field.ml" 33 1430 1491
+type(
+  int
+)
+"field.ml" 33 1430 1486 "field.ml" 33 1430 1491
+type(
+  int ref
+)
+"field.ml" 34 1496 1502 "field.ml" 34 1496 1507
+type(
+  hexagone array array
+)
+ident(
+  int_ref carte "field.ml" 33 1430 1456 "field.ml" 33 1430 1461
+)
+"field.ml" 34 1496 1509 "field.ml" 34 1496 1510
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 34 1496 1510 "field.ml" 34 1496 1511
+type(
+  int ref
+)
+ident(
+  int_ref i "field.ml" 33 1430 1468 "field.ml" 33 1430 1469
+)
+"field.ml" 34 1496 1509 "field.ml" 34 1496 1511
+type(
+  int
+)
+"field.ml" 34 1496 1502 "field.ml" 34 1496 1512
+type(
+  hexagone array
+)
+"field.ml" 34 1496 1514 "field.ml" 34 1496 1515
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 34 1496 1515 "field.ml" 34 1496 1516
+type(
+  int ref
+)
+ident(
+  int_ref j "field.ml" 33 1430 1482 "field.ml" 33 1430 1483
+)
+"field.ml" 34 1496 1514 "field.ml" 34 1496 1516
+type(
+  int
+)
+"field.ml" 34 1496 1502 "field.ml" 34 1496 1517
+type(
+  hexagone
+)
+"field.ml" 34 1496 1518 "field.ml" 34 1496 1519
+type(
+  hexagone -> hexagone -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"field.ml" 34 1496 1520 "field.ml" 34 1496 1521
+type(
+  hexagone
+)
+"field.ml" 34 1496 1502 "field.ml" 34 1496 1521
+type(
+  bool
+)
+"field.ml" 34 1496 1525 "field.ml" 34 1496 1526
+type(
+  int ref
+)
+ident(
+  int_ref j "field.ml" 33 1430 1482 "field.ml" 33 1430 1483
+)
+"field.ml" 34 1496 1526 "field.ml" 34 1496 1528
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"field.ml" 34 1496 1528 "field.ml" 34 1496 1529
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 34 1496 1529 "field.ml" 34 1496 1530
+type(
+  int ref
+)
+ident(
+  int_ref j "field.ml" 33 1430 1482 "field.ml" 33 1430 1483
+)
+"field.ml" 34 1496 1528 "field.ml" 34 1496 1530
+type(
+  int
+)
+"field.ml" 34 1496 1530 "field.ml" 34 1496 1531
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"field.ml" 34 1496 1531 "field.ml" 34 1496 1532
+type(
+  int
+)
+"field.ml" 34 1496 1528 "field.ml" 34 1496 1532
+type(
+  int
+)
+"field.ml" 34 1496 1525 "field.ml" 34 1496 1532
+type(
+  unit
+)
+"field.ml" 34 1496 1537 "field.ml" 34 1496 1538
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 34 1496 1538 "field.ml" 34 1496 1539
+type(
+  int ref
+)
+ident(
+  int_ref j "field.ml" 33 1430 1482 "field.ml" 33 1430 1483
+)
+"field.ml" 34 1496 1537 "field.ml" 34 1496 1539
+type(
+  int
+)
+"field.ml" 34 1496 1540 "field.ml" 34 1496 1541
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"field.ml" 34 1496 1543 "field.ml" 34 1496 1555
+type(
+  hexagone array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"field.ml" 34 1496 1556 "field.ml" 34 1496 1561
+type(
+  hexagone array array
+)
+ident(
+  int_ref carte "field.ml" 33 1430 1456 "field.ml" 33 1430 1461
+)
+"field.ml" 34 1496 1563 "field.ml" 34 1496 1564
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 34 1496 1564 "field.ml" 34 1496 1565
+type(
+  int ref
+)
+ident(
+  int_ref i "field.ml" 33 1430 1468 "field.ml" 33 1430 1469
+)
+"field.ml" 34 1496 1563 "field.ml" 34 1496 1565
+type(
+  int
+)
+"field.ml" 34 1496 1556 "field.ml" 34 1496 1566
+type(
+  hexagone array
+)
+"field.ml" 34 1496 1542 "field.ml" 34 1496 1567
+type(
+  int
+)
+"field.ml" 34 1496 1537 "field.ml" 34 1496 1567
+type(
+  bool
+)
+"field.ml" 34 1496 1579 "field.ml" 34 1496 1580
+type(
+  int ref
+)
+ident(
+  int_ref j "field.ml" 33 1430 1482 "field.ml" 33 1430 1483
+)
+"field.ml" 34 1496 1580 "field.ml" 34 1496 1582
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"field.ml" 34 1496 1582 "field.ml" 34 1496 1583
+type(
+  int
+)
+"field.ml" 34 1496 1579 "field.ml" 34 1496 1583
+type(
+  unit
+)
+"field.ml" 34 1496 1585 "field.ml" 34 1496 1586
+type(
+  int ref
+)
+ident(
+  int_ref i "field.ml" 33 1430 1468 "field.ml" 33 1430 1469
+)
+"field.ml" 34 1496 1586 "field.ml" 34 1496 1588
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"field.ml" 34 1496 1588 "field.ml" 34 1496 1589
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 34 1496 1589 "field.ml" 34 1496 1590
+type(
+  int ref
+)
+ident(
+  int_ref i "field.ml" 33 1430 1468 "field.ml" 33 1430 1469
+)
+"field.ml" 34 1496 1588 "field.ml" 34 1496 1590
+type(
+  int
+)
+"field.ml" 34 1496 1590 "field.ml" 34 1496 1591
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"field.ml" 34 1496 1591 "field.ml" 34 1496 1592
+type(
+  int
+)
+"field.ml" 34 1496 1588 "field.ml" 34 1496 1592
+type(
+  int
+)
+"field.ml" 34 1496 1585 "field.ml" 34 1496 1592
+type(
+  unit
+)
+"field.ml" 34 1496 1573 "field.ml" 35 1594 1597
+type(
+  unit
+)
+"field.ml" 34 1496 1534 "field.ml" 35 1594 1597
+type(
+  unit
+)
+"field.ml" 34 1496 1525 "field.ml" 35 1594 1597
+type(
+  unit
+)
+"field.ml" 34 1496 1496 "field.ml" 36 1599 1604
+type(
+  unit
+)
+"field.ml" 37 1606 1607 "field.ml" 37 1606 1608
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 37 1606 1608 "field.ml" 37 1606 1609
+type(
+  int ref
+)
+ident(
+  int_ref i "field.ml" 33 1430 1468 "field.ml" 33 1430 1469
+)
+"field.ml" 37 1606 1607 "field.ml" 37 1606 1609
+type(
+  int
+)
+"field.ml" 37 1606 1610 "field.ml" 37 1606 1611
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 37 1606 1611 "field.ml" 37 1606 1612
+type(
+  int ref
+)
+ident(
+  int_ref j "field.ml" 33 1430 1482 "field.ml" 33 1430 1483
+)
+"field.ml" 37 1606 1610 "field.ml" 37 1606 1612
+type(
+  int
+)
+"field.ml" 37 1606 1606 "field.ml" 37 1606 1613
+type(
+  int * int
+)
+"field.ml" 34 1496 1496 "field.ml" 37 1606 1613
+type(
+  int * int
+)
+"field.ml" 33 1430 1464 "field.ml" 37 1606 1613
+type(
+  int * int
+)
+"field.ml" 39 1615 1619 "field.ml" 39 1615 1630
+type(
+  int -> int -> 'a array array -> 'a
+)
+ident(
+  def getTypeCase "field.ml" 41 1658 1658 --
+)
+"field.ml" 39 1615 1631 "field.ml" 39 1615 1632
+type(
+  int
+)
+ident(
+  def i "field.ml" 39 1615 1633 "field.ml" 39 1615 1656
+)
+"field.ml" 39 1615 1633 "field.ml" 39 1615 1634
+type(
+  int
+)
+ident(
+  def j "field.ml" 39 1615 1635 "field.ml" 39 1615 1656
+)
+"field.ml" 39 1615 1635 "field.ml" 39 1615 1640
+type(
+  'a array array
+)
+ident(
+  def carte "field.ml" 39 1615 1643 "field.ml" 39 1615 1656
+)
+"field.ml" 39 1615 1643 "field.ml" 39 1615 1648
+type(
+  'a array array
+)
+ident(
+  int_ref carte "field.ml" 39 1615 1635 "field.ml" 39 1615 1640
+)
+"field.ml" 39 1615 1650 "field.ml" 39 1615 1651
+type(
+  int
+)
+ident(
+  int_ref i "field.ml" 39 1615 1631 "field.ml" 39 1615 1632
+)
+"field.ml" 39 1615 1643 "field.ml" 39 1615 1652
+type(
+  'a array
+)
+"field.ml" 39 1615 1654 "field.ml" 39 1615 1655
+type(
+  int
+)
+ident(
+  int_ref j "field.ml" 39 1615 1633 "field.ml" 39 1615 1634
+)
+"field.ml" 39 1615 1643 "field.ml" 39 1615 1656
+type(
+  'a
+)
+"field.ml" 41 1658 1662 "field.ml" 41 1658 1673
+type(
+  int -> int -> hexagone array array -> bool
+)
+ident(
+  def isCaseUtile "field.ml" 46 1838 1838 --
+)
+"field.ml" 41 1658 1674 "field.ml" 41 1658 1675
+type(
+  int
+)
+ident(
+  def i "field.ml" 41 1658 1676 "field.ml" 43 1821 1835
+)
+"field.ml" 41 1658 1676 "field.ml" 41 1658 1677
+type(
+  int
+)
+ident(
+  def j "field.ml" 41 1658 1678 "field.ml" 43 1821 1835
+)
+"field.ml" 41 1658 1678 "field.ml" 41 1658 1683
+type(
+  hexagone array array
+)
+ident(
+  def carte "field.ml" 41 1658 1686 "field.ml" 43 1821 1835
+)
+"field.ml" 41 1658 1690 "field.ml" 41 1658 1691
+type(
+  int
+)
+ident(
+  int_ref i "field.ml" 41 1658 1674 "field.ml" 41 1658 1675
+)
+"field.ml" 41 1658 1691 "field.ml" 41 1658 1693
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>=
+)
+"field.ml" 41 1658 1693 "field.ml" 41 1658 1694
+type(
+  int
+)
+"field.ml" 41 1658 1690 "field.ml" 41 1658 1694
+type(
+  bool
+)
+"field.ml" 41 1658 1695 "field.ml" 41 1658 1697
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"field.ml" 41 1658 1698 "field.ml" 41 1658 1699
+type(
+  int
+)
+ident(
+  int_ref i "field.ml" 41 1658 1674 "field.ml" 41 1658 1675
+)
+"field.ml" 41 1658 1699 "field.ml" 41 1658 1700
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"field.ml" 41 1658 1701 "field.ml" 41 1658 1713
+type(
+  hexagone array array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"field.ml" 41 1658 1714 "field.ml" 41 1658 1719
+type(
+  hexagone array array
+)
+ident(
+  int_ref carte "field.ml" 41 1658 1678 "field.ml" 41 1658 1683
+)
+"field.ml" 41 1658 1701 "field.ml" 41 1658 1719
+type(
+  int
+)
+"field.ml" 41 1658 1698 "field.ml" 41 1658 1719
+type(
+  bool
+)
+"field.ml" 41 1658 1689 "field.ml" 41 1658 1720
+type(
+  bool
+)
+"field.ml" 41 1658 1721 "field.ml" 41 1658 1723
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"field.ml" 41 1658 1725 "field.ml" 41 1658 1726
+type(
+  int
+)
+ident(
+  int_ref j "field.ml" 41 1658 1676 "field.ml" 41 1658 1677
+)
+"field.ml" 41 1658 1726 "field.ml" 41 1658 1728
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>=
+)
+"field.ml" 41 1658 1729 "field.ml" 41 1658 1730
+type(
+  int
+)
+"field.ml" 41 1658 1725 "field.ml" 41 1658 1730
+type(
+  bool
+)
+"field.ml" 41 1658 1731 "field.ml" 41 1658 1733
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"field.ml" 41 1658 1734 "field.ml" 41 1658 1735
+type(
+  int
+)
+ident(
+  int_ref j "field.ml" 41 1658 1676 "field.ml" 41 1658 1677
+)
+"field.ml" 41 1658 1735 "field.ml" 41 1658 1736
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"field.ml" 41 1658 1736 "field.ml" 41 1658 1748
+type(
+  hexagone array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"field.ml" 41 1658 1749 "field.ml" 41 1658 1754
+type(
+  hexagone array array
+)
+ident(
+  int_ref carte "field.ml" 41 1658 1678 "field.ml" 41 1658 1683
+)
+"field.ml" 41 1658 1756 "field.ml" 41 1658 1757
+type(
+  int
+)
+ident(
+  int_ref i "field.ml" 41 1658 1674 "field.ml" 41 1658 1675
+)
+"field.ml" 41 1658 1749 "field.ml" 41 1658 1758
+type(
+  hexagone array
+)
+"field.ml" 41 1658 1736 "field.ml" 41 1658 1758
+type(
+  int
+)
+"field.ml" 41 1658 1734 "field.ml" 41 1658 1758
+type(
+  bool
+)
+"field.ml" 41 1658 1724 "field.ml" 41 1658 1759
+type(
+  bool
+)
+"field.ml" 41 1658 1689 "field.ml" 41 1658 1759
+type(
+  bool
+)
+"field.ml" 42 1766 1776 "field.ml" 42 1766 1780
+type(
+  hexagone
+)
+ident(
+  def case "field.ml" 42 1766 1800 "field.ml" 42 1766 1820
+)
+"field.ml" 42 1766 1783 "field.ml" 42 1766 1788
+type(
+  hexagone array array
+)
+ident(
+  int_ref carte "field.ml" 41 1658 1678 "field.ml" 41 1658 1683
+)
+"field.ml" 42 1766 1790 "field.ml" 42 1766 1791
+type(
+  int
+)
+ident(
+  int_ref i "field.ml" 41 1658 1674 "field.ml" 41 1658 1675
+)
+"field.ml" 42 1766 1783 "field.ml" 42 1766 1792
+type(
+  hexagone array
+)
+"field.ml" 42 1766 1794 "field.ml" 42 1766 1795
+type(
+  int
+)
+ident(
+  int_ref j "field.ml" 41 1658 1676 "field.ml" 41 1658 1677
+)
+"field.ml" 42 1766 1783 "field.ml" 42 1766 1796
+type(
+  hexagone
+)
+"field.ml" 42 1766 1800 "field.ml" 42 1766 1804
+type(
+  hexagone
+)
+ident(
+  int_ref case "field.ml" 42 1766 1776 "field.ml" 42 1766 1780
+)
+"field.ml" 42 1766 1806 "field.ml" 42 1766 1807
+type(
+  hexagone -> hexagone -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"field.ml" 42 1766 1807 "field.ml" 42 1766 1808
+type(
+  hexagone
+)
+"field.ml" 42 1766 1800 "field.ml" 42 1766 1808
+type(
+  bool
+)
+"field.ml" 42 1766 1809 "field.ml" 42 1766 1811
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"field.ml" 42 1766 1812 "field.ml" 42 1766 1816
+type(
+  hexagone
+)
+ident(
+  int_ref case "field.ml" 42 1766 1776 "field.ml" 42 1766 1780
+)
+"field.ml" 42 1766 1817 "field.ml" 42 1766 1818
+type(
+  hexagone -> hexagone -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"field.ml" 42 1766 1819 "field.ml" 42 1766 1820
+type(
+  hexagone
+)
+"field.ml" 42 1766 1812 "field.ml" 42 1766 1820
+type(
+  bool
+)
+"field.ml" 42 1766 1800 "field.ml" 42 1766 1820
+type(
+  bool
+)
+"field.ml" 42 1766 1772 "field.ml" 42 1766 1820
+type(
+  bool
+)
+"field.ml" 43 1821 1830 "field.ml" 43 1821 1835
+type(
+  bool
+)
+"field.ml" 41 1658 1686 "field.ml" 43 1821 1835
+type(
+  bool
+)
+"field.ml" 46 1838 1842 "field.ml" 46 1838 1854
+type(
+  hexagone -> hexagone -> int option
+)
+ident(
+  def cost_between "field.ml" 52 1940 1940 --
+)
+"field.ml" 46 1838 1855 "field.ml" 46 1838 1857
+type(
+  hexagone
+)
+ident(
+  def c1 "field.ml" 46 1838 1858 "field.ml" 50 1924 1938
+)
+"field.ml" 46 1838 1858 "field.ml" 46 1838 1860
+type(
+  hexagone
+)
+ident(
+  def c2 "field.ml" 46 1838 1863 "field.ml" 50 1924 1938
+)
+"field.ml" 46 1838 1869 "field.ml" 46 1838 1871
+type(
+  hexagone
+)
+ident(
+  int_ref c1 "field.ml" 46 1838 1855 "field.ml" 46 1838 1857
+)
+"field.ml" 46 1838 1872 "field.ml" 46 1838 1874
+type(
+  hexagone
+)
+ident(
+  int_ref c2 "field.ml" 46 1838 1858 "field.ml" 46 1838 1860
+)
+"field.ml" 46 1838 1869 "field.ml" 46 1838 1874
+type(
+  hexagone * hexagone
+)
+"field.ml" 47 1881 1884 "field.ml" 47 1881 1885
+type(
+  hexagone
+)
+"field.ml" 47 1881 1886 "field.ml" 47 1881 1887
+type(
+  hexagone
+)
+"field.ml" 47 1881 1884 "field.ml" 47 1881 1887
+type(
+  hexagone * hexagone
+)
+"field.ml" 47 1881 1894 "field.ml" 47 1881 1895
+type(
+  int
+)
+"field.ml" 47 1881 1889 "field.ml" 47 1881 1895
+type(
+  int option
+)
+"field.ml" 48 1896 1899 "field.ml" 48 1896 1900
+type(
+  hexagone
+)
+"field.ml" 48 1896 1901 "field.ml" 48 1896 1902
+type(
+  hexagone
+)
+"field.ml" 48 1896 1899 "field.ml" 48 1896 1902
+type(
+  hexagone * hexagone
+)
+"field.ml" 48 1896 1909 "field.ml" 48 1896 1910
+type(
+  int
+)
+"field.ml" 48 1896 1904 "field.ml" 48 1896 1910
+type(
+  int option
+)
+"field.ml" 49 1911 1914 "field.ml" 49 1911 1915
+type(
+  hexagone
+)
+"field.ml" 49 1911 1916 "field.ml" 49 1911 1917
+type(
+  hexagone
+)
+"field.ml" 49 1911 1914 "field.ml" 49 1911 1917
+type(
+  hexagone * hexagone
+)
+"field.ml" 49 1911 1919 "field.ml" 49 1911 1923
+type(
+  int option
+)
+"field.ml" 50 1924 1927 "field.ml" 50 1924 1928
+type(
+  hexagone
+)
+"field.ml" 50 1924 1929 "field.ml" 50 1924 1930
+type(
+  hexagone
+)
+"field.ml" 50 1924 1927 "field.ml" 50 1924 1930
+type(
+  hexagone * hexagone
+)
+"field.ml" 50 1924 1937 "field.ml" 50 1924 1938
+type(
+  int
+)
+"field.ml" 50 1924 1932 "field.ml" 50 1924 1938
+type(
+  int option
+)
+"field.ml" 46 1838 1863 "field.ml" 50 1924 1938
+type(
+  int option
+)
+"field.ml" 52 1940 1944 "field.ml" 52 1940 1952
+type(
+  int * int -> hexagone array array -> (int * int) list
+)
+ident(
+  def neighbor "field.ml" 65 2571 2619 --
+)
+"field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+type(
+  int * int
+)
+ident(
+  def case "field.ml" 52 1940 1958 "field.ml" 65 2571 2619
+)
+"field.ml" 52 1940 1958 "field.ml" 52 1940 1962
+type(
+  hexagone array array
+)
+ident(
+  def grid "field.ml" 53 1965 1967 "field.ml" 65 2571 2619
+)
+"field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+type(
+  (int * int) list ref
+)
+"field.ml" 53 1965 1975 "field.ml" 53 1965 1978
+type(
+  (int * int) list -> (int * int) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"field.ml" 53 1965 1979 "field.ml" 53 1965 1981
+type(
+  (int * int) list
+)
+"field.ml" 53 1965 1975 "field.ml" 53 1965 1981
+type(
+  (int * int) list ref
+)
+"field.ml" 54 1986 1989 "field.ml" 54 1986 2000
+type(
+  int -> int -> hexagone array array -> bool
+)
+ident(
+  int_ref isCaseUtile "field.ml" 41 1658 1662 "field.ml" 41 1658 1673
+)
+"field.ml" 54 1986 2002 "field.ml" 54 1986 2005
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 54 1986 2006 "field.ml" 54 1986 2010
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 54 1986 2001 "field.ml" 54 1986 2011
+type(
+  int
+)
+"field.ml" 54 1986 2013 "field.ml" 54 1986 2016
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"field.ml" 54 1986 2017 "field.ml" 54 1986 2021
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 54 1986 2013 "field.ml" 54 1986 2021
+type(
+  int
+)
+"field.ml" 54 1986 2021 "field.ml" 54 1986 2022
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"field.ml" 54 1986 2022 "field.ml" 54 1986 2023
+type(
+  int
+)
+"field.ml" 54 1986 2012 "field.ml" 54 1986 2024
+type(
+  int
+)
+"field.ml" 54 1986 2025 "field.ml" 54 1986 2029
+type(
+  hexagone array array
+)
+ident(
+  int_ref grid "field.ml" 52 1940 1958 "field.ml" 52 1940 1962
+)
+"field.ml" 54 1986 1989 "field.ml" 54 1986 2029
+type(
+  bool
+)
+"field.ml" 55 2036 2036 "field.ml" 55 2036 2037
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref l "field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+)
+"field.ml" 55 2036 2037 "field.ml" 55 2036 2039
+type(
+  (int * int) list ref -> (int * int) list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"field.ml" 55 2036 2040 "field.ml" 55 2036 2043
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 55 2036 2044 "field.ml" 55 2036 2048
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 55 2036 2040 "field.ml" 55 2036 2048
+type(
+  int
+)
+"field.ml" 55 2036 2049 "field.ml" 55 2036 2052
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"field.ml" 55 2036 2053 "field.ml" 55 2036 2057
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 55 2036 2049 "field.ml" 55 2036 2057
+type(
+  int
+)
+"field.ml" 55 2036 2057 "field.ml" 55 2036 2058
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"field.ml" 55 2036 2058 "field.ml" 55 2036 2059
+type(
+  int
+)
+"field.ml" 55 2036 2049 "field.ml" 55 2036 2059
+type(
+  int
+)
+"field.ml" 55 2036 2039 "field.ml" 55 2036 2060
+type(
+  int * int
+)
+"field.ml" 55 2036 2062 "field.ml" 55 2036 2063
+type(
+  (int * int) list ref -> (int * int) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 55 2036 2063 "field.ml" 55 2036 2064
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref l "field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+)
+"field.ml" 55 2036 2062 "field.ml" 55 2036 2064
+type(
+  (int * int) list
+)
+"field.ml" 55 2036 2039 "field.ml" 55 2036 2064
+type(
+  (int * int) list
+)
+"field.ml" 55 2036 2036 "field.ml" 55 2036 2064
+type(
+  unit
+)
+"field.ml" 54 1986 1986 "field.ml" 55 2036 2064
+type(
+  unit
+)
+"field.ml" 56 2066 2069 "field.ml" 56 2066 2080
+type(
+  int -> int -> hexagone array array -> bool
+)
+ident(
+  int_ref isCaseUtile "field.ml" 41 1658 1662 "field.ml" 41 1658 1673
+)
+"field.ml" 56 2066 2082 "field.ml" 56 2066 2085
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 56 2066 2086 "field.ml" 56 2066 2090
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 56 2066 2082 "field.ml" 56 2066 2090
+type(
+  int
+)
+"field.ml" 56 2066 2090 "field.ml" 56 2066 2091
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"field.ml" 56 2066 2091 "field.ml" 56 2066 2092
+type(
+  int
+)
+"field.ml" 56 2066 2081 "field.ml" 56 2066 2093
+type(
+  int
+)
+"field.ml" 56 2066 2095 "field.ml" 56 2066 2098
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"field.ml" 56 2066 2099 "field.ml" 56 2066 2103
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 56 2066 2095 "field.ml" 56 2066 2103
+type(
+  int
+)
+"field.ml" 56 2066 2103 "field.ml" 56 2066 2104
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"field.ml" 56 2066 2105 "field.ml" 56 2066 2108
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 56 2066 2109 "field.ml" 56 2066 2113
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 56 2066 2105 "field.ml" 56 2066 2113
+type(
+  int
+)
+"field.ml" 56 2066 2114 "field.ml" 56 2066 2117
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.mod
+)
+"field.ml" 56 2066 2118 "field.ml" 56 2066 2119
+type(
+  int
+)
+"field.ml" 56 2066 2104 "field.ml" 56 2066 2120
+type(
+  int
+)
+"field.ml" 56 2066 2094 "field.ml" 56 2066 2121
+type(
+  int
+)
+"field.ml" 56 2066 2122 "field.ml" 56 2066 2126
+type(
+  hexagone array array
+)
+ident(
+  int_ref grid "field.ml" 52 1940 1958 "field.ml" 52 1940 1962
+)
+"field.ml" 56 2066 2069 "field.ml" 56 2066 2126
+type(
+  bool
+)
+"field.ml" 57 2133 2133 "field.ml" 57 2133 2134
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref l "field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+)
+"field.ml" 57 2133 2134 "field.ml" 57 2133 2136
+type(
+  (int * int) list ref -> (int * int) list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"field.ml" 57 2133 2137 "field.ml" 57 2133 2140
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 57 2133 2141 "field.ml" 57 2133 2145
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 57 2133 2137 "field.ml" 57 2133 2145
+type(
+  int
+)
+"field.ml" 57 2133 2145 "field.ml" 57 2133 2146
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"field.ml" 57 2133 2146 "field.ml" 57 2133 2147
+type(
+  int
+)
+"field.ml" 57 2133 2137 "field.ml" 57 2133 2147
+type(
+  int
+)
+"field.ml" 57 2133 2148 "field.ml" 57 2133 2151
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"field.ml" 57 2133 2152 "field.ml" 57 2133 2156
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 57 2133 2148 "field.ml" 57 2133 2156
+type(
+  int
+)
+"field.ml" 57 2133 2156 "field.ml" 57 2133 2157
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"field.ml" 57 2133 2158 "field.ml" 57 2133 2161
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 57 2133 2162 "field.ml" 57 2133 2166
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 57 2133 2158 "field.ml" 57 2133 2166
+type(
+  int
+)
+"field.ml" 57 2133 2167 "field.ml" 57 2133 2170
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.mod
+)
+"field.ml" 57 2133 2171 "field.ml" 57 2133 2172
+type(
+  int
+)
+"field.ml" 57 2133 2157 "field.ml" 57 2133 2173
+type(
+  int
+)
+"field.ml" 57 2133 2148 "field.ml" 57 2133 2173
+type(
+  int
+)
+"field.ml" 57 2133 2136 "field.ml" 57 2133 2174
+type(
+  int * int
+)
+"field.ml" 57 2133 2176 "field.ml" 57 2133 2177
+type(
+  (int * int) list ref -> (int * int) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 57 2133 2177 "field.ml" 57 2133 2178
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref l "field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+)
+"field.ml" 57 2133 2176 "field.ml" 57 2133 2178
+type(
+  (int * int) list
+)
+"field.ml" 57 2133 2136 "field.ml" 57 2133 2178
+type(
+  (int * int) list
+)
+"field.ml" 57 2133 2133 "field.ml" 57 2133 2178
+type(
+  unit
+)
+"field.ml" 56 2066 2066 "field.ml" 57 2133 2178
+type(
+  unit
+)
+"field.ml" 58 2180 2183 "field.ml" 58 2180 2194
+type(
+  int -> int -> hexagone array array -> bool
+)
+ident(
+  int_ref isCaseUtile "field.ml" 41 1658 1662 "field.ml" 41 1658 1673
+)
+"field.ml" 58 2180 2196 "field.ml" 58 2180 2199
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 58 2180 2200 "field.ml" 58 2180 2204
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 58 2180 2196 "field.ml" 58 2180 2204
+type(
+  int
+)
+"field.ml" 58 2180 2204 "field.ml" 58 2180 2205
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"field.ml" 58 2180 2205 "field.ml" 58 2180 2206
+type(
+  int
+)
+"field.ml" 58 2180 2195 "field.ml" 58 2180 2207
+type(
+  int
+)
+"field.ml" 58 2180 2209 "field.ml" 58 2180 2212
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"field.ml" 58 2180 2213 "field.ml" 58 2180 2217
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 58 2180 2209 "field.ml" 58 2180 2217
+type(
+  int
+)
+"field.ml" 58 2180 2217 "field.ml" 58 2180 2218
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 58 2180 2219 "field.ml" 58 2180 2220
+type(
+  int
+)
+"field.ml" 58 2180 2220 "field.ml" 58 2180 2221
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 58 2180 2222 "field.ml" 58 2180 2225
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 58 2180 2226 "field.ml" 58 2180 2230
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 58 2180 2222 "field.ml" 58 2180 2230
+type(
+  int
+)
+"field.ml" 58 2180 2231 "field.ml" 58 2180 2234
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.mod
+)
+"field.ml" 58 2180 2235 "field.ml" 58 2180 2236
+type(
+  int
+)
+"field.ml" 58 2180 2221 "field.ml" 58 2180 2237
+type(
+  int
+)
+"field.ml" 58 2180 2218 "field.ml" 58 2180 2238
+type(
+  int
+)
+"field.ml" 58 2180 2208 "field.ml" 58 2180 2239
+type(
+  int
+)
+"field.ml" 58 2180 2240 "field.ml" 58 2180 2244
+type(
+  hexagone array array
+)
+ident(
+  int_ref grid "field.ml" 52 1940 1958 "field.ml" 52 1940 1962
+)
+"field.ml" 58 2180 2183 "field.ml" 58 2180 2244
+type(
+  bool
+)
+"field.ml" 59 2251 2251 "field.ml" 59 2251 2252
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref l "field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+)
+"field.ml" 59 2251 2252 "field.ml" 59 2251 2254
+type(
+  (int * int) list ref -> (int * int) list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"field.ml" 59 2251 2255 "field.ml" 59 2251 2258
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 59 2251 2259 "field.ml" 59 2251 2263
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 59 2251 2255 "field.ml" 59 2251 2263
+type(
+  int
+)
+"field.ml" 59 2251 2263 "field.ml" 59 2251 2264
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"field.ml" 59 2251 2264 "field.ml" 59 2251 2265
+type(
+  int
+)
+"field.ml" 59 2251 2255 "field.ml" 59 2251 2265
+type(
+  int
+)
+"field.ml" 59 2251 2266 "field.ml" 59 2251 2269
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"field.ml" 59 2251 2270 "field.ml" 59 2251 2274
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 59 2251 2266 "field.ml" 59 2251 2274
+type(
+  int
+)
+"field.ml" 59 2251 2274 "field.ml" 59 2251 2275
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 59 2251 2276 "field.ml" 59 2251 2277
+type(
+  int
+)
+"field.ml" 59 2251 2277 "field.ml" 59 2251 2278
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 59 2251 2279 "field.ml" 59 2251 2282
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 59 2251 2283 "field.ml" 59 2251 2287
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 59 2251 2279 "field.ml" 59 2251 2287
+type(
+  int
+)
+"field.ml" 59 2251 2288 "field.ml" 59 2251 2291
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.mod
+)
+"field.ml" 59 2251 2292 "field.ml" 59 2251 2293
+type(
+  int
+)
+"field.ml" 59 2251 2278 "field.ml" 59 2251 2294
+type(
+  int
+)
+"field.ml" 59 2251 2275 "field.ml" 59 2251 2295
+type(
+  int
+)
+"field.ml" 59 2251 2266 "field.ml" 59 2251 2295
+type(
+  int
+)
+"field.ml" 59 2251 2254 "field.ml" 59 2251 2296
+type(
+  int * int
+)
+"field.ml" 59 2251 2298 "field.ml" 59 2251 2299
+type(
+  (int * int) list ref -> (int * int) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 59 2251 2299 "field.ml" 59 2251 2300
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref l "field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+)
+"field.ml" 59 2251 2298 "field.ml" 59 2251 2300
+type(
+  (int * int) list
+)
+"field.ml" 59 2251 2254 "field.ml" 59 2251 2300
+type(
+  (int * int) list
+)
+"field.ml" 59 2251 2251 "field.ml" 59 2251 2300
+type(
+  unit
+)
+"field.ml" 58 2180 2180 "field.ml" 59 2251 2300
+type(
+  unit
+)
+"field.ml" 60 2302 2305 "field.ml" 60 2302 2316
+type(
+  int -> int -> hexagone array array -> bool
+)
+ident(
+  int_ref isCaseUtile "field.ml" 41 1658 1662 "field.ml" 41 1658 1673
+)
+"field.ml" 60 2302 2318 "field.ml" 60 2302 2321
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 60 2302 2322 "field.ml" 60 2302 2326
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 60 2302 2317 "field.ml" 60 2302 2327
+type(
+  int
+)
+"field.ml" 60 2302 2329 "field.ml" 60 2302 2332
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"field.ml" 60 2302 2333 "field.ml" 60 2302 2337
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 60 2302 2329 "field.ml" 60 2302 2337
+type(
+  int
+)
+"field.ml" 60 2302 2337 "field.ml" 60 2302 2338
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 60 2302 2338 "field.ml" 60 2302 2339
+type(
+  int
+)
+"field.ml" 60 2302 2328 "field.ml" 60 2302 2340
+type(
+  int
+)
+"field.ml" 60 2302 2341 "field.ml" 60 2302 2345
+type(
+  hexagone array array
+)
+ident(
+  int_ref grid "field.ml" 52 1940 1958 "field.ml" 52 1940 1962
+)
+"field.ml" 60 2302 2305 "field.ml" 60 2302 2345
+type(
+  bool
+)
+"field.ml" 61 2352 2352 "field.ml" 61 2352 2353
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref l "field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+)
+"field.ml" 61 2352 2353 "field.ml" 61 2352 2355
+type(
+  (int * int) list ref -> (int * int) list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"field.ml" 61 2352 2356 "field.ml" 61 2352 2359
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 61 2352 2360 "field.ml" 61 2352 2364
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 61 2352 2356 "field.ml" 61 2352 2364
+type(
+  int
+)
+"field.ml" 61 2352 2365 "field.ml" 61 2352 2368
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"field.ml" 61 2352 2369 "field.ml" 61 2352 2373
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 61 2352 2365 "field.ml" 61 2352 2373
+type(
+  int
+)
+"field.ml" 61 2352 2373 "field.ml" 61 2352 2374
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 61 2352 2374 "field.ml" 61 2352 2375
+type(
+  int
+)
+"field.ml" 61 2352 2365 "field.ml" 61 2352 2375
+type(
+  int
+)
+"field.ml" 61 2352 2355 "field.ml" 61 2352 2376
+type(
+  int * int
+)
+"field.ml" 61 2352 2378 "field.ml" 61 2352 2379
+type(
+  (int * int) list ref -> (int * int) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 61 2352 2379 "field.ml" 61 2352 2380
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref l "field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+)
+"field.ml" 61 2352 2378 "field.ml" 61 2352 2380
+type(
+  (int * int) list
+)
+"field.ml" 61 2352 2355 "field.ml" 61 2352 2380
+type(
+  (int * int) list
+)
+"field.ml" 61 2352 2352 "field.ml" 61 2352 2380
+type(
+  unit
+)
+"field.ml" 60 2302 2302 "field.ml" 61 2352 2380
+type(
+  unit
+)
+"field.ml" 62 2382 2385 "field.ml" 62 2382 2396
+type(
+  int -> int -> hexagone array array -> bool
+)
+ident(
+  int_ref isCaseUtile "field.ml" 41 1658 1662 "field.ml" 41 1658 1673
+)
+"field.ml" 62 2382 2398 "field.ml" 62 2382 2401
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 62 2382 2402 "field.ml" 62 2382 2406
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 62 2382 2398 "field.ml" 62 2382 2406
+type(
+  int
+)
+"field.ml" 62 2382 2406 "field.ml" 62 2382 2407
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 62 2382 2407 "field.ml" 62 2382 2408
+type(
+  int
+)
+"field.ml" 62 2382 2397 "field.ml" 62 2382 2409
+type(
+  int
+)
+"field.ml" 62 2382 2411 "field.ml" 62 2382 2414
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"field.ml" 62 2382 2415 "field.ml" 62 2382 2419
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 62 2382 2411 "field.ml" 62 2382 2419
+type(
+  int
+)
+"field.ml" 62 2382 2419 "field.ml" 62 2382 2420
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 62 2382 2421 "field.ml" 62 2382 2422
+type(
+  int
+)
+"field.ml" 62 2382 2422 "field.ml" 62 2382 2423
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 62 2382 2424 "field.ml" 62 2382 2427
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 62 2382 2428 "field.ml" 62 2382 2432
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 62 2382 2424 "field.ml" 62 2382 2432
+type(
+  int
+)
+"field.ml" 62 2382 2433 "field.ml" 62 2382 2436
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.mod
+)
+"field.ml" 62 2382 2437 "field.ml" 62 2382 2438
+type(
+  int
+)
+"field.ml" 62 2382 2423 "field.ml" 62 2382 2439
+type(
+  int
+)
+"field.ml" 62 2382 2420 "field.ml" 62 2382 2440
+type(
+  int
+)
+"field.ml" 62 2382 2410 "field.ml" 62 2382 2441
+type(
+  int
+)
+"field.ml" 62 2382 2442 "field.ml" 62 2382 2446
+type(
+  hexagone array array
+)
+ident(
+  int_ref grid "field.ml" 52 1940 1958 "field.ml" 52 1940 1962
+)
+"field.ml" 62 2382 2385 "field.ml" 62 2382 2446
+type(
+  bool
+)
+"field.ml" 63 2453 2453 "field.ml" 63 2453 2454
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref l "field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+)
+"field.ml" 63 2453 2454 "field.ml" 63 2453 2456
+type(
+  (int * int) list ref -> (int * int) list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"field.ml" 63 2453 2457 "field.ml" 63 2453 2460
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 63 2453 2461 "field.ml" 63 2453 2465
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 63 2453 2457 "field.ml" 63 2453 2465
+type(
+  int
+)
+"field.ml" 63 2453 2465 "field.ml" 63 2453 2466
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 63 2453 2466 "field.ml" 63 2453 2467
+type(
+  int
+)
+"field.ml" 63 2453 2457 "field.ml" 63 2453 2467
+type(
+  int
+)
+"field.ml" 63 2453 2468 "field.ml" 63 2453 2471
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"field.ml" 63 2453 2472 "field.ml" 63 2453 2476
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 63 2453 2468 "field.ml" 63 2453 2476
+type(
+  int
+)
+"field.ml" 63 2453 2476 "field.ml" 63 2453 2477
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 63 2453 2478 "field.ml" 63 2453 2479
+type(
+  int
+)
+"field.ml" 63 2453 2479 "field.ml" 63 2453 2480
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 63 2453 2481 "field.ml" 63 2453 2484
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 63 2453 2485 "field.ml" 63 2453 2489
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 63 2453 2481 "field.ml" 63 2453 2489
+type(
+  int
+)
+"field.ml" 63 2453 2490 "field.ml" 63 2453 2493
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.mod
+)
+"field.ml" 63 2453 2494 "field.ml" 63 2453 2495
+type(
+  int
+)
+"field.ml" 63 2453 2480 "field.ml" 63 2453 2496
+type(
+  int
+)
+"field.ml" 63 2453 2477 "field.ml" 63 2453 2497
+type(
+  int
+)
+"field.ml" 63 2453 2468 "field.ml" 63 2453 2497
+type(
+  int
+)
+"field.ml" 63 2453 2456 "field.ml" 63 2453 2498
+type(
+  int * int
+)
+"field.ml" 63 2453 2500 "field.ml" 63 2453 2501
+type(
+  (int * int) list ref -> (int * int) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 63 2453 2501 "field.ml" 63 2453 2502
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref l "field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+)
+"field.ml" 63 2453 2500 "field.ml" 63 2453 2502
+type(
+  (int * int) list
+)
+"field.ml" 63 2453 2456 "field.ml" 63 2453 2502
+type(
+  (int * int) list
+)
+"field.ml" 63 2453 2453 "field.ml" 63 2453 2502
+type(
+  unit
+)
+"field.ml" 62 2382 2382 "field.ml" 63 2453 2502
+type(
+  unit
+)
+"field.ml" 64 2504 2507 "field.ml" 64 2504 2518
+type(
+  int -> int -> hexagone array array -> bool
+)
+ident(
+  int_ref isCaseUtile "field.ml" 41 1658 1662 "field.ml" 41 1658 1673
+)
+"field.ml" 64 2504 2520 "field.ml" 64 2504 2523
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 64 2504 2524 "field.ml" 64 2504 2528
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 64 2504 2520 "field.ml" 64 2504 2528
+type(
+  int
+)
+"field.ml" 64 2504 2528 "field.ml" 64 2504 2529
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 64 2504 2529 "field.ml" 64 2504 2530
+type(
+  int
+)
+"field.ml" 64 2504 2519 "field.ml" 64 2504 2531
+type(
+  int
+)
+"field.ml" 64 2504 2533 "field.ml" 64 2504 2536
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"field.ml" 64 2504 2537 "field.ml" 64 2504 2541
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 64 2504 2533 "field.ml" 64 2504 2541
+type(
+  int
+)
+"field.ml" 64 2504 2541 "field.ml" 64 2504 2542
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"field.ml" 64 2504 2543 "field.ml" 64 2504 2546
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 64 2504 2547 "field.ml" 64 2504 2551
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 64 2504 2543 "field.ml" 64 2504 2551
+type(
+  int
+)
+"field.ml" 64 2504 2552 "field.ml" 64 2504 2555
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.mod
+)
+"field.ml" 64 2504 2556 "field.ml" 64 2504 2557
+type(
+  int
+)
+"field.ml" 64 2504 2542 "field.ml" 64 2504 2558
+type(
+  int
+)
+"field.ml" 64 2504 2532 "field.ml" 64 2504 2559
+type(
+  int
+)
+"field.ml" 64 2504 2560 "field.ml" 64 2504 2564
+type(
+  hexagone array array
+)
+ident(
+  int_ref grid "field.ml" 52 1940 1958 "field.ml" 52 1940 1962
+)
+"field.ml" 64 2504 2507 "field.ml" 64 2504 2564
+type(
+  bool
+)
+"field.ml" 65 2571 2571 "field.ml" 65 2571 2572
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref l "field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+)
+"field.ml" 65 2571 2572 "field.ml" 65 2571 2574
+type(
+  (int * int) list ref -> (int * int) list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"field.ml" 65 2571 2575 "field.ml" 65 2571 2578
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 65 2571 2579 "field.ml" 65 2571 2583
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 65 2571 2575 "field.ml" 65 2571 2583
+type(
+  int
+)
+"field.ml" 65 2571 2583 "field.ml" 65 2571 2584
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"field.ml" 65 2571 2584 "field.ml" 65 2571 2585
+type(
+  int
+)
+"field.ml" 65 2571 2575 "field.ml" 65 2571 2585
+type(
+  int
+)
+"field.ml" 65 2571 2586 "field.ml" 65 2571 2589
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"field.ml" 65 2571 2590 "field.ml" 65 2571 2594
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 65 2571 2586 "field.ml" 65 2571 2594
+type(
+  int
+)
+"field.ml" 65 2571 2594 "field.ml" 65 2571 2595
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"field.ml" 65 2571 2596 "field.ml" 65 2571 2599
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"field.ml" 65 2571 2600 "field.ml" 65 2571 2604
+type(
+  int * int
+)
+ident(
+  int_ref case "field.ml" 52 1940 1953 "field.ml" 52 1940 1957
+)
+"field.ml" 65 2571 2596 "field.ml" 65 2571 2604
+type(
+  int
+)
+"field.ml" 65 2571 2605 "field.ml" 65 2571 2608
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.mod
+)
+"field.ml" 65 2571 2609 "field.ml" 65 2571 2610
+type(
+  int
+)
+"field.ml" 65 2571 2595 "field.ml" 65 2571 2611
+type(
+  int
+)
+"field.ml" 65 2571 2586 "field.ml" 65 2571 2611
+type(
+  int
+)
+"field.ml" 65 2571 2574 "field.ml" 65 2571 2612
+type(
+  int * int
+)
+"field.ml" 65 2571 2614 "field.ml" 65 2571 2615
+type(
+  (int * int) list ref -> (int * int) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 65 2571 2615 "field.ml" 65 2571 2616
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref l "field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+)
+"field.ml" 65 2571 2614 "field.ml" 65 2571 2616
+type(
+  (int * int) list
+)
+"field.ml" 65 2571 2574 "field.ml" 65 2571 2616
+type(
+  (int * int) list
+)
+"field.ml" 65 2571 2571 "field.ml" 65 2571 2616
+type(
+  unit
+)
+"field.ml" 64 2504 2504 "field.ml" 65 2571 2616
+type(
+  unit
+)
+"field.ml" 65 2571 2617 "field.ml" 65 2571 2618
+type(
+  (int * int) list ref -> (int * int) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"field.ml" 65 2571 2618 "field.ml" 65 2571 2619
+type(
+  (int * int) list ref
+)
+ident(
+  int_ref l "field.ml" 53 1965 1971 "field.ml" 53 1965 1972
+)
+"field.ml" 65 2571 2617 "field.ml" 65 2571 2619
+type(
+  (int * int) list
+)
+"field.ml" 64 2504 2504 "field.ml" 65 2571 2619
+type(
+  (int * int) list
+)
+"field.ml" 62 2382 2382 "field.ml" 65 2571 2619
+type(
+  (int * int) list
+)
+"field.ml" 60 2302 2302 "field.ml" 65 2571 2619
+type(
+  (int * int) list
+)
+"field.ml" 58 2180 2180 "field.ml" 65 2571 2619
+type(
+  (int * int) list
+)
+"field.ml" 56 2066 2066 "field.ml" 65 2571 2619
+type(
+  (int * int) list
+)
+"field.ml" 54 1986 1986 "field.ml" 65 2571 2619
+type(
+  (int * int) list
+)
+"field.ml" 53 1965 1967 "field.ml" 65 2571 2619
+type(
+  (int * int) list
+)

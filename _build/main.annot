@@ -1,0 +1,38 @@
+"main.ml" 10 86 89 "main.ml" 10 86 91
+type(
+  unit
+)
+"main.ml" 11 95 96 "main.ml" 11 95 100
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Engine.bind
+)
+"main.ml" 11 95 101 "main.ml" 11 95 103
+type(
+  unit
+)
+"main.ml" 11 95 96 "main.ml" 11 95 103
+type(
+  unit
+)
+"main.ml" 12 105 106 "main.ml" 12 105 110
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Engine.loop
+)
+"main.ml" 12 105 111 "main.ml" 12 105 113
+type(
+  unit
+)
+"main.ml" 12 105 106 "main.ml" 12 105 113
+type(
+  unit
+)
+"main.ml" 11 95 96 "main.ml" 12 105 113
+type(
+  unit
+)
